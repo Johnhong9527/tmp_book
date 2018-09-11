@@ -95,7 +95,7 @@ app.get('/down', function(req, res, next) {
         .catch((err) => {
           console.log(err);
         });
-    }, 10);
+    }, 700);
   }
 });
 app.listen(3000, function() {
