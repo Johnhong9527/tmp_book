@@ -104,7 +104,12 @@ app.listen(3000, function() {
 
 //  划分段落
 function hfdl(txt) {
-  return txt.replace(/<br>/g, '\n');
+  if (typeof txt == String) {
+    return txt.replace(/<br>/g, '\n');
+  } else {
+    return txt;
+  }
+
   // return
 }
 function file_name(num, len) {
