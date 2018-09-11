@@ -98,8 +98,8 @@ app.get('/down', function(req, res, next) {
     }, 10);
   }
 });
-app.listen(8888, function() {
-  console.log('http://192.168.10.159:8888');
+app.listen(3000, function() {
+  console.log('http://192.168.10.159:3000');
 });
 
 //  划分段落
