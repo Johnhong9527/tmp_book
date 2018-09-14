@@ -43,7 +43,7 @@ module.exports = function(url) {
           });
           resolve($); */
 
-          let html = iconv.decode(body, 'gb2312');
+          let html = iconv.decode(body, 'gbk');
           let $ = cheerio.load(html, {
             decodeEntities: false,
           });
