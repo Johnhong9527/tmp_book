@@ -154,6 +154,11 @@ function getBookList() {
             .children('div.col-xs-3')
             .children('a')
             .attr('href');
+          if (bookListUrl === undefined) {
+            i++;
+            get();
+            return;
+          }
           return request(
             `https://www.boquge.com/book/${bookListUrl.split('/')[2]}`,
           );
