@@ -119,13 +119,13 @@ function removeFirst(list) {
 getBookList();
 
 function getBookList() {
-  let i = 33;
+  let i = 0;
   let len = list.length;
   get();
   function get() {
     let timer = setImmediate(() => {
-      // if (i === len) {
-      if (i === 36) {
+      if (i === len) {
+        // if (i === 36) {
         clearImmediate(timer);
         return;
       }
@@ -134,22 +134,26 @@ function getBookList() {
       const bookIndex = i + 1;
       const bookPath = `./book/${fileName(bookIndex, len)}_${bookId}`;
       const bookName = list[i].book_name;
+      if (fs.existsSync(`${bookPath}/list.js`)) {
+        i++;
+        get();
+        return;
+      }
 
       request(
         `https://www.boquge.com/search.htm?keyword=${encodeURI(bookName)}`,
       )
         .then(($) => {
+          if (!$) {
+            i++;
+            get();
+            return;
+          }
           let bookListUrl = $('#novel-list ul li')
             .eq(1)
             .children('div.col-xs-3')
             .children('a')
             .attr('href');
-          console.log(bookListUrl);
-          if (!bookListUrl) {
-            i++;
-            get();
-            return;
-          }
           return request(
             `https://www.boquge.com/book/${bookListUrl.split('/')[2]}`,
           );
