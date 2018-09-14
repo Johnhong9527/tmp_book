@@ -119,12 +119,13 @@ function removeFirst(list) {
 getBookList();
 
 function getBookList() {
-  let i = 0;
+  let i = 33;
   let len = list.length;
   get();
   function get() {
     let timer = setImmediate(() => {
-      if (i === len) {
+      // if (i === len) {
+      if (i === 36) {
         clearImmediate(timer);
         return;
       }
@@ -143,6 +144,12 @@ function getBookList() {
             .children('div.col-xs-3')
             .children('a')
             .attr('href');
+          console.log(bookListUrl);
+          if (!bookListUrl) {
+            i++;
+            get();
+            return;
+          }
           return request(
             `https://www.boquge.com/book/${bookListUrl.split('/')[2]}`,
           );
