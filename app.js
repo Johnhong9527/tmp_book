@@ -121,12 +121,26 @@ getBookList();
 function getBookList() {
   let i = 0;
   let len = list.length;
+  let noBook = [];
   get();
   function get() {
     let timer = setImmediate(() => {
       if (i === len) {
         // if (i === 36) {
+
         clearImmediate(timer);
+        fs.writeFile(
+          './noBook.js',
+          `module.exports =${JSON.stringify(noBook)}`,
+          function(err) {
+            if (err) {
+              console.error(err);
+            } else {
+              console.log('./noBook.js写入成功');
+              // return Promise.resolve();
+            }
+          },
+        );
         return;
       }
       // 编号__用于该书籍存放路径以及编号
@@ -155,6 +169,7 @@ function getBookList() {
             .children('a')
             .attr('href');
           if (bookListUrl === undefined) {
+            noBook.push(i);
             i++;
             get();
             return;
