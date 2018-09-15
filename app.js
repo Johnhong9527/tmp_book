@@ -115,9 +115,29 @@ function removeFirst(list) {
   }
   return;
 }
+const noBookJs = require('./noBook');
+// 获取部分查询不到的书籍信息
+getNotBookInfo();
+function getNotBookInfo() {
+  let books = [];
+  for (let i = 0; i < noBookJs.length; i++) {
+    books.push(list[noBookJs[i]]);
+  }
+  fs.writeFile(
+    './noBookInfo.js',
+    `module.exports =${JSON.stringify(books)}`,
+    function(err) {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log('./noBookInfo.js写入成功');
+        // return Promise.resolve();
+      }
+    },
+  );
+}
 // 获取各个书籍目录,并存放到各个书籍的目录中
-getBookList();
-
+// getBookList();
 function getBookList() {
   let i = 0;
   let len = list.length;
