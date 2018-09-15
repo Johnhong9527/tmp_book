@@ -542,11 +542,11 @@ function getListText() {
                 }),
               );
             }
-            console.log(`<${bookList[x].book_name}>的${title}制作完毕,开始下一步`);
+            console.log(`<${bookList[x].book_name}>的<${title}>制作完毕,开始下一步`);
             y++;
             setIF();
           });
-        });
+        },2000);
       }
     }, 10);
   }
