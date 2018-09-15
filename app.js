@@ -187,7 +187,7 @@ function setOpf() {
     if (!fs.existsSync(`./book/${books[i]}/${books[i]}.opf`)) {
       fs.writeFileSync(
         `./book/${books[i]}/${books[i]}.opf`,
-        kindle_opf(bookList[i].name, bookC.length),
+        kindle_opf(bookList[i].book_name, bookC.length),
       );
       console.log(`./book/${books[i]}/${books[i]}.opf文件成功创建`);
     } else {
@@ -251,7 +251,7 @@ function setToc() {
     }
   }
 }
-setNcx();
+setNcx()
 function setNcx() {
   let books = fs.readdirSync('./book');
   let len = books.length;
@@ -263,7 +263,7 @@ function setNcx() {
     if (!fs.existsSync(`./book/${books[i]}/toc.ncx`)) {
       fs.writeFileSync(
         `./book/${books[i]}/toc.ncx`,
-        kindle_ncx(bookList[i].name, bookC),
+        kindle_ncx(bookList[i].book_name, bookC),
       );
       console.log(`./book/${books[i]}/toc.ncx文件成功创建`);
     } else {
