@@ -491,7 +491,7 @@ function getListText() {
   let books = fs.readdirSync('./book');
   // let len = books.length; // 需要爬取的书籍的总数
   let len = 13; // 需要爬取的书籍的总数
-  let x = 2; // book下的所有书籍的起始索引
+  let x = 3; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let x_list = JSON.parse(
     fs.readFileSync(`./book/${books[x]}/list_now.js`).toString(),
