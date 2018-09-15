@@ -527,7 +527,7 @@ function getListText() {
             let txtContent = $('#txtContent').html(); // 文章内容,主体
             // `textHtmlPath`当前章节路径
             let textHtmlPath = `./book/${books[x]}/text/${fileName(
-              y,
+              y+1,
               x_list.length,
             )}.html`;
             // 写入当前书籍的text目录中
@@ -542,7 +542,7 @@ function getListText() {
                 }),
               );
             }
-            console.log(`<${bookList[x]}>的${title}制作完毕,开始下一步`);
+            console.log(`<${bookList[x].book_name=}>的${title}制作完毕,开始下一步`);
             y++;
             setIF();
           });
