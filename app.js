@@ -11,6 +11,9 @@ const request = require('./util/request');
 const chapterData = require('./util/data');
 // kindle
 const cheerio = require('cheerio');
+const kindle_opf = require('./util/kindle/1_opf');
+const kindle_toc = require('./util/kindle/2_toc');
+const kindle_ncx = require('./util/kindle/3_ncx');
 const kindle_intro = require('./util/kindle/4_intro');
 // 编号
 const fileName = require('./util/num');
@@ -26,6 +29,7 @@ app.get('/', function(req, res, next) {
   res.send('<h4>hello world!</h4>');
 });
 const list = require('./util/list');
+const bookList = require('./util/book');
 app.get('/list', function(req, res, next) {
   res.send(list);
 });
@@ -115,9 +119,159 @@ function removeFirst(list) {
   }
   return;
 }
-const noBookJs = require('./noBook');
+// 移动部分盗版网站查询不到书籍,这部分书籍,后期不做数据爬取
+function removeBookInfo() {
+  for (let i = 0; i < list.length; i++) {
+    let bookId = list[i].book_img.split('/')[5];
+    let bookIndex = i + 1;
+    let bookPath = `./book/${fileName(bookIndex, list.length)}_${bookId}`;
+    let isListJs = fs.existsSync(`${bookPath}/list_now.js`);
+    if (!isListJs) {
+      fs.renameSync(
+        bookPath,
+        `./noBook/${fileName(bookIndex, list.length)}_${bookId}`,
+      );
+    }
+  }
+}
+
+const noBook = require('./txt/noBook');
+const noBookInfo = require('./txt/noBookInfo');
+// 获取可爬书籍集合
+function getInfo() {
+  let book = JSON.parse(JSON.stringify(list));
+  console.log(book.length);
+  for (let x = 0; x < book.length; x++) {
+    for (let y = 0; y < noBookInfo.length; y++) {
+      if (book[x].book_name == noBookInfo[y].book_name) {
+        book.splice(book[x], 1);
+      }
+    }
+  }
+
+  console.log(book.length);
+  fs.writeFileSync(`./util/book.js`, 'module.exports =' + JSON.stringify(book));
+}
+// 清理章节列表中,混乱的数据
+// remove();
+function remove() {
+  let books = fs.readdirSync('./book');
+  let len = books.length;
+  for (let i = 0; i < len; i++) {
+    // 获取单个书籍的list_now.js
+    let bookC = JSON.parse(
+      fs.readFileSync(`./book/${books[i]}/list_now.js`).toString(),
+    );
+    for (let i in bookC) {
+      if (bookC[i].name === null) {
+        bookC.splice(i, 1);
+      }
+    }
+    fs.writeFileSync(`./book/${books[i]}/list_now.js`, JSON.stringify(bookC));
+  }
+  console.log('完毕');
+}
+// 抓取单个书籍的所有章节数据
+// 设置 opf/toc/ncx
+function setOpf() {
+  let books = fs.readdirSync('./book');
+  let len = books.length;
+  // let len = 2;
+  // console.log(len);
+  // return;
+  for (let i = 0; i < len; i++) {
+    console.log(bookList[i].book_name);
+    let bookC = fs.readFileSync(`./book/${books[i]}/list_now.js`).toString();
+    bookC = JSON.parse(bookC);
+    console.log(`./book/${books[i]}/${books[i]}.opf`);
+    if (!fs.existsSync(`./book/${books[i]}/${books[i]}.opf`)) {
+      fs.writeFileSync(
+        `./book/${books[i]}/${books[i]}.opf`,
+        kindle_opf(bookList[i].name, bookC.length),
+      );
+      console.log(`./book/${books[i]}/${books[i]}.opf文件成功创建`);
+    } else {
+      console.log('该文件已创建');
+    }
+  }
+  /*  fs.writeFile(
+    `${bookPath}/${fileName(i + 1, len)}_${books[i]}.opf`,
+    kindle_opf(bookList[i].name, bookC.len),
+    function(err) {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log('./noBookInfo.js写入成功');
+        // return Promise.resolve();
+      }
+    },
+  ); */
+  return;
+  // 获取数据合集
+  let book_list = fs
+    .readFileSync(`${bookPath}/${books[books.indexOf('list_now.js')]}`)
+    .toString();
+  book_list = JSON.parse(book_list);
+  fs.writeFileSync(
+    `${bookPath}/${fileName(bookIndex, len)}_${bookId}.opf`,
+    kindle_opf(bookList[i].name, book_list),
+  );
+  // 获取单个章节数据
+  let j = 0;
+  // let book_len = book_list.length;
+  let book_len = 3;
+  // getData();
+  function getData() {
+    let timer = setImmediate(() => {
+      if (j === book_len) {
+        clearImmediate(timer);
+        return;
+      }
+      request(book_list[j].link).then(($) => {
+        let title = $('#h1 h1').html();
+        let txtContent = $('#txtContent').html();
+        console.log(txtContent);
+      });
+    });
+  }
+}
+function setToc() {
+  let books = fs.readdirSync('./book');
+  let len = books.length;
+  for (let i = 0; i < len; i++) {
+    console.log(bookList[i].book_name);
+    let bookC = fs.readFileSync(`./book/${books[i]}/list_now.js`).toString();
+    bookC = JSON.parse(bookC);
+    console.log(`./book/${books[i]}/toc.html`);
+    if (!fs.existsSync(`./book/${books[i]}/toc.html`)) {
+      fs.writeFileSync(`./book/${books[i]}/toc.html`, kindle_toc(bookC));
+      console.log(`./book/${books[i]}/toc.html文件成功创建`);
+    } else {
+      console.log('该文件已创建');
+    }
+  }
+}
+setNcx();
+function setNcx() {
+  let books = fs.readdirSync('./book');
+  let len = books.length;
+  for (let i = 0; i < len; i++) {
+    console.log(bookList[i].book_name);
+    let bookC = fs.readFileSync(`./book/${books[i]}/list_now.js`).toString();
+    bookC = JSON.parse(bookC);
+    console.log(`./book/${books[i]}/toc.ncx`);
+    if (!fs.existsSync(`./book/${books[i]}/toc.ncx`)) {
+      fs.writeFileSync(
+        `./book/${books[i]}/toc.ncx`,
+        kindle_ncx(bookList[i].name, bookC),
+      );
+      console.log(`./book/${books[i]}/toc.ncx文件成功创建`);
+    } else {
+      console.log('该文件已创建');
+    }
+  }
+}
 // 获取部分查询不到的书籍信息
-getNotBookInfo();
 function getNotBookInfo() {
   let books = [];
   for (let i = 0; i < noBookJs.length; i++) {
@@ -137,7 +291,6 @@ function getNotBookInfo() {
   );
 }
 // 获取各个书籍目录,并存放到各个书籍的目录中
-// getBookList();
 function getBookList() {
   let i = 0;
   let len = list.length;
@@ -168,7 +321,7 @@ function getBookList() {
       const bookIndex = i + 1;
       const bookPath = `./book/${fileName(bookIndex, len)}_${bookId}`;
       const bookName = list[i].book_name;
-      if (fs.existsSync(`${bookPath}/list.js`)) {
+      if (fs.existsSync(`${bookPath}/list_now.js`)) {
         i++;
         get();
         return;
@@ -219,13 +372,13 @@ function getBookList() {
         })
         .then((data) => {
           fs.writeFile(
-            `${bookPath}/list.js`,
+            `${bookPath}/list_now.js`,
             `module.exports =${JSON.stringify(data)}`,
             function(err) {
               if (err) {
                 console.error(err);
               } else {
-                console.log(`${bookPath}/list.js写入成功`);
+                console.log(`${bookPath}/list_now.js写入成功`);
                 i++;
                 get();
                 // return Promise.resolve();
@@ -279,13 +432,13 @@ function getBookList() {
           console.log(bookList.length);
           return;
           fs.writeFile(
-            `${bookPath}/list.js`,
+            `${bookPath}/list_now.js`,
             `module.exports =${JSON.stringify(bookList)}`,
             function(err) {
               if (err) {
                 console.error(err);
               } else {
-                console.log(`${bookPath}/list.js写入成功`);
+                console.log(`${bookPath}/list_now.js写入成功`);
                 return Promise.resolve();
               }
             },
@@ -301,7 +454,6 @@ function getBookList() {
     });
   }
 }
-// created();
 // 为每一本书创建 opf nxc toc 等kindle电纸书相关索引
 function created() {
   let len = list.length;

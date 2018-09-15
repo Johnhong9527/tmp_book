@@ -1,5 +1,5 @@
 // 编号
-const fileName = require('./util/num');
+const fileName = require('../num');
 /**
  * 制作`toc.html`目录
  * @param {Object} params 章节数据集合
@@ -11,9 +11,7 @@ module.exports = function(params) {
   function li(params) {
     let li = '';
     for (let i = 0; i < params.length; i++) {
-      li += `<li><a href="text/${fileName(i + 1)}.html#id${i + 1}">${
-        params[i].text
-      }}</a></li>`;
+      li += `<li><a href="text/${fileName(i + 1,params.length)}.html#id${i + 1}">${params[i].name}</a></li>\n      `;
     }
     return li;
   }

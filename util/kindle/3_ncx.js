@@ -1,5 +1,5 @@
 // 编号
-const fileName = require('./util/num');
+const fileName = require('../num');
 /**
  * 制作`toc.ncx`目录索引
  * @param {Object} params 章节数据集合
