@@ -539,7 +539,10 @@ function getListText() {
                   index: y,
                   len: x_list.length,
                   title: title,
-                  txtContent: txtContent,
+                  txtContent: txtContent.replace(
+                    '<div class="gad2"><script type="text/javascript">try{mad1();} catch(ex){}</script></div>',
+                    '',
+                  ),
                 }),
               );
             }
