@@ -1,5 +1,3 @@
-// 编号
-const fileName = require('../num');
 /**
  * 制作`*.html`章节内容
  * @param {Number} params.index 章节索引
@@ -13,7 +11,7 @@ module.exports = function(params) {
   <html  xmlns="http://www.w3.org/1999/xhtml" lang="zh" xml:lang="zh">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <body>
-    <h3 id="id${fileName(params.index + 1, params.len)}">${params.title}</h3>
+    <h3 id="id${params.index + 1}">${params.title}</h3>
     <p>
       ${params.txtContent}
     </p>
