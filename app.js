@@ -15,6 +15,7 @@ const kindle_opf = require('./util/kindle/1_opf');
 const kindle_toc = require('./util/kindle/2_toc');
 const kindle_ncx = require('./util/kindle/3_ncx');
 const kindle_intro = require('./util/kindle/4_intro');
+const kindle_text = require('./util/kindle/5_text');
 // 编号
 const fileName = require('./util/num');
 const QIDIAN = {
@@ -251,7 +252,6 @@ function setToc() {
     }
   }
 }
-setNcx()
 function setNcx() {
   let books = fs.readdirSync('./book');
   let len = books.length;
@@ -266,6 +266,36 @@ function setNcx() {
         kindle_ncx(bookList[i].book_name, bookC),
       );
       console.log(`./book/${books[i]}/toc.ncx文件成功创建`);
+    } else {
+      console.log('该文件已创建');
+    }
+  }
+}
+function setIntro() {
+  let len = list.length;
+  for (let i = 0; i < len; i++) {
+    // 编号__用于该书籍存放路径以及编号
+    const bookId = list[i].book_img.split('/')[5];
+    const bookIndex = i + 1;
+    const bookPath = `./book/${fileName(bookIndex, len)}_${bookId}`;
+    // 根据路径检测文件是否存在
+    if (!fs.existsSync(bookPath)) {
+      fs.mkdirSync(bookPath);
+    } else {
+      console.log('该文件已创建');
+    }
+    // 创建intro
+    let introPath = `${bookPath}/intro.html`;
+    if (!fs.existsSync(introPath)) {
+      fs.writeFile(`${bookPath}/intro.html`, kindle_intro(list[i]), function(
+        err,
+      ) {
+        if (err) {
+          console.error(err);
+        } else {
+          console.log(`${bookPath}`);
+        }
+      });
     } else {
       console.log('该文件已创建');
     }
@@ -454,38 +484,82 @@ function getBookList() {
     });
   }
 }
-// 为每一本书创建 opf nxc toc 等kindle电纸书相关索引
-function created() {
-  let len = list.length;
-  for (let i = 0; i < len; i++) {
-    // 编号__用于该书籍存放路径以及编号
-    const bookId = list[i].book_img.split('/')[5];
-    const bookIndex = i + 1;
-    const bookPath = `./book/${fileName(bookIndex, len)}_${bookId}`;
-    // 根据路径检测文件是否存在
-    if (!fs.existsSync(bookPath)) {
-      fs.mkdirSync(bookPath);
-    } else {
-      console.log('该文件已创建');
-    }
-    // 创建intro
-    let introPath = `${bookPath}/intro.html`;
-    if (!fs.existsSync(introPath)) {
-      fs.writeFile(`${bookPath}/intro.html`, kindle_intro(list[i]), function(
-        err,
-      ) {
-        if (err) {
-          console.error(err);
-        } else {
-          console.log(`${bookPath}`);
-        }
-      });
-    } else {
-      console.log('该文件已创建');
-    }
-  }
-}
 
+// 为每一本书,获取各自的章节.并存放到本地
+getListText();
+function getListText() {
+  let books = fs.readdirSync('./book');
+  // let len = books.length; // 需要爬取的书籍的总数
+  let len = 1; // 需要爬取的书籍的总数
+  let x = 0; // book下的所有书籍的起始索引
+  let y = 0; // 当前爬取的书籍的章节列表起始索引
+  let x_list = JSON.parse(
+    fs.readFileSync(`./book/${books[x]}/list_now.js`).toString(),
+  ); //当前爬取的书籍的文章总数
+  // `setTimeF`函数,用于循环需要爬取的书籍索引,间隔10秒
+  // 第一次,尝试不会循环`setTimeF`函数.
+  setTimeF();
+  function setTimeF() {
+    console.log('开始数据抓取');
+    let setTime = setTimeout(() => {
+      // 所有书籍章节爬取完毕,终止程序
+      if (x === len) {
+        clearTimeout(setTime);
+        return;
+      }
+      // `setIF`函数,循环当前爬取书籍的章节索引
+      setIF();
+      function setIF() {
+        console.log(`当前开始抓取<${bookList[x].book_name}>的章节`);
+        let setI = setImmediate(() => {
+          // 当前书籍章节爬取完毕,触发`setTimeF`函数;
+          // 并初始化`x`和`y`
+          // 第一次,尝试不会循环`setTimeF`函数.
+          if (y === x_list.length) {
+            clearImmediate(setI);
+            // x = y = 0;
+            // setTimeF();
+            return;
+          }
+          // 开始执行爬虫
+          request(x_list[y].link).then(($) => {
+            let title = $('#h1 h1').html(); // 文章标题,目录
+            let txtContent = $('#txtContent').html(); // 文章内容,主体
+            // `textHtmlPath`当前章节路径
+            let textHtmlPath = `./book/${books[x]}/text/${fileName(
+              y,
+              x_list.length,
+            )}.html`;
+            // 写入当前书籍的text目录中
+            if (!fs.existsSync(textHtmlPath)) {
+              fs.writeFileSync(
+                textHtmlPath,
+                kindle_text({
+                  index: y,
+                  len: x_list.length,
+                  title: title,
+                  txtContent: txtContent,
+                }),
+              );
+            }
+            console.log(`<${bookList[x]}>的${title}制作完毕,开始下一步`);
+            y++;
+            setIF();
+          });
+        });
+      }
+    }, 10);
+  }
+
+  // 为每个书籍,创建章节存放目录
+  /* for (let i in books) {
+    // 这需要使用到2种
+    if (!fs.existsSync(`./book/${books[i]}/text`)) {
+      fs.mkdirSync(`./book/${books[i]}/text`, '0775');
+    }
+  } */
+  // 开始获取书籍章节列表信息
+}
 app.listen(3000, function() {
   console.log('http://192.168.10.159:3000');
 });
