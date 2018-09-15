@@ -526,10 +526,7 @@ function getListText() {
             let title = $('#h1 h1').html(); // 文章标题,目录
             let txtContent = $('#txtContent').html(); // 文章内容,主体
             // `textHtmlPath`当前章节路径
-            let textHtmlPath = `./book/${books[x]}/text/${fileName(
-              y + 1,
-              x_list.length,
-            )}.html`;
+            let textHtmlPath = `./book/${books[x]}/text/${y + 1}.html`;
             // 检查书籍章节根目录是否村在，没有则创建
             if (!fs.existsSync(`./book/${books[x]}/text/`)) {
               fs.mkdirSync(`./book/${books[x]}/text/`, '0775');
