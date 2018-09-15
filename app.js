@@ -527,9 +527,13 @@ function getListText() {
             let txtContent = $('#txtContent').html(); // 文章内容,主体
             // `textHtmlPath`当前章节路径
             let textHtmlPath = `./book/${books[x]}/text/${fileName(
-              y+1,
+              y + 1,
               x_list.length,
             )}.html`;
+            // 检查书籍章节根目录是否村在，没有则创建
+            if (!fs.existsSync(`./book/${books[x]}/text/`)) {
+              fs.mkdirSync(`./book/${books[x]}/text/`, '0775');
+            }
             // 写入当前书籍的text目录中
             if (!fs.existsSync(textHtmlPath)) {
               fs.writeFileSync(
@@ -542,11 +546,13 @@ function getListText() {
                 }),
               );
             }
-            console.log(`<${bookList[x].book_name}>的<${title}>制作完毕,开始下一步`);
+            console.log(
+              `<${bookList[x].book_name}>的<${title}>制作完毕,开始下一步`,
+            );
             y++;
             setIF();
           });
-        },2000);
+        }, 2000);
       }
     }, 10);
   }
