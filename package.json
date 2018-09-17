@@ -12,8 +12,13 @@
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
+    "gm": "^1.23.1",
+    "html-to-image": "0.0.2",
     "iconv-lite": "^0.4.23",
+    "images": "^3.0.1",
     "progress": "^2.0.0",
-    "request": "^2.87.0"
+    "request": "^2.87.0",
+    "svg2png": "^4.1.1",
+    "text-to-svg": "^3.1.3"
   }
 }

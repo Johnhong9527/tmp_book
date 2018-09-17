@@ -135,7 +135,10 @@ function removeBookInfo() {
     }
   }
 }
-
+// createImage
+const createImage = require('./util/createImage');
+createImage();
+// 站点查询不到的数据
 const noBook = require('./txt/noBook');
 const noBookInfo = require('./txt/noBookInfo');
 // 获取可爬书籍集合
@@ -486,7 +489,7 @@ function getBookList() {
 }
 
 // 为每一本书,获取各自的章节.并存放到本地
-getListText();
+// getListText();
 function getListText() {
   let books = fs.readdirSync('./book');
   // let len = books.length; // 需要爬取的书籍的总数
