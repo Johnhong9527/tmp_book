@@ -271,15 +271,14 @@ function getBookList() {
   let i = 0;
   // let len = book1.length;
   let len = 3;
-  let noBook = [];
+  // let noBook = [];
   get();
-
   function get() {
     let timer = setImmediate(() => {
       if (i === len) {
         // if (i === 36) {
         clearImmediate(timer);
-        fs.writeFile(
+        /* fs.writeFile(
           './noBook.js',
           `module.exports =${JSON.stringify(noBook)}`,
           function(err) {
@@ -289,15 +288,15 @@ function getBookList() {
               console.log('./noBook.js写入成功');
             }
           },
-        );
+        ); */
         return;
       }
       // 编号__用于该书籍存放路径以及编号
-      const bookId = list[i].book_img.split('/')[5];
+      const bookId = book1[i].book_img.split('/')[5];
       const bookIndex = i + 1;
-      const bookPath = `./book/${fileName(bookIndex, len)}_${bookId}`;
-      const bookName = list[i].book_name;
-      if (fs.existsSync(`${bookPath}/list_now.js`)) {
+      const bookPath = `./book/${fileName(bookIndex, book1.length)}_${bookId}`;
+      const bookName = book1[i].book_name;
+      if (fs.existsSync(`${bookPath}/list.js`)) {
         i++;
         get();
         return;
@@ -343,7 +342,6 @@ function getBookList() {
                 .eq(i)
                 .children('a')
                 .attr('href');
-
               ddArray.push({
                 name: ddList
                   .eq(i)
