@@ -269,8 +269,8 @@ function linkF(url) {
 }
 function getBookList() {
   let i = 0;
-  // let len = book1.length;
-  let len = 3;
+  let len = book1.length;
+  // let len = 3;
   // let noBook = [];
   get();
   function get() {
@@ -301,7 +301,6 @@ function getBookList() {
         get();
         return;
       }
-
       request(
         `https://www.boquge.com/search.htm?keyword=${encodeURI(bookName)}`,
       )
