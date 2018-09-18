@@ -263,16 +263,17 @@ function createBookFile() {
 // 获取各个书籍目录,并存放到各个书籍的目录中
 getBookList();
 // PC_url to M_url
-function linkF(url){
-  let urlA  =url.split('/');
-  return `wapbook/${urlA[1]}_${urlA[2]}.html`
+function linkF(url) {
+  let urlA = url.split('/');
+  return `wapbook/${urlA[1]}_${urlA[2]}.html`;
 }
 function getBookList() {
   let i = 0;
-  let len = book1.length;
+  // let len = book1.length;
+  let len = 3;
   let noBook = [];
   get();
-  
+
   function get() {
     let timer = setImmediate(() => {
       if (i === len) {
@@ -339,9 +340,9 @@ function getBookList() {
                 .html()
             ) {
               let link = ddList
-              .eq(i)
-              .children('a')
-              .attr('href');
+                .eq(i)
+                .children('a')
+                .attr('href');
 
               ddArray.push({
                 name: ddList
