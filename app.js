@@ -9,6 +9,12 @@ const axios = require('axios');
 
 const request = require('./util/request');
 const chapterData = require('./util/data');
+// 所有书籍信息合集
+const list = require('./util/list');
+const bookList = require('./util/book');
+// 站点查询不到的数据
+const noBook = require('./txt/noBook');
+const noBookInfo = require('./txt/noBookInfo');
 // kindle
 const cheerio = require('cheerio');
 const kindle_opf = require('./util/kindle/1_opf');
@@ -29,8 +35,7 @@ let BOOKLIST = [];
 app.get('/', function(req, res, next) {
   res.send('<h4>hello world!</h4>');
 });
-const list = require('./util/list');
-const bookList = require('./util/book');
+
 app.get('/list', function(req, res, next) {
   res.send(list);
 });
@@ -137,27 +142,54 @@ function removeBookInfo() {
 }
 // createImage
 const createImage = require('./util/createImage');
-createImage();
-// 站点查询不到的数据
-const noBook = require('./txt/noBook');
-const noBookInfo = require('./txt/noBookInfo');
+/* createImage({
+  book_name: '完美世界',
+  author: '城东城东城东城东',
+}); */
+
 // 获取可爬书籍集合
+const book1 = require('./util/book_1');
+// 创建对应书籍的目录
+createBookFile();
+function createBookFile() {
+  console.log(book1.length)
+  // 书籍ID
+  // 根路径
+  // 书籍信息
+  // 
+}
+console.log(book1.length);
+// 批量删除数组中数据
+// http://www.blogjava.net/Hafeyang/archive/2010/12/29/how_to_batch_remove_items_in_javascript_array.html
 function getInfo() {
-  let book = JSON.parse(JSON.stringify(list));
-  console.log(book.length);
-  for (let x = 0; x < book.length; x++) {
-    for (let y = 0; y < noBookInfo.length; y++) {
-      if (book[x].book_name == noBookInfo[y].book_name) {
-        book.splice(book[x], 1);
+  function removeBatch(arr, toDeleteIndexes) {
+    var result = [];
+    for (var i = 0; i < arr.length; i++) {
+      var o = arr[i];
+      var needDelete = false;
+      for (var j = 0; j < toDeleteIndexes.length; j++) {
+        if (i == toDeleteIndexes[j]) {
+          needDelete = true;
+          break;
+        }
+      }
+      if (!needDelete) {
+        result.push(arr[i]);
       }
     }
+    return result;
   }
-
-  console.log(book.length);
-  fs.writeFileSync(`./util/book.js`, 'module.exports =' + JSON.stringify(book));
+  let b = removeBatch(list, noBook);
+  stopCount();
+  console.log(b.length);
+  function stopCount() {
+    fs.writeFileSync(
+      `./util/book_1.js`,
+      'module.exports =' + JSON.stringify(b),
+    );
+  }
 }
 // 清理章节列表中,混乱的数据
-// remove();
 function remove() {
   let books = fs.readdirSync('./book');
   let len = books.length;
