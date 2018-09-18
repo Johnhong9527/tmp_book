@@ -5,13 +5,12 @@ const fs = require('fs');
 const path = require('path');
 
 const ProgressBar = require('progress');
-const axios = require('axios');
 
 const request = require('./util/request');
 const chapterData = require('./data/data');
 // 所有书籍信息合集
 const list = require('./data/list');
-const bookList = require('./data//book');
+const bookList = require('./data/book');
 // 站点查询不到的数据
 const noBook = require('./data/noBook');
 const noBookInfo = require('./data/noBookInfo');
@@ -133,6 +132,25 @@ function removeFirst(list) {
   }
   return;
 }
+// 获取部分查询不到的书籍信息
+function getNotBookInfo() {
+  let books = [];
+  for (let i = 0; i < noBookJs.length; i++) {
+    books.push(list[noBookJs[i]]);
+  }
+  fs.writeFile(
+    './noBookInfo.js',
+    `module.exports =${JSON.stringify(books)}`,
+    function(err) {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log('./noBookInfo.js写入成功');
+        // return Promise.resolve();
+      }
+    },
+  );
+}
 // 移动部分盗版网站查询不到书籍,这部分书籍,后期不做数据爬取
 function removeBookInfo() {
   for (let i = 0; i < list.length; i++) {
@@ -148,10 +166,37 @@ function removeBookInfo() {
     }
   }
 }
-
+// 批量删除数组中数据
+// http://www.blogjava.net/Hafeyang/archive/2010/12/29/how_to_batch_remove_items_in_javascript_array.html
+function getInfo() {
+  function removeBatch(arr, toDeleteIndexes) {
+    var result = [];
+    for (var i = 0; i < arr.length; i++) {
+      var o = arr[i];
+      var needDelete = false;
+      for (var j = 0; j < toDeleteIndexes.length; j++) {
+        if (i == toDeleteIndexes[j]) {
+          needDelete = true;
+          break;
+        }
+      }
+      if (!needDelete) {
+        result.push(arr[i]);
+      }
+    }
+    return result;
+  }
+  let b = removeBatch(list, noBook);
+  stopCount();
+  console.log(b.length);
+  function stopCount() {
+    fs.writeFileSync(
+      `./util/book_1.js`,
+      'module.exports =' + JSON.stringify(b),
+    );
+  }
+}
 // 创建对应书籍的目录
-const bookNotImageInfo = require('./data/bookNotImage');
-createBookFile();
 function createBookFile() {
   let i = 0;
   let len = bookNotImageInfo.length;
@@ -215,34 +260,182 @@ function createBookFile() {
    
   } */
 }
-// 批量删除数组中数据
-// http://www.blogjava.net/Hafeyang/archive/2010/12/29/how_to_batch_remove_items_in_javascript_array.html
-function getInfo() {
-  function removeBatch(arr, toDeleteIndexes) {
-    var result = [];
-    for (var i = 0; i < arr.length; i++) {
-      var o = arr[i];
-      var needDelete = false;
-      for (var j = 0; j < toDeleteIndexes.length; j++) {
-        if (i == toDeleteIndexes[j]) {
-          needDelete = true;
-          break;
-        }
+// 获取各个书籍目录,并存放到各个书籍的目录中
+getBookList();
+// PC_url to M_url
+function linkF(url){
+  let urlA  =url.split('/');
+  return `wapbook/${urlA[1]}_${urlA[2]}.html`
+}
+function getBookList() {
+  let i = 0;
+  let len = book1.length;
+  let noBook = [];
+  get();
+  
+  function get() {
+    let timer = setImmediate(() => {
+      if (i === len) {
+        // if (i === 36) {
+        clearImmediate(timer);
+        fs.writeFile(
+          './noBook.js',
+          `module.exports =${JSON.stringify(noBook)}`,
+          function(err) {
+            if (err) {
+              console.error(err);
+            } else {
+              console.log('./noBook.js写入成功');
+            }
+          },
+        );
+        return;
       }
-      if (!needDelete) {
-        result.push(arr[i]);
+      // 编号__用于该书籍存放路径以及编号
+      const bookId = list[i].book_img.split('/')[5];
+      const bookIndex = i + 1;
+      const bookPath = `./book/${fileName(bookIndex, len)}_${bookId}`;
+      const bookName = list[i].book_name;
+      if (fs.existsSync(`${bookPath}/list_now.js`)) {
+        i++;
+        get();
+        return;
       }
-    }
-    return result;
-  }
-  let b = removeBatch(list, noBook);
-  stopCount();
-  console.log(b.length);
-  function stopCount() {
-    fs.writeFileSync(
-      `./util/book_1.js`,
-      'module.exports =' + JSON.stringify(b),
-    );
+
+      request(
+        `https://www.boquge.com/search.htm?keyword=${encodeURI(bookName)}`,
+      )
+        .then(($) => {
+          if (!$) {
+            i++;
+            get();
+            return;
+          }
+          let bookListUrl = $('#novel-list ul li')
+            .eq(1)
+            .children('div.col-xs-3')
+            .children('a')
+            .attr('href');
+          if (bookListUrl === undefined) {
+            noBook.push(i);
+            i++;
+            get();
+            return;
+          }
+          return request(
+            `https://www.boquge.com/book/${bookListUrl.split('/')[2]}`,
+          );
+        })
+        .then(($) => {
+          let ddList = $('#chapters-list li');
+          let ddArray = [];
+          for (let i = 1; i < ddList.length; i++) {
+            if (
+              ddList.eq(i) &&
+              ddList.eq(i).children('a') &&
+              ddList
+                .eq(i)
+                .children('a')
+                .html()
+            ) {
+              let link = ddList
+              .eq(i)
+              .children('a')
+              .attr('href');
+
+              ddArray.push({
+                name: ddList
+                  .eq(i)
+                  .children('a')
+                  .html(),
+                link: `https://www.boquge.com${linkF(link)}`,
+              });
+            }
+          }
+          return Promise.resolve(ddArray);
+        })
+        .then((data) => {
+          fs.writeFile(
+            `${bookPath}/list.js`,
+            `module.exports =${JSON.stringify(data)}`,
+            function(err) {
+              if (err) {
+                console.error(err);
+              } else {
+                console.log(`${bookPath}/list.js写入成功`);
+                i++;
+                get();
+                // return Promise.resolve();
+              }
+            },
+          );
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+
+      /* axios
+        .get(
+          `https://sou.xanbhx.com/search?siteid=qula&q=${encodeURI(bookName)}`,
+        )
+        .then((data) => {
+          let $ = cheerio.load(data.data, {
+            decodeEntities: false,
+          });
+          return axios.get(
+            $('.search-list ul li')
+              .eq(1)
+              .children('span.s2')
+              .children('a')
+              .attr('href'),
+          );
+        })
+        .then((data) => {
+          let $ = cheerio.load(data.data, {
+            decodeEntities: false,
+          });
+          let ddList = $('#list dl dd');
+          let ddArray = [];
+          for (let i = 0; i < ddList.length; i++) {
+            ddArray.push({
+              name: ddList
+                .eq(i)
+                .children('a')
+                .html(),
+              link: `https://www.qu.la${ddList
+                .eq(i)
+                .children('a')
+                .attr('href')}`,
+            });
+          }
+          console.log(ddArray.length);
+          return Promise.resolve(ddArray);
+        })
+        .then((data) => {
+          let bookList = removeFirst(data);
+          console.log(bookList.length);
+          return;
+          fs.writeFile(
+            `${bookPath}/list_now.js`,
+            `module.exports =${JSON.stringify(bookList)}`,
+            function(err) {
+              if (err) {
+                console.error(err);
+              } else {
+                console.log(`${bookPath}/list_now.js写入成功`);
+                return Promise.resolve();
+              }
+            },
+          );
+        })
+        .then(() => {
+          i++;
+          get();
+        })
+        .catch((err) => {
+          console.log(err);
+        }); */
+    });
   }
 }
 // 清理章节列表中,混乱的数据
@@ -263,7 +456,6 @@ function remove() {
   }
   console.log('完毕');
 }
-// 抓取单个书籍的所有章节数据
 // 设置 opf/toc/ncx
 function setOpf() {
   let books = fs.readdirSync('./book');
@@ -363,10 +555,10 @@ function setNcx() {
   }
 }
 function setIntro() {
-  let len = list.length;
+  let len = book1.length;
   for (let i = 0; i < len; i++) {
     // 编号__用于该书籍存放路径以及编号
-    const bookId = list[i].book_img.split('/')[5];
+    const bookId = book1[i].book_img.split('/')[5];
     const bookIndex = i + 1;
     const bookPath = `./book/${fileName(bookIndex, len)}_${bookId}`;
     // 根据路径检测文件是否存在
@@ -378,9 +570,7 @@ function setIntro() {
     // 创建intro
     let introPath = `${bookPath}/intro.html`;
     if (!fs.existsSync(introPath)) {
-      fs.writeFile(`${bookPath}/intro.html`, kindle_intro(list[i]), function(
-        err,
-      ) {
+      fs.writeFile(introPath, kindle_intro(book1[i]), function(err) {
         if (err) {
           console.error(err);
         } else {
@@ -390,189 +580,6 @@ function setIntro() {
     } else {
       console.log('该文件已创建');
     }
-  }
-}
-// 获取部分查询不到的书籍信息
-function getNotBookInfo() {
-  let books = [];
-  for (let i = 0; i < noBookJs.length; i++) {
-    books.push(list[noBookJs[i]]);
-  }
-  fs.writeFile(
-    './noBookInfo.js',
-    `module.exports =${JSON.stringify(books)}`,
-    function(err) {
-      if (err) {
-        console.error(err);
-      } else {
-        console.log('./noBookInfo.js写入成功');
-        // return Promise.resolve();
-      }
-    },
-  );
-}
-// 获取各个书籍目录,并存放到各个书籍的目录中
-function getBookList() {
-  let i = 0;
-  let len = list.length;
-  let noBook = [];
-  get();
-  function get() {
-    let timer = setImmediate(() => {
-      if (i === len) {
-        // if (i === 36) {
-
-        clearImmediate(timer);
-        fs.writeFile(
-          './noBook.js',
-          `module.exports =${JSON.stringify(noBook)}`,
-          function(err) {
-            if (err) {
-              console.error(err);
-            } else {
-              console.log('./noBook.js写入成功');
-              // return Promise.resolve();
-            }
-          },
-        );
-        return;
-      }
-      // 编号__用于该书籍存放路径以及编号
-      const bookId = list[i].book_img.split('/')[5];
-      const bookIndex = i + 1;
-      const bookPath = `./book/${fileName(bookIndex, len)}_${bookId}`;
-      const bookName = list[i].book_name;
-      if (fs.existsSync(`${bookPath}/list_now.js`)) {
-        i++;
-        get();
-        return;
-      }
-
-      request(
-        `https://www.boquge.com/search.htm?keyword=${encodeURI(bookName)}`,
-      )
-        .then(($) => {
-          if (!$) {
-            i++;
-            get();
-            return;
-          }
-          let bookListUrl = $('#novel-list ul li')
-            .eq(1)
-            .children('div.col-xs-3')
-            .children('a')
-            .attr('href');
-          if (bookListUrl === undefined) {
-            noBook.push(i);
-            i++;
-            get();
-            return;
-          }
-          return request(
-            `https://www.boquge.com/book/${bookListUrl.split('/')[2]}`,
-          );
-        })
-        .then(($) => {
-          let ddList = $('#chapters-list li');
-          let ddArray = [];
-          for (let i = 1; i < ddList.length; i++) {
-            if (ddList.eq(i) && ddList.eq(i).children('a')) {
-              ddArray.push({
-                name: ddList
-                  .eq(i)
-                  .children('a')
-                  .html(),
-                link: `https://www.boquge.com${ddList
-                  .eq(i)
-                  .children('a')
-                  .attr('href')}`,
-              });
-            }
-          }
-          return Promise.resolve(ddArray);
-        })
-        .then((data) => {
-          fs.writeFile(
-            `${bookPath}/list_now.js`,
-            `module.exports =${JSON.stringify(data)}`,
-            function(err) {
-              if (err) {
-                console.error(err);
-              } else {
-                console.log(`${bookPath}/list_now.js写入成功`);
-                i++;
-                get();
-                // return Promise.resolve();
-              }
-            },
-          );
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-
-      /* axios
-        .get(
-          `https://sou.xanbhx.com/search?siteid=qula&q=${encodeURI(bookName)}`,
-        )
-        .then((data) => {
-          let $ = cheerio.load(data.data, {
-            decodeEntities: false,
-          });
-          return axios.get(
-            $('.search-list ul li')
-              .eq(1)
-              .children('span.s2')
-              .children('a')
-              .attr('href'),
-          );
-        })
-        .then((data) => {
-          let $ = cheerio.load(data.data, {
-            decodeEntities: false,
-          });
-          let ddList = $('#list dl dd');
-          let ddArray = [];
-          for (let i = 0; i < ddList.length; i++) {
-            ddArray.push({
-              name: ddList
-                .eq(i)
-                .children('a')
-                .html(),
-              link: `https://www.qu.la${ddList
-                .eq(i)
-                .children('a')
-                .attr('href')}`,
-            });
-          }
-          console.log(ddArray.length);
-          return Promise.resolve(ddArray);
-        })
-        .then((data) => {
-          let bookList = removeFirst(data);
-          console.log(bookList.length);
-          return;
-          fs.writeFile(
-            `${bookPath}/list_now.js`,
-            `module.exports =${JSON.stringify(bookList)}`,
-            function(err) {
-              if (err) {
-                console.error(err);
-              } else {
-                console.log(`${bookPath}/list_now.js写入成功`);
-                return Promise.resolve();
-              }
-            },
-          );
-        })
-        .then(() => {
-          i++;
-          get();
-        })
-        .catch((err) => {
-          console.log(err);
-        }); */
-    });
   }
 }
 
