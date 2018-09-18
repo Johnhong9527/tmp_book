@@ -8,13 +8,13 @@ const ProgressBar = require('progress');
 const axios = require('axios');
 
 const request = require('./util/request');
-const chapterData = require('./util/data');
+const chapterData = require('./data/data');
 // 所有书籍信息合集
-const list = require('./util/list');
-const bookList = require('./util/book');
+const list = require('./data/list');
+const bookList = require('./data//book');
 // 站点查询不到的数据
-const noBook = require('./txt/noBook');
-const noBookInfo = require('./txt/noBookInfo');
+const noBook = require('./data/noBook');
+const noBookInfo = require('./data/noBookInfo');
 // kindle
 const cheerio = require('cheerio');
 const kindle_opf = require('./util/kindle/1_opf');
@@ -22,6 +22,14 @@ const kindle_toc = require('./util/kindle/2_toc');
 const kindle_ncx = require('./util/kindle/3_ncx');
 const kindle_intro = require('./util/kindle/4_intro');
 const kindle_text = require('./util/kindle/5_text');
+// createImage
+const createImage = require('./util/createImage');
+/* createImage({
+  book_name: '完美世界',
+  author: '城东城东城东城东',
+}); */
+// 获取可爬书籍集合
+const book1 = require('./data/book_1');
 // 编号
 const fileName = require('./util/num');
 const QIDIAN = {
@@ -140,23 +148,31 @@ function removeBookInfo() {
     }
   }
 }
-// createImage
-const createImage = require('./util/createImage');
-/* createImage({
-  book_name: '完美世界',
-  author: '城东城东城东城东',
-}); */
 
-// 获取可爬书籍集合
-const book1 = require('./util/book_1');
 // 创建对应书籍的目录
 createBookFile();
 function createBookFile() {
-  console.log(book1.length)
+  console.log();
   // 书籍ID
+  const bookId = `${fileName(i, book1.length)}_${
+    book1[i].book_img.split('/')[5]
+  }`;
   // 根路径
+  const bookPath = `./book/${bookId}`;
   // 书籍信息
-  // 
+  const bookInfo = book1[i];
+  // 创建书籍目录
+  if (!fs.existsSync(bookPath)) {
+    fs.mkdirSync(bookPath);
+  }
+  // 创建书籍简介数据
+  if (!fs.existsSync(`${bookPath}/bookInfo.js`)) {
+    fs.writeFileSync(
+      `${bookPath}/bookInfo.js`,
+      `module.exports =${JSON.stringify(bookInfo)}`,
+    );
+  }
+  // 创建书籍封面
 }
 console.log(book1.length);
 // 批量删除数组中数据

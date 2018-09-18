@@ -1,5 +1,3 @@
-// 编号
-const fileName = require('../num');
 /**
  * 制作`toc.ncx`目录索引
  * @param {Object} params 章节数据集合
@@ -15,7 +13,7 @@ module.exports = function(name, params) {
       <navLabel>
         <text>${params[i].name}</text>
       </navLabel>
-      <content src="text/${fileName(i + 1, params.length)}.html#id${i + 1}" />
+      <content src="text/${i + 1}.html#id${i + 1}" />
     </navPoint>`;
     }
     return navPoint;
