@@ -265,7 +265,7 @@ getBookList();
 // PC_url to M_url
 function linkF(url) {
   let urlA = url.split('/');
-  return `wapbook/${urlA[1]}_${urlA[2]}.html`;
+  return `/wapbook/${urlA[1]}_${urlA[2]}.html`;
 }
 function getBookList() {
   let i = 0;
@@ -329,7 +329,7 @@ function getBookList() {
         .then(($) => {
           let ddList = $('#chapters-list li');
           let ddArray = [];
-          for (let i = 1; i < ddList.length; i++) {
+          for (let i = 0; i < ddList.length; i++) {
             if (
               ddList.eq(i) &&
               ddList.eq(i).children('a') &&
@@ -347,7 +347,7 @@ function getBookList() {
                   .eq(i)
                   .children('a')
                   .html(),
-                link: `https://www.boquge.com${linkF(link)}`,
+                link: `https://m.boquge.com${linkF(link)}`,
               });
             }
           }
