@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010799373/150","book_name":"图腾天王","book_author":"符小妖","book_intro":"\n                        穿越异界，拥有了让图腾进化的金手指，看我率领一群神宠平推世界！！！\n                    "}

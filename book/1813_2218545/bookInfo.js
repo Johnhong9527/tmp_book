@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2218545/150","book_name":"网游植物师","book_author":"不是浮云","book_intro":"\n                        植物师是苦逼职业，练级没人要？哈！榴莲炸弹树见过没？刷怪神技能，一炸一大片，刷累了还可以调戏BOSS！稀有道具？寄生毛毛球听过没？寄生目标，分解合成稀有道具，看敌人不爽还可以把其任务道具分解掉，破坏任\n                    "}

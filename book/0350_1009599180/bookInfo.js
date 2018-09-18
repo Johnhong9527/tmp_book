@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009599180/150","book_name":"NBA万界商城","book_author":"远古莱德","book_intro":"\n                        与万千平行位面NBA球星进行交易！艾弗森：“小子，我这穿花蝴蝶步，八折给你！”奥拉朱旺：“小伙子，我看你骨骼清奇，这梦幻舞步就交给你了！”里克-巴里：“额，我这端尿盆……你要不要……不要钱，免费的……\n                    "}

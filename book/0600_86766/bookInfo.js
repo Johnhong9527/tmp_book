@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/86766/150","book_name":"很纯很暧昧前传","book_author":"鱼人二代","book_intro":"\n                        重生学生时代，校花同桌爱上我，美女总裁赖上我，恶魔公主缠上我，飞贼杀手追上我！美女老师找我谈心，邻家姐姐找我贴心，萝莉妹妹找我爱心！建立科技帝国，走向人生巅峰！\n                    "}

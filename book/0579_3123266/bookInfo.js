@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3123266/150","book_name":"极品修真强少","book_author":"鱼人二代","book_intro":"\n                        被赶出家族的修真纨绔成为未婚妻的贴身男佣！呆萌表妹，清纯校花，热辣女贼，美女侠客全都找我干啥？我再强，也应付不了你们啊，我还得修真呢！（鱼宝宝书友1群333702438）\n                    "}

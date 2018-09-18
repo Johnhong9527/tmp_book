@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1140692/150","book_name":"百炼成仙","book_author":"幻雨","book_intro":"\n                        仙路崎岖，百般磨练终成正果一个没有灵根的少年，一个被认为是废物的家伙，在修真界不断地收购着各种废品……无论是废丹还是下品材料，来者不拒，有多少要多少！\n                    "}

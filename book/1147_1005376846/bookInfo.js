@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005376846/150","book_name":"西游之问道长生","book_author":"西城冷月","book_intro":"\n                        这是一个普通凡人在西游世界，觅长生，为纵横，碎灵山，掌天庭…的故事。\n                    "}

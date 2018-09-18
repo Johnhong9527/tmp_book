@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1001364138/150","book_name":"老兵系统","book_author":"青空之主","book_intro":"\n                        带着系统来当兵，无限穿越中成长，不一样的军旅奋斗\n                    "}

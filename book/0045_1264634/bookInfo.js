@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1264634/150","book_name":"仙逆","book_author":"耳根","book_intro":"\n                        顺为凡，逆则仙，只在心中一念间……请看耳根作品《仙逆》\n                    "}

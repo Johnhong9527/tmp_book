@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011502359/150","book_name":"NBA内线神话","book_author":"爱吃肉肉的妞","book_intro":"\n                        得内线者的天下，奇才虽然有乔丹大神的加盟。但是连季后赛都没有打进，真是让人大掉眼镜。看华夏内线是如何带领奇才队，纵横整个联盟。\n                    "}

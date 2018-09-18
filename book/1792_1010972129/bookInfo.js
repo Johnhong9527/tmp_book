@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010972129/150","book_name":"二次元岛主","book_author":"壶山小农","book_intro":"\n                        荒岛之上，化身异次元守门人。召唤异次元的死宅们，一起实现宅之梦想。\n                    "}

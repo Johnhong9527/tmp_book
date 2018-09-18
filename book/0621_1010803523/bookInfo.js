@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010803523/150","book_name":"撼动世界的游戏开发商","book_author":"眼圆","book_intro":"\n                        游戏宅男林迪带着游戏大师系统穿越了。面对如饥似渴的全球玩家，林迪随手甩了一个暗黑破坏神，一时间，万人空巷。全球犯罪率和GDP大幅度下降。推一本书，《宇宙最强面馆》，风格轻松搞笑，值得一看\n                    "}

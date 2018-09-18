@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010572250/150","book_name":"奋斗1981","book_author":"步枪","book_intro":"\n                        【枪团出品】李路回来了，这一次，是1981年。他制造的拖拉机遍布全球农场，他制造的防务装备被数十国家采购使用。\n                    "}

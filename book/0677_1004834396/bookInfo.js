@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004834396/150","book_name":"超级卡牌系统","book_author":"黑乎乎的老妖","book_intro":"\n                        一不小心穿越到了海贼王的世界，肿么办？还好随身带着超级幻想卡牌系统，能抽取各种幻想人物。黑龙波对岩浆果实，八稚女对人妖拳法……（不知道为啥，每次写简介都感觉好无力……）\n                    "}

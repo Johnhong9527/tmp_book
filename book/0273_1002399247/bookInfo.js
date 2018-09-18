@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1002399247/150","book_name":"英雄联盟之灾变时代","book_author":"会说话的肘子","book_intro":"\n                        吕尘带着来自地球的一身LOL技巧穿到灾变末世了！同样是打英雄联盟，只不过这次，他要变超人！VIP群2000粉丝值以上弟子进群：230333683\n                    "}

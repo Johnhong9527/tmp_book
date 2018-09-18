@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003526056/150","book_name":"二次元大穿梭","book_author":"睽宁","book_intro":"\n                        作为一个宅男的木桐，没想到自己有天会如同小说中的角色那般穿越了……当穿越到魔禁世界，成为学园都市的学生后，才发现，自己竟然能够穿越到其他二次元世界！风骚的人生，从这一刻起航！Ps：全订阅vip群：57\n                    "}

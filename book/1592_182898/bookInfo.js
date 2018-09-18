@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/182898/150","book_name":"老婆爱上我","book_author":"傲无常","book_intro":"\n                        泡妞的最高境界是泡老婆！特种兵王刘青和新婚妻子，从陌生如何一步一步走向彼此信任，其中的精彩纷呈任君品尝！\n                    "}

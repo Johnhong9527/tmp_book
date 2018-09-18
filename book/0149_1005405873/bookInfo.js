@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005405873/150","book_name":"锋霸绿茵","book_author":"Mr木木木啊","book_intro":"\n                        在边锋当道的世界足坛；在梅罗争霸的欧洲赛场；在强手如云的当代绿茵场；他扛起了中锋的大旗，摧城拔寨，进球如麻,锋霸绿茵！PS：新书《足球卡牌系统》已上传，让我们一起继续绿茵场上的激情！\n                    "}

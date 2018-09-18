@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010805299/150","book_name":"海贼之火山猎人","book_author":"永攀","book_intro":"\n                        弱肉强食的世界，唯有不断变强才是生存之道。不管做什么，要做，就要做到最强！我，罗伊，最强赏金猎人！\n                    "}

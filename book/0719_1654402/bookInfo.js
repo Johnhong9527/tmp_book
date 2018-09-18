@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1654402/150","book_name":"大学士","book_author":"衣山尽","book_intro":"\n                        明朝的那些风花雪月。古代的那些饮食男女。四百年前的官场生态。一个穿越到嘉靖朝的年轻人。\n                    "}

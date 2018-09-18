@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add shelljs
+
+PATH: 
+  /home/seam/Downloads/google-cloud-sdk/bin:/home/seam/bin:/home/seam/.local/bin:/home/seam/Downloads/google-cloud-sdk/bin:/home/seam/bin:/home/seam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  9.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.npm.taobao.org:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "book",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.18.0",
+      "cheerio": "^1.0.0-rc.2",
+      "express": "^4.16.3",
+      "gm": "^1.23.1",
+      "html-to-image": "0.0.2",
+      "iconv-lite": "^0.4.23",
+      "images": "^3.0.1",
+      "progress": "^2.0.0",
+      "request": "^2.87.0",
+      "svg2png": "^4.1.1",
+      "text-to-svg": "^3.1.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3667634/150","book_name":"捡宝生涯","book_author":"吃仙丹","book_intro":"\n                        一块家传古玉，让孟子涛开启了别样人生。宝玉、古瓷、名画、文玩珍宝接踵而至，让孟子涛一步步成为一位收藏大家！书友交流群：292755415，新书《翊神相》已发布！\n                    "}

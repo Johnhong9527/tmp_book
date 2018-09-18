@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011254467/150","book_name":"单挑末日","book_author":"实力","book_intro":"\n                        新书《混在美漫当英雄》已发布。一场诡异的迷雾过后，异兽四起，末日降临了。没食物，没装备，没同伴，开局只有两个充气娃娃。不要怂就是干！纯爷们单挑末日！（群639559719）\n                    "}

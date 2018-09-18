@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3403055/150","book_name":"超级全能控卫","book_author":"一江寒月","book_intro":"\n                        有两个名字将在NBA历史长河中永垂不朽，迈克尔乔丹和谢晨。他就像一个无所不能的将军带领着士兵，在NBA攻城略地，每造访一座城市，都是当地球迷的恶梦。没有人能阻止他，就像没有人能阻止全世界最优秀球员的结\n                    "}

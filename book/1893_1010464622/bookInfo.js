@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010464622/150","book_name":"不想当天帝","book_author":"塞上孤客","book_intro":"\n                        新书《重生东游记》已上线，目前正在仙侠推荐中，请书友们支持新书，谢谢。不想当天帝的少年不是好神仙。天帝书友群：685809812\n                    "}

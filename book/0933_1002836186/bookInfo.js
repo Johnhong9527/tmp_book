@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1002836186/150","book_name":"重生之我是BOSS","book_author":"不是浮云","book_intro":"\n                        带着号称“游戏所有BOSS终极追求”的超级BOSS装备重生在一个怪物身上，莫海发现他能变成游戏里任意BOSS。无尽之地、白骨之海、量子空间、天空之城、时空幻境、远古遗迹、地外世界……过去那些被游戏无敌\n                    "}

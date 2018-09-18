@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003511096/150","book_name":"超时空穿越","book_author":"流年往事","book_intro":"\n                        李越获得了一个可以穿越时空的宝物，开启了自己的穿越之路……这是一个男人成就最终boss的故事！------新书《主神的黑店》已经展开，欢迎各位兄弟们光临~\n                    "}

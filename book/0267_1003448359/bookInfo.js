@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003448359/150","book_name":"龙珠之武天宗师","book_author":"翼赤火","book_intro":"\n                        我，武仙人。＊＊＊＊书友群：482320390\n                    "}

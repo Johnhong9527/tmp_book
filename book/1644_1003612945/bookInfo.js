@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003612945/150","book_name":"洪荒之龙族末学","book_author":"凌风一鹤","book_intro":"\n                        太初末年，龙凤麒麟主宰洪荒，三足鼎立，在即将步入龙汉河劫，三族消亡之际，少年孙浩携五行至宝穿越为龙族皇子，作为一名穿越众，他的到来，让整个洪荒的局势莫测变化了起来……\n                    "}

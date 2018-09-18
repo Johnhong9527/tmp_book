@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3449680/150","book_name":"美漫大幻想","book_author":"育","book_intro":"\n                        一个穿越者成为变种人的挣扎史。PS1：第三卷恢复记忆。PS2：漫威，DC都有，以漫威为主线，DC为辅。PS3：影视为主，漫画为辅。****新书《吞噬进化》，欢迎品读。\n                    "}

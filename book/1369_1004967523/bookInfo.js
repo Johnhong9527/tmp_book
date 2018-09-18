@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004967523/150","book_name":"巨星从业者","book_author":"君王带笑","book_intro":"\n                        他是霍去病，是展昭，是唐钰小宝，是剑客，是时代小青年，是厂花，是冷血杀手，是温情大叔，是无畏战士，是仙帝，他他他……他不是变态，他也不是分裂，他只是一个演员！\n                    "}

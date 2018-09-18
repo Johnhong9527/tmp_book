@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010238416/150","book_name":"美漫之变异亡灵法师","book_author":"六六小王子","book_intro":"\n                        一个拥有暗黑亡灵法师传承的男人在漫威世界当英雄的故事，是的，谁说亡灵法师一定是反派\n                    "}

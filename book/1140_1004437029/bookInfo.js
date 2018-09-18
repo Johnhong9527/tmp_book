@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004437029/150","book_name":"明朝小侯爷","book_author":"难山之下","book_intro":"\n                        穿越成明朝极品二世祖了，生活简直不要太幸福！新书《逍遥皇帝打江山》发布，欢迎品鉴。\n                    "}

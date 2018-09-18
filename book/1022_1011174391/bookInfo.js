@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011174391/150","book_name":"男学渣的天后养成","book_author":"BlackKing","book_intro":"\n                        一个高二男学渣在未来时空系统帮助下，一步步成为学霸，大神作家，神秘网红，神秘女明星，最终成为神秘天后巨星的日常故事。作者有百万字小说《重生女棋神》信誉作保，每日两更，请放心收藏。\n                    "}

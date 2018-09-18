@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003483393/150","book_name":"网游之全球在线","book_author":"笙箫剑客","book_intro":"\n                        新书《废土国度》已肥，可以开杀了！*******史上第一款集个人冒险+领地建设+位面战争于一体的跨时代网游《地球Online》，全球玩家在线，群雄争霸。且看重生后的主角如何建设领地，招募历史猛将名士，\n                    "}

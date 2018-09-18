@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011453623/150","book_name":"超级果园","book_author":"砖教授","book_intro":"\n                        小山之上大雪纷飞，山谷中却有个热带果园！荔枝，芒果，火龙果，莲雾，杨桃，百香果，榴莲，山竹，菠萝蜜，还有释迦，鳄梨，神秘果……耕田种树遛狗架鹰，这就是水果大王沈阳光的田园生活！\n                    "}

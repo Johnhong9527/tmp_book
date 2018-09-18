@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004905773/150","book_name":"我有一棵世界树","book_author":"世南言","book_intro":"\n                        拥有世界树的庄夏，一次次的穿越世界，在机遇与挑战之中，他的人生越发的波澜壮阔起来。\n                    "}

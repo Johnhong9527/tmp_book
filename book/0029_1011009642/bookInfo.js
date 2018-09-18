@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011009642/150","book_name":"逍遥小地主","book_author":"木子蓝色","book_intro":"\n                        大唐永徽四年。一个浪子回乡，却只想做个逍遥小地主！\n                    "}

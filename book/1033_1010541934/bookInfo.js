@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010541934/150","book_name":"重生之中国大作家","book_author":"茶花白","book_intro":"\n                        抄抄书，养养娃，吐吐槽......优哉游哉的过日子！\n                    "}

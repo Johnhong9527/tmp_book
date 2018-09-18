@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011107808/150","book_name":"抗战海军连","book_author":"车间主任老歌","book_intro":"\n                        海军饲养员，遭遇地震，一夜回到抗战时，从此喂猪、造枪、打鬼子，转战大地南北，黄海区小队成为海上蛟龙、陆上猛虎，热血抗战、所向披靡！\n                    "}

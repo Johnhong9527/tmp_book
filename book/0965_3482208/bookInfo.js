@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3482208/150","book_name":"深海提督","book_author":"姐姐的新娘","book_intro":"\n                        总的来说，这是一个来自火星的深海提督，打劫全世界的故事。－－－－PS:深海镇守府VIP群：256656852（欢迎各位支持正版的提督和舰娘加入，进群请附上起点ID）-PS1：本书在八百八十六章就已完结\n                    "}

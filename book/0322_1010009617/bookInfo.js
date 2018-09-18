@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010009617/150","book_name":"喷神","book_author":"浙东匹夫","book_intro":"\n                        我乃喷神！嘴炮之神！——PS：新书《重回80当大佬》已开，欢迎捧场。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010473379/150","book_name":"我的镀金时代","book_author":"黑色的单车","book_intro":"\n                        白实秋回到1999，重启自己的镀金时代。也曾徘徊，也曾激昂，也曾文艺，也曾逗比，最重要的则是找到属于自己的舞台。群：218154038\n                    "}

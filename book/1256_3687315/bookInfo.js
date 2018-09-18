@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3687315/150","book_name":"艺术人生","book_author":"后来者","book_intro":"\n                        电影、音乐、诗歌、文学……这些艺术和人生的意义近乎相同，都是靠余味决定价值。——这是白熠的艺术人生。【平行时空，艺术人生，颜与实力同在】群：203384119\n                    "}

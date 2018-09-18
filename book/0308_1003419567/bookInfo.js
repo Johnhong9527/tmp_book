@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003419567/150","book_name":"时光旅行者","book_author":"上善若无水","book_intro":"\n                        穿梭时空，改变命运，梦幻现实，塑造传奇人生！PS:各位大老爷，上善新书破碎星空已经发布，拜求各位大老爷的支持，感激不尽！\n                    "}

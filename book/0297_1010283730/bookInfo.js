@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010283730/150","book_name":"调戏文娱","book_author":"幼儿园一把手","book_intro":"\n                        风属于天的，我借来吹吹，却吹起人间烟火。……新书《黑夜玩家》已发布，欢迎品尝。\n                    "}

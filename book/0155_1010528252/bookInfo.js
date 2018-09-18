@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010528252/150","book_name":"入仕12年","book_author":"夜风棱棱","book_intro":"\n                        大学毕业生入仕必读，总能找到自己的影子！作品讲述了一个工科毕业生十二年的人生之路，共分为四个部分：技术（地产）风云、深入仕途、秘书风云、为人师表。\n                    "}

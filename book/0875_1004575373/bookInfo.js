@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004575373/150","book_name":"轻，短，散","book_author":"得了吧","book_intro":"\n                        各种各样的狂想，短篇小说。日更，遇事最迟一个星期必更。半科幻，脑洞向。轻小说、短篇、散文。无尽的铁轨，悠长的旅途。唯有思绪，让你不再孤单。新书《软，化，物》求收藏。\n                    "}

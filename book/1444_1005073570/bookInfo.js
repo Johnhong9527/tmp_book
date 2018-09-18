@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005073570/150","book_name":"重燃1990","book_author":"醉卧人生","book_intro":"\n                        退伍后，林远奋斗五年，却没车没房还被甩，他喝醉了，醒来竟回到1990年，看他如何改变自己的命运……抗战烽火《疯狂指挥官》新书开启……\n                    "}

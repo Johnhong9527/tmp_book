@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003647618/150","book_name":"唐朝好地主","book_author":"木子蓝色","book_intro":"\n                        张超穿越武德四年，来到长安郊外灞上，成为了老府兵之子，但他却只想做个悠闲的大唐好地主！读者群：656118488（荣获2016星创奖历史优秀奖作品！）\n                    "}

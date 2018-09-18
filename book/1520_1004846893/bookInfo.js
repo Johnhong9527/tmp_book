@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004846893/150","book_name":"死界游戏城","book_author":"脸帝","book_intro":"\n                        这是一座死者的游戏城。这里的人们却只有一个梦想。那就是……活下去！———————————————————新书《路西法游戏》已正式上传！！！一代心魔，玩转你的心跳！\n                    "}

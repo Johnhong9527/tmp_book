@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1452838/150","book_name":"湛蓝徽章","book_author":"Deathstate","book_intro":"\n                        【2017新书《道门入侵》已上传！！！一个道士伪装成魔法师，入侵异界的故事。扫荡人间，踏平神国】魔法师的存在，是为了洞悉这个世界的真实。萨林·梅塔特林，一个普通的魔法师，最初，他只是想改变自己的一点命\n                    "}

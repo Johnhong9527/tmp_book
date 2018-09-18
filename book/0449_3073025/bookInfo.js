@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3073025/150","book_name":"变身女学霸","book_author":"醉卧笑伊人","book_intro":"\n                        最美学霸女神的故事。-----------新书《大文学家》已经上传，可移步一观。书友群：517-637-875\n                    "}

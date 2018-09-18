@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011521557/150","book_name":"重生带只嘤嘤怪","book_author":"刘少冲","book_intro":"\n                        灵气复苏，那些热门的影视剧、小说，变成一个个真实的世界，与地球一门之隔。带了只嘤嘤怪重生的林牧，只想靠手中的笔，照顾好家人，顺带对那些BOSS表明身份：我是你爸爸！这是一个七岁熊孩子行（wei）侠（f\n                    "}

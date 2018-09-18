@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1084150/150","book_name":"顺明","book_author":"特别白","book_intro":"\n                        到明朝的退伍军人，他在部队的时候仅仅是个士官，他退伍后才是金融押运公司的职员，他能做什么，是随着历史浪潮顺流浮沉，还是逆天改命，改变自己的命运，改变这个时代的命运......\n                    "}

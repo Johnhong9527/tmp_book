@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011028489/150","book_name":"抗战之后勤主任","book_author":"导轨","book_intro":"\n                        在所有都靠缴获的时代，要自力更生，努力建立属于自己国家的军事工业和后勤保障，让战士们有枪用，有肉吃。\n                    "}

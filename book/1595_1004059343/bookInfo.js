@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004059343/150","book_name":"魔道巨擘系统","book_author":"Mr佳男","book_intro":"\n                        求神不如拜我，我乃魔道巨擘。魔宫粉丝群（323951016），粉丝值满1500可入，未满勿入。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010731906/150","book_name":"木叶之实力至上","book_author":"召弓","book_intro":"\n                        ps：新书《SCP打工仔》，9月1号起点首发这是一本穿越成鸣人的魔改同人。CP原装：鸣人雏田。主角性格：有爱心不圣母+不作死就活不下去。主角爱好：热爱研究，算是披着鸣人皮的大蛇丸。主角外挂：身体里有一\n                    "}

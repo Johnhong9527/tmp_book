@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1042235/150","book_name":"很纯很暧昧","book_author":"鱼人二代","book_intro":"\n                        杨明是一名普通的学生，某一天，他收到一份礼物，一只神奇的眼镜，从此生活变得丰富多彩。（鱼宝宝书友1群333702438）\n                    "}

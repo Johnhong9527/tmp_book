@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2110447/150","book_name":"风驭","book_author":"懒鸟","book_intro":"\n                        一个战场上的小兵，偶然间以杂役的身份进入修道者的世界，不甘心生活的平凡，不甘于生命的无法掌控，任他荆棘重重，我自驭风乘龙，剑啸天下！懒鸟新书《八荒劫》已经上传，多谢各位捧场支持！\n                    "}

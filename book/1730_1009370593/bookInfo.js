@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009370593/150","book_name":"网游之不灭黄泉","book_author":"历二十三","book_intro":"\n                        “千万不要招惹失忆的男人”—黄泉敌人绝笔嗯。这是一个失忆的男人为寻回记忆的战斗之旅\n                    "}

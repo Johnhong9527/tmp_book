@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1002260762/150","book_name":"不可名状舰娘的镇守府","book_author":"liuyuxi","book_intro":"\n                        新书已发布，书名《我和我的冒险团》，这是一名普通玩家在游戏世界邂逅自己游戏角色的故事~\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3683219/150","book_name":"青玄道主","book_author":"中原五百","book_intro":"\n                        何谓道主？答：“十方无影像,六道绝行踪。跳出三界外,不在五行中，是为道主”。\n                    "}

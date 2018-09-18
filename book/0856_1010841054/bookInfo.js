@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010841054/150","book_name":"无限世界守门人","book_author":"狂猎","book_intro":"\n                        成为通往无限世界大门的守门人，最终任务居然是对抗两个主神空间的主神？这让黄叶颇有压力。什么！？轮回者打算杀了李逍遥，抢走赵灵儿？还要帮助灭霸统治漫威宇宙？他们还打算抢saber的咖喱棒，杀了伊莉雅当做\n                    "}

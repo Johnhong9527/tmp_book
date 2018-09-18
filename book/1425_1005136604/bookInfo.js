@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005136604/150","book_name":"有我无敌","book_author":"吴纯纯","book_intro":"\n                        【十二项修改器】下载成功，下载进度100%...F1-无限生命！F2-无限法力！F3-无限金钱！F4-三百倍思维！F5-海量采集！F6-容易打造！F7-复制！F8-10滴神秘灵液！F9-神秘玄气+3！\n                    "}

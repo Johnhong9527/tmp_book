@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1006685897/150","book_name":"术士的低语","book_author":"佛安人","book_intro":"\n                        诸天万界，术士为尊，且看一位来自异世界的灵魂在这苍茫的世界里，发出令人无法忽视的呢喃低语......\n                    "}

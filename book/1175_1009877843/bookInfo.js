@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009877843/150","book_name":"我可能救了个假世界","book_author":"七星少将","book_intro":"\n                        我有故事，兼职卖酒。某个领导诸神打破魔族统治的强者，苏醒在万年之后，他将如何面对这个被自己玩坏的世界……这是一个不靠谱的剑仙纵横异世界的故事。\n                    "}

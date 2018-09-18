@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010958440/150","book_name":"美漫之我爸叫菲尔科尔森","book_author":"涮羊肉","book_intro":"\n                        这是一个关于神盾局小皇帝的故事！漫威类型的小说看多了关于实力强大，拳打钢铁侠，脚踹绿巨人的小说，我想多写一些有关超级英雄们的日常，应该会很好看的！\n                    "}

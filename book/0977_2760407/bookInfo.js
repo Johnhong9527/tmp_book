@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2760407/150","book_name":"无限归来之超级警察","book_author":"勿明","book_intro":"\n                        这是一个从无限世界归来的故事……这是一个退隐刺客改行当差佬的故事……这是一个传奇的故事……\n                    "}

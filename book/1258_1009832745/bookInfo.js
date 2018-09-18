@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009832745/150","book_name":"我就是超级偶像","book_author":"西门666","book_intro":"\n                        他的唱功是歌神级的！他的演技是影帝级的！他的舞蹈是舞王级的！他策划、制作、作词、谱曲、编剧、导演、主持，无所不能！他就是赵正豪，这个世界上最强的超级偶像！\n                    "}

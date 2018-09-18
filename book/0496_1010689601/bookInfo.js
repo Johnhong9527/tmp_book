@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010689601/150","book_name":"仙宗大魔头","book_author":"有缺","book_intro":"\n                        烧不死的鸟，是凤凰。打不死的魔头，成仙宗。……这是一个，名为梁浩的人，靠着化身，超越仙魔的故事。新书《超级神武学》已经发布，求收藏。\n                    "}

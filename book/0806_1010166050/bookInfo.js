@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010166050/150","book_name":"死神的平凡生活","book_author":"夜文山","book_intro":"\n                        古希腊神话里面的死神，居住在冥府，身穿一件黑斗篷，手中扛着一把巨大的镰刀，他会在夜色中悄悄走进人间；《BLEACH》漫画里面的死神，名字叫做黑崎一护，他拥有能看见灵的体质，是一个有点暴力的热血少年；《\n                    "}

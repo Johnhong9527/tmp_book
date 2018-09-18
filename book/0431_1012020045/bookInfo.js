@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1012020045/150","book_name":"神级基因进化","book_author":"殷扬","book_intro":"\n                        基因残缺，不能进化的少年张不凡，得到《基因融合技术》，以万族基因为养份，铸就神圣基因，实现最强进化。\n                    "}

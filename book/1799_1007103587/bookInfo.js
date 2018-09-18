@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007103587/150","book_name":"我不是汉献帝","book_author":"吴仲达","book_intro":"\n                        我是汉献帝？…………我献你奶奶个爪！！！\n                    "}

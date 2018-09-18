@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1804791/150","book_name":"星际传承","book_author":"吴杰超","book_intro":"\n                        在虫族、生化兽和辐射的威胁下，移动都市成为了人类最后的净土……新书《破法之眼》，求支持\n                    "}

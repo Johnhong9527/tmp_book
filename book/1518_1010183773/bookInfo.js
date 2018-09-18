@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010183773/150","book_name":"火影之雾忍崛起","book_author":"bedboy","book_intro":"\n                        莫名穿越为忍刀七人众的鬼灯满月，刚睁开眼就被超影级的大蛇丸追杀，于是乎展开了逃亡模式。…………这是一个穿越到雾隐村的故事，且看鬼灯满月如何在内部强敌环视的情况下实现华丽转身，并带领雾隐称霸忍界？书友群\n                    "}

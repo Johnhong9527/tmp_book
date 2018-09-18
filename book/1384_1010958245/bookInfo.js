@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010958245/150","book_name":"火影之旗木劫","book_author":"捞面馒头","book_intro":"\n                        我从峡谷之巅而来，时光将我复活，带着伙伴们的嘱托和期待。这是一场兄弟之间的友情——卡卡西，哥会给你找个女盆友。这是瓦罗兰大陆和火影世界的碰撞。星河急涌vs螺旋丸怒涛之啸vs水遁大瀑布之术插眼传送VS飞\n                    "}

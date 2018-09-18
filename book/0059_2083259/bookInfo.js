@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2083259/150","book_name":"将夜","book_author":"猫腻","book_intro":"\n                        与天斗，其乐无穷。\n                    "}

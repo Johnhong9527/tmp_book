@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007396638/150","book_name":"淘宝大唐","book_author":"竹间飞舞","book_intro":"\n                        现代宅男带着淘宝系统，穿越到了大唐贞观年间，开始了他的帝王人生。新书《闹天宝》已经发布，欢迎阅读。\n                    "}

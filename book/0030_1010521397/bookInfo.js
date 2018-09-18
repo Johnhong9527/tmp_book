@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010521397/150","book_name":"一拳超人之帝王引擎","book_author":"我是贝币","book_intro":"\n                        现代人穿越到一拳超人世界，成为了king，他表示：我是运气使然的英雄，也是地表最强的男人……ps：本书书友群——怪人协会：614（河蟹）370（河蟹）720，欢迎大家来搞！\n                    "}

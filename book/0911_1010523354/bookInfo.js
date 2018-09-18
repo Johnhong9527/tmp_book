@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010523354/150","book_name":"妙木山的塔姆仙人","book_author":"河流之汪","book_intro":"\n                        【这是火影同人】主角人设：LOL英雄河流之王塔姆。这是一个物种不明的假蛤蟆混入忍界最大雇佣兵公司妙木山，又顺利拿到千年豪门日向家族offer，从此成为雏田大小姐贴身保镖、最终走向人生巅峰的职场励志故事\n                    "}

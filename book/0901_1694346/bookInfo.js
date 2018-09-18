@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1694346/150","book_name":"异世傲天","book_author":"傲月长空","book_intro":"\n                        造化玄鼎掌中握！万法玄胎铸金身！大千宇宙！万千世界！无尽浩渺！龙傲天，于微末之中崛起！与人斗、与天斗！征战诸天万界！问天地谁主沉浮！以无敌之姿问鼎不朽之巅峰！\n                    "}

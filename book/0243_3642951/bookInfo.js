@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3642951/150","book_name":"至尊医道","book_author":"蔡晋","book_intro":"\n                        仙尊之子附身天才医生，以医入道！成就医道至尊。\n                    "}

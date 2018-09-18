@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3681154/150","book_name":"港娱1975","book_author":"来不及忧伤","book_intro":"\n                        穿越香江一九七五。让我们一起回顾那些永恒的经典！创了个群，号：543198555，暗号：1975.\n                    "}

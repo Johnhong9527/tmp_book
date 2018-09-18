@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011488407/150","book_name":"老爸在我眼里是无敌的","book_author":"五陵","book_intro":"\n                        慕容才23岁，却有了个17岁的大女儿，5岁的二女儿，情况不明1岁多的小女儿，以及……一只调皮的狗儿子。这要怎么搞？？？……ps：轻松日常向0.0\n                    "}

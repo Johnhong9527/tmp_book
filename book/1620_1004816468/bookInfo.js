@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004816468/150","book_name":"诸天洪荒录","book_author":"洪荒小小道","book_intro":"\n                        一个在现代寻仙问道的普通人，在机缘巧合之下被混沌珠带到了洪荒世界。他的到来，让洪荒多了一些东西！出现了坊市、拍卖会、玉简、灵石！整个洪荒发生了一种未知的偏转！\n                    "}

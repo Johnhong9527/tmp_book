@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1001670110/150","book_name":"超位面穿行","book_author":"湛蓝海岸线","book_intro":"\n                        一句话简介：这是主人公赵泽在电影世界不断穿越的故事~PS：以好莱坞商业片为主，规避一切被“河蟹”的可能\n                    "}

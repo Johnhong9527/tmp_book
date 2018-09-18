@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3559968/150","book_name":"仙碎虚空","book_author":"幻雨","book_intro":"\n                        九死不悔，道心永存，一条荡气回肠的修仙之路。三千世界，六道轮回，凡人亦可掀起波澜壮阔。风雨中，且看凌仙的九天之路！幻雨已有完本精品小说《百炼成仙》，新的仙侠故事，愿与大家一起遨游九天。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003776376/150","book_name":"万界直播之大土豪","book_author":"一梦黄粱","book_intro":"\n                        跑销售的王天得到万界直播平台观看的资格，结果出了BUG，他的钱是无限的！于是王天成了无数主播跪tian的神豪！无数神豪中的神话！打赏主播，开宝箱，得到无数武功秘籍、修仙功法，万千世界的珍宝，一路高歌猛\n                    "}

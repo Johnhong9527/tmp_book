@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3448261/150","book_name":"绝对牧师","book_author":"奥咏之弦","book_intro":"\n                        领域之力助我像法师那样战斗。重甲、盾牌和链枷，让我在肉搏时无所畏惧。能近能远。恒定的神术状态。问你怕不怕？一个牧师在伪DND游戏世界《曙光》的成长故事。切勿套用设定和规则，无聊者右上角点叉。—————\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011774691/150","book_name":"贵圈真乱","book_author":"秋刀斩鱼","book_intro":"\n                        半夜横店为何鬼叫？六旬女星为何死于街头？连环潜规则案究竟何人所为？众多明星推荐阅读《就问你气不气》的背后又隐藏了什么？到底是人性的扭曲还是道德的沦丧？……PS1：人物故事纯属虚构，请勿对号入座。PS2\n                    "}

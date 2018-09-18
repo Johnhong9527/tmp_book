@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003769635/150","book_name":"钻石王牌之最强打者","book_author":"夜醉木叶","book_intro":"\n                        一个跨越世代的打者，一场没有硝烟的战争。这里是决出败者的场地，这里只有胜者才能为王！钻石场上的精英，棒球精灵的青睐！我就是传奇！一个他人无法企及的棒球之神！\n                    "}

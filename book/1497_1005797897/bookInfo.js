@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005797897/150","book_name":"我的游戏能提现","book_author":"地狱火炬","book_intro":"\n                        一顶神秘的头冠，带来了一款平行时空的虚拟游戏。在这款设定同暗黑2有着高度雷同的虚拟游戏中，林权惊异的发现，他竟然能够将游戏中的金币提现！从此，林权的人生大不同……\n                    "}

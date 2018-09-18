@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003588827/150","book_name":"起点直播之玄幻世界大冒险","book_author":"我丑到灵魂深处","book_intro":"\n                        一个扑街写手穿越到东方玄幻世界的老套故事，不过他可以直播……\n                    "}

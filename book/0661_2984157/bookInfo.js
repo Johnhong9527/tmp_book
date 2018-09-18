@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2984157/150","book_name":"神秘之旅","book_author":"滚开","book_intro":"\n                        带着属性异能，穿越一个个世界。领略一个个异域风情的神秘世界。新书永恒剑主，有兴趣的可前往阅读。231786531为vip群，大家可进入讨论另外：（欢迎关注我的微信公众号，搜索——作者滚开或者laogu\n                    "}

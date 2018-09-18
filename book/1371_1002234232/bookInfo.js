@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1002234232/150","book_name":"远征欧洲","book_author":"鲇鱼头","book_intro":"\n                        新书《重生美国之富甲天下》已上线，全面描述十九世纪美国风土人情，某些情节足以让大家会心一笑——\n                    "}

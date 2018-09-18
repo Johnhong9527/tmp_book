@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003438608/150","book_name":"废土崛起","book_author":"通吃道人.QD","book_intro":"\n                        开局一条狗，装备全靠捡。带着新手福利杀进末世将临的世界。发起狠来，核弹都朝自己头上砸！这是废土之王的崛起之路。验证群：669034285。老道新书发了，书名斩龙，大家可以收藏啦！\n                    "}

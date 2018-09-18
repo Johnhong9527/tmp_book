@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1343635/150","book_name":"官居一品","book_author":"三戒大师","book_intro":"\n                        数风流，论成败，百年一梦多慷慨有心要励精图治挽天倾，哪怕身后骂名滚滚来。轻生死，重兴衰，海雨天风独往来。谁不想万里长城永不倒，也难料恨水东逝归大海。\n                    "}

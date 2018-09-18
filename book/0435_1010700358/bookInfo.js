@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010700358/150","book_name":"极道骑士","book_author":"银霜骑士","book_intro":"\n                        肖恩：你好，我对你的仰望如滔滔江水，额，能握个手吗？某天才疑惑地与肖恩握了握手。肖恩转身，心中狂笑：嘿嘿，顶级骑士天赋到手。骑士粉丝群835732045，有兴趣的可以加加。\n                    "}

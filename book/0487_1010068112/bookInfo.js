@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010068112/150","book_name":"娱乐星工场","book_author":"给您添蘑菇啦","book_intro":"\n                        经营娱乐星工厂，升级录音棚，抽取混音师！雇佣五星编剧，培训四星艺人，努力把普通剧本拍成顶级大片！保持清新，拒绝妖艳！走心制作，欢快养成！书友群：423156138\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010256698/150","book_name":"位面之纨绔生涯","book_author":"昨夜大雨","book_intro":"\n                        大雨新书“电影世界私人订制”，绝对劲爆好看，高X不断，请书友们收藏支持啊，大雨爱你们。\n                    "}

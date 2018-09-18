@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1475169/150","book_name":"仙葫","book_author":"流浪的蛤蟆","book_intro":"\n                        千般法术，无穷大道，我只问一句，可得长生么？\n                    "}

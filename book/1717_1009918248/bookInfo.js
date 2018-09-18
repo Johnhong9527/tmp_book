@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009918248/150","book_name":"我的死宅萝莉妹妹","book_author":"一滴水啊","book_intro":"\n                        B站当唱见、女装宅舞、coser各种动漫女神！“up主这么漂亮，你给我说他是男孩子？”这是伪娘哥哥与二次元妹妹们的日常！土间埋：我要喝可乐。洛天依：我饿了！珈百璃：哥哥帮我氪金啊！涂山苏苏：我的小狐狸\n                    "}

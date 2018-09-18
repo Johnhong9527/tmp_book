@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003304876/150","book_name":"主宰江山","book_author":"汉风雄烈","book_intro":"\n                        新书《长风万里尽汉歌》上传，继续大家的支持。穿越水浒第一背信弃义之人陆谦，从杀高衙内亡命江湖开始……\n                    "}

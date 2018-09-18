@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004050668/150","book_name":"超级科学家","book_author":"殷扬","book_intro":"\n                        叶晨得到超级文明的“超级科学家”系统，从此牛翻了天：芯片不行，有我；飞机有心脏病，有我；大飞机上不了天，有我；航妈出不了海，有我……\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009434168/150","book_name":"小修行","book_author":"田十","book_intro":"\n                        世界好大，修行好难，做一个简单的小修行。\n                    "}

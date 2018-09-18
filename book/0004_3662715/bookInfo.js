@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3662715/150","book_name":"大魏宫廷","book_author":"贱宗首席弟子","book_intro":"\n                        生作大魏皇子，愿当盛世闲王。志在偎红倚翠犬马声色，胸怀家国百姓社稷安危。若兄贤，若弟明，尔为人王吾偷闲。若尔不能使国强，吾来登基做帝王！————弘润《你不行我上》\n                    "}

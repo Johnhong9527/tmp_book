@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010377435/150","book_name":"玄幻窃命师","book_author":"江湖有神气","book_intro":"\n                        正所谓装X一时爽，不死万万年，所以这大概是一个专门抱大腿，怂出一片天的故事吧（友情提醒，本书不太适合正直善良的少年观看，慎入！！！）\n                    "}

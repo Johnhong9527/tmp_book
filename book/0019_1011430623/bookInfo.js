@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011430623/150","book_name":"篮坛活菩萨","book_author":"远古莱德","book_intro":"\n                        喜获《日行一善》系统，做善事，得奖励，走上篮坛巅峰！……“自打雷风进入了NBA，整个NBA就是一片鸡飞狗跳！”“我当然知道雷风是个好人！但是他做好事的方式，能不能略微正常一些……”NBA光头总裁肖华捂\n                    "}

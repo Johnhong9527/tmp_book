@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009730567/150","book_name":"巫界祖魔","book_author":"慕金田","book_intro":"\n                        因为一场意外，林明带着神奇的智能球芯，穿越到一个由巫师主宰的世界，并成为了郁金香伯爵嫡子……的头号狗腿子。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/501/150","book_name":"小兵传奇","book_author":"玄雨","book_intro":"\n                            他自小就有野心，希望当一个统领天下兵马的元帅。他认为要当元帅就要先当将军，而要当将军就要从小兵干起。    求支持新书《独步天途》\n                    "}

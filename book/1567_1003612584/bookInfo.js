@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003612584/150","book_name":"末世之狂法","book_author":"韭菜德芙包","book_intro":"\n                        末日挣扎十年，林尘重生回十年前。十年末日经验，他将铸造一段辉煌。新书：《美漫之亡者国度》\n                    "}

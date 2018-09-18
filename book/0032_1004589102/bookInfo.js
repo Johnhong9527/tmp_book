@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004589102/150","book_name":"都市最强装逼系统","book_author":"必火","book_intro":"\n                        【最火爆新书】叶秋重生获得装逼系统，当最萌萝莉的奶爸，教美女大明星唱歌，做宗师级美食大餐，写最畅销的小说……屹立世界之巅，做那恒古第一人！\n                    "}

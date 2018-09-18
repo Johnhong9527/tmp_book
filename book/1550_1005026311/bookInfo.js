@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005026311/150","book_name":"足球之娱乐巨星","book_author":"就叫小新","book_intro":"\n                        龙套林动重生到09年。还有一个傲娇足球系统。巅峰之路从此开启。主角是中国人。前期娱乐较多。PS:已完成《超级足球巨星》，人品可保。PS:书友群473097865\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003529426/150","book_name":"科学家的空间塔","book_author":"柳河边小道","book_intro":"\n                        做为一个合格的科学家，却遇到了法师这种不科学的职业，李昱该怎么办？\n                    "}

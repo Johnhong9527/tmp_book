@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3254677/150","book_name":"重生2003","book_author":"木子心","book_intro":"\n                        一个写网络小说的家伙，回到2003年，一切重新开始。且看这个小人物能翻起怎样的浪花！\n                    "}

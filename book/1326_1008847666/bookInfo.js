@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1008847666/150","book_name":"造化娲皇","book_author":"炎康","book_intro":"\n                        五龙氏拘天失败，太一登顶，号泰壹皇，统率天地。风越穿过无尽时空混沌潮汐降临永恒真界，集诸天万界之智慧，行超脱之事。推荐一下我的新书——《抱紧系统大腿搞事情》万界修神文\n                    "}

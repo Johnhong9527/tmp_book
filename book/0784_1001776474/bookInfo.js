@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1001776474/150","book_name":"特殊事件专案组","book_author":"伴读小牧童","book_intro":"\n                        “我只是一个科学家”猴爷很认真的说道：“最多只是个会武术的科学家。”\n                    "}

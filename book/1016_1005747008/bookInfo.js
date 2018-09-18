@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005747008/150","book_name":"韩娱之心里的声音","book_author":"鹤城风月","book_intro":"\n                        人的一生，或生的伟大，或死的光荣。当他回首过去的光阴时，可以自豪地说，我的一生并没有虚度。因为……净TMD倒霉了。金泰浩，你给我出来！现在你不是我的PD了，我也不是你的木偶了。你给我出来，我要和你决斗\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003786423/150","book_name":"全能大歌王","book_author":"葆星","book_intro":"\n                        看成败，人生豪迈，一切不过是从头再来。我是林扬！这是我的故事！\n                    "}

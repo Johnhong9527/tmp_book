@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1421335/150","book_name":"猎国","book_author":"跳舞","book_intro":"\n                        “不想谋朝篡位的权臣不是一个合格的权臣……总有一天，帝国的金币上会印上老子的头像！”——夏亚雷鸣【跳舞新书，欢迎新老朋友前来捧场～】\n                    "}

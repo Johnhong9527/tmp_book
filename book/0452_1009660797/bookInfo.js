@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009660797/150","book_name":"大明妖孽","book_author":"冰临神下","book_intro":"\n                        天上有神，世上何以妖孽横行？天上无神，心中何以疑惑重重？明朝成化年间，号称“狐生鬼养”的一群锦衣校尉，奉命在无神的世界里寻找真神，在有限的生命里寻找长生之道。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2327378/150","book_name":"韩娱之天王","book_author":"呓语痴人","book_intro":"\n                        新书已经上传，《韩娱之勋》，车位里也有推荐，希望大家能够多多支持~~另外，《天王》完结了，拜托大家投一下完本满意票，很重要！！谢谢。\n                    "}

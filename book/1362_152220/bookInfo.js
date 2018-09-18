@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/152220/150","book_name":"苏联英雄","book_author":"血蝠","book_intro":"\n                        战火纷飞，国家英雄东线崛起。激情燃烧，战斗在苏维埃的红旗下！\n                    "}

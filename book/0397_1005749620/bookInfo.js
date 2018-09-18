@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005749620/150","book_name":"娱乐大痞子","book_author":"猩猩崛起","book_intro":"\n                        人生已经如此艰难，重活一世自然需要放肆一把，不走寻常路的林尘一步步踏上娱乐顶端！N年后，无数的人评价林尘只有5个字--这个家伙就是一个大痞子！\n                    "}

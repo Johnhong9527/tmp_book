@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3651476/150","book_name":"篮神","book_author":"肉末大茄子","book_intro":"\n                        打包系统，使持有者拥有打包能力，只要通过斗牛的方式赢下对手，就会打落对手身上的技能包，例如小飞侠单打包（拥有一百种方式得分）、萌库三分包（要的就是三分颜.射）、哈登碰瓷包（你懂的）等等。唐帅，CUBA\n                    "}

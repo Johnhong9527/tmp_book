@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3155740/150","book_name":"重生动漫之父","book_author":"生活盖浇","book_intro":"\n                        这只是一个宅，来到一个没有动漫的世界，于是将这个世界改造成理想的幻想乡的世界的故事而已\n                    "}

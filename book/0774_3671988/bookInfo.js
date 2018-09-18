@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3671988/150","book_name":"大时代1958","book_author":"青山铁杉","book_intro":"\n                        开的新书叫，六万年之后。群号，克格勃对外情报总局，332362665(满了)克格勃国内防谍总局，533461647\n                    "}

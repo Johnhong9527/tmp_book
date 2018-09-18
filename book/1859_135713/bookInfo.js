@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/135713/150","book_name":"超级教师","book_author":"张君宝","book_intro":"\n                        【网文圈有史以来最成功的教师题材小说，青春校园第一大神张君宝成名力作】模仿跟风者众，却从未被超越的神作，被乐视网改编成影视剧《stb超级教师》，观众人次已突破5亿，百度搜索风云榜电视剧分类第5。~~我\n                    "}

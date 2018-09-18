@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009729554/150","book_name":"我的目标是冠军","book_author":"红豆儿啊","book_intro":"\n                        新书《绝地之传奇归来》拜求大家支持，点个收藏给个推荐票，谢谢大家了！....AD，是一种信仰。C是一份承诺。自从微笑将carry的责任赋予了AD这个位置，那么，我的责任就是将ADCarry延续下去！重\n                    "}

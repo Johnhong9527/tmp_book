@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2616819/150","book_name":"绝对死亡游戏","book_author":"俺有两杆大狙","book_intro":"\n                        新书《异界之书》，正式开始上传，起点首发，本书为本人脑洞之全新力作，经过两个月的潜心筹划，与今日正式开始上传。万望广大读者朋友能够支持。。\n                    "}

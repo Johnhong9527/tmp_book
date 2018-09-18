@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3537296/150","book_name":"恐怖都市","book_author":"猛虎道长","book_intro":"\n                        新书群为25567490，VIP群48170460（全订截图可进）一夜过去，出租房变得如此破旧？桌子上布满了灰尘，墙上海报变得陈旧泛黄破烂，那娇媚颜容也因为纸质变得有些怪异，犹如一个老妖怪露出了恐怖的\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011208010/150","book_name":"我真不是欧皇","book_author":"北北的的的","book_intro":"\n                        新书已经发布，《无敌咸鲲养成系统》期待你们的到来。这是一条无敌的咸鱼，在各个世界之中随心所欲搞事情的故事。书友群：459722730\n                    "}

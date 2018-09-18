@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004947587/150","book_name":"都市修真之我是传奇","book_author":"世珈辉耀","book_intro":"\n                        八个月的植物人；一段奇幻仙侠梦。这奇梦隐藏着怎样的惊天秘密？林飞又如何凭借奇梦中的仙决秘术，成就人间一世传奇？！\n                    "}

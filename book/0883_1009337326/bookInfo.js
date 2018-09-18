@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009337326/150","book_name":"带着iPad闯异界","book_author":"离火加农炮","book_intro":"\n                        带着ipad穿越异界的叶垂：谁告诉你我是魔导师的，你见过魔导师用ipad怼人的么？魔咒剑技很珍贵？我都是直接从app商店上下载的。古墓秘境危险丛生？那冒险的时候开地图导航就可以了。更不用说杀毒软件可以\n                    "}

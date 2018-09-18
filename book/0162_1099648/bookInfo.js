@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1099648/150","book_name":"比蒙传奇","book_author":"写字板","book_intro":"\n                        一位老魔头穿越到异界，成为比蒙和娜加的混血儿，在异世大陆，混得风生水起，霸气凛然~\n                    "}

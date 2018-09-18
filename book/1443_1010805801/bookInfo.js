@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010805801/150","book_name":"海贼之王者路","book_author":"墅宅","book_intro":"\n                        兽血沸腾，剑斩天地，掌控无上。穿越到海贼世界，大海贼时代十二年的罗林，得到三名英雄的最强传承。四灵之力，御风剑术……“汝等，尽力了”罗林盯着下方的一众强者，很是认真的说道。\n                    "}

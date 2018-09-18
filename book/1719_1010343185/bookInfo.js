@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010343185/150","book_name":"恶灵女骑士","book_author":"天犯同心","book_intro":"\n                        史上最作死游戏，都市最恐怖传说。化身恶灵，驰骋异界，夹缝生存，刀尖起舞。\n                    "}

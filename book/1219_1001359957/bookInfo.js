@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1001359957/150","book_name":"读档九八","book_author":"三年不起","book_intro":"\n                        杨帆读档了自己的人生，起始在九八年！那年房价还未启动F1模式……诺基亚还是王者，苹果正在黑夜……微软如日中天，雅虎最受热捧，日后巨无霸BAT两个没成立，一个还在筹备中……站在这个时间节点上，何去何从！\n                    "}

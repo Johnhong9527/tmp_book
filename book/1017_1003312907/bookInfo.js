@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003312907/150","book_name":"文艺生活","book_author":"薪越","book_intro":"\n                        生活有两大误区：一是生活给人看，二是看别人生活。要想不踏入误区，就要活出真实的自己。这是一个文艺青年在平行世界撒欢奔跑的故事。\n                    "}

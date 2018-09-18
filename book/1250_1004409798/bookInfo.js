@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004409798/150","book_name":"吾为元始大天尊","book_author":"偶米粉","book_intro":"\n                        万般皆下品，唯有仙人高。炼精化气，炼气化神，炼神还虚，炼虚合道，道合九转，始证无上真仙。荒古大陆，李玄生来到这里，注定留下一段传说……本书书友群:176338693\n                    "}

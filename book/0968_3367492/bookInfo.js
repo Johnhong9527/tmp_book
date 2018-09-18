@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3367492/150","book_name":"超级训练大师","book_author":"XX神","book_intro":"\n                        “年轻人，想成名？老将，想焕发第二春？”“速度不快？身体不强壮？”“受伤了？医生还说会影响职业生涯？”“你就连一点天赋都没有！？”手指一比，“小Case！”只要在万胜手下效力，所有问题迎刃而解。这就是\n                    "}

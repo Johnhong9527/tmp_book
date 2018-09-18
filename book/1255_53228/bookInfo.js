@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/53228/150","book_name":"请叫我威廉三世","book_author":"天空之承","book_intro":"\n                        1918年11月11日，德意志的士兵们开始默默地列队返回德国，他们没有失败，他们却要品尝失败的泪水！如果有如果，一切都会改变……\n                    "}

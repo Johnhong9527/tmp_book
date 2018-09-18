@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010159082/150","book_name":"极道妖鬼","book_author":"螃蟹慢爬","book_intro":"\n                        地狱空荡荡，恶鬼满人间。——————————————在这妖魔横行，众生苦楚的黑暗世道，游戏boss的能力成为了江远在这个黑暗乱世唯一的依靠......————————————————新书《兽鬼》已经发\n                    "}

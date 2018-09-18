@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005035678/150","book_name":"唐朝好舅子","book_author":"晨风天堂","book_intro":"\n                        大唐如诗篇、长安美如画。苦力级写手穿越大唐。盛世大唐多了一个乡野小民，一个让世界颤抖的小民。唐的文明与太阳一样照耀每一片阳光之下的土地。群号：274462109\n                    "}

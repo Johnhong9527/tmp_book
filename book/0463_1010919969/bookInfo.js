@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010919969/150","book_name":"最强冠军拼图","book_author":"笔下生滑","book_intro":"\n                        詹姆斯和库里都打电话招募他，因为他是追求总冠军不可缺少的关键人物。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004226841/150","book_name":"超级小前锋","book_author":"超级麦克风","book_intro":"\n                        新书《篮坛大流氓》已发，人品保证，求收藏~\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010134585/150","book_name":"变身病弱科技少女","book_author":"王子虚","book_intro":"\n                        带着外星黑科技归来，变身蠢萌少女，要做点什么呢？以假乱真的人工智能？碾压苹果、安卓、微软的操作系统？秒杀任天堂、索尼、微软XBOX的游戏机？超越lol、魔兽、老滚5、捡垃圾4、昆特牌3的游戏？及时演算\n                    "}

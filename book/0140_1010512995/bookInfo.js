@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010512995/150","book_name":"灵魂导游","book_author":"顾大石","book_intro":"\n                        带着秦始皇去西安看兵马俑。导游秦牧白意外身死被诡异的复活之后，他就接到了一个任务，带一些特殊的人去旅游，而他的第一个任务就是带着秦始皇去西安看兵马俑……\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3331958/150","book_name":"超级电力强国","book_author":"给您添蘑菇啦","book_intro":"\n                        一度电，可以让节能灯发光100小时，笔记本电脑开机10小时，采煤27千克，生产15瓶啤酒，创造10元的GDP。那么，60000亿度呢？这是一个电工重生的故事，有关电的故事。\n                    "}

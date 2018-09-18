@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005053720/150","book_name":"穿越诸天当邪神","book_author":"钦定","book_intro":"\n                        某宅男在玩一款黑暗系18禁养成类galgame时，意外穿越了，还随身带上了这款名为《邪神养成》游戏的面板……邪神的养成，需要他前往诸天位面副本完成黑暗任务，以及达成日常罪恶事件来实现。这是一个志向远大\n                    "}

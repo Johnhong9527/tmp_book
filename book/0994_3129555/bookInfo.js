@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3129555/150","book_name":"至高悬赏","book_author":"酒煮核弹头","book_intro":"\n                        “总有一天，我会成为整个宇宙海里悬赏金额最高的男人！”在海蓝星基础军事学院的开学典礼上，作为新生代表的古丁当着全校师生的面说出了自己伟大的理想。\n                    "}

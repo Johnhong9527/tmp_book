@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1137663/150","book_name":"大宋金手指","book_author":"圣者晨雷","book_intro":"\n                        新书《挽天倾》上传，书号1358282，敬请支持。当野蛮即将摧毁文明、愚昧即将代替智慧的时候，一个现代人如何用金手指改变历史进程，在中华文明的基础上建立起全球秩序。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010491255/150","book_name":"国际寻宝王","book_author":"疯寂","book_intro":"\n                        一朝梦醒，拥有不可思议的能力，人生猛然来了一次超级转折……寻宝之旅，就此开启……\n                    "}

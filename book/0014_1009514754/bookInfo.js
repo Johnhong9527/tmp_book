@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009514754/150","book_name":"最佳影星","book_author":"白色十三号","book_intro":"\n                        新书《魔气沸腾》已发布我要躺在钞票堆里打滚！我要做好莱坞巨星！群：323320648。\n                    "}

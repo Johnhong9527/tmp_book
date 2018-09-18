@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1002202256/150","book_name":"科技巨头","book_author":"石慌","book_intro":"\n                        清华大学的超级天才“任鸿”选择辍学创办了一家叫做“XlouS”的科技公司，公司首款产品“即时在线互译”软件获得Facebook（脸书）的高度青睐，最终以难以置信的天价买下独家授权，至此，任鸿以迅雷不及\n                    "}

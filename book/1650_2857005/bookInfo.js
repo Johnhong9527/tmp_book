@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2857005/150","book_name":"我的神明与教廷","book_author":"妖梦使十御","book_intro":"\n                        SongForTheLord（赞美我主)IwillputdedicatedtomyLord（我将全身心献给我主）IamthePope！（我为教皇！）IwillletmyLordIgloryshinea\n                    "}

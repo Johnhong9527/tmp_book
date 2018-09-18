@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2311459/150","book_name":"明末风暴","book_author":"圣者晨雷","book_intro":"\n                        崇祯五年。俞国振拔出了刀：凡阻碍华夏前进者，皆杀无赦！\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3573944/150","book_name":"武侠世界大穿越","book_author":"我叫排云掌","book_intro":"\n                        一位武学天赋极高的现代散打高手，穿越于各类武侠世界中，一步步成为颠峰强者的故事！\n                    "}

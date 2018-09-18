@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005754311/150","book_name":"网游之工兵无敌","book_author":"熬鹰","book_intro":"\n                        重生到“世界”公测的前一天，张扬从“石器时代”开始了征程。种田，建设，争霸，扩张，挑战boss，不过是为了时代的进步服务。石器时代、青铜时代、铁器时代、黑暗时代、蒸汽时代……当时代前进到不能停止，当“\n                    "}

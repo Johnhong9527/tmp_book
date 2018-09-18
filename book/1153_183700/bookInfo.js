@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/183700/150","book_name":"邪影本纪","book_author":"邪影","book_intro":"\n                        大破灭之后，以邪武纪年；邪神平生事迹，史称……邪影本纪！……新书《武道天下》，新书就像幼苗，需要大家的辛勤浇灌，更需各种支持，求收藏、推荐、点击，众人拾柴火焰高，谢谢大家了！！！！\n                    "}

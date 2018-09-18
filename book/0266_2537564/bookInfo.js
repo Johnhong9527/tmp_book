@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2537564/150","book_name":"仙壶农庄","book_author":"狂奔的海马","book_intro":"\n                        海马新书，我和神仙做买卖发布啦！郝健难得做件好事，结果却被雷劈了！醒来时发现手机里多了个叫仙界跳蚤市场的APP，人生开始变得不同。神仙的法宝功法想要什么就买什么，没事还能陪玉帝聊聊天和嫦娥玩视频，高兴\n                    "}

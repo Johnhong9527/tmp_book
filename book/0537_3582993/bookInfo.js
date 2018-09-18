@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3582993/150","book_name":"弑天刃","book_author":"小刀锋利","book_intro":"\n                        江湖无道，拔刀而起，利刃横空，问心无愧。众生无道，刀锋弑之。冷眼星空，持刀睥睨。通天大道，一路荆棘，一刀斩开，唯我独尊！\n                    "}

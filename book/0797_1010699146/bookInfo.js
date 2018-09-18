@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010699146/150","book_name":"木叶之影","book_author":"王小吾","book_intro":"\n                        穿越成为大蛇丸融合初代细胞的失败实验体，如何才能够转化自己的劣势为优势，如何能够在未来一波一波的浪潮中站稳身体，这是一个非常有难度的问题。新书《道士的无限之旅》，求支持。\n                    "}

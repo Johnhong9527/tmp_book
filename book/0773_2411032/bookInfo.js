@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2411032/150","book_name":"神医圣手","book_author":"小小羽","book_intro":"\n                        他是名医，也是神医。就算是死神盯着的人，有他在，死神也要乖乖绕道而行。只要你相信他，你的任何疾病都不在是问题。这就是张阳，一个被称为上帝使者的人，一个有点张扬，但很可爱的人！\n                    "}

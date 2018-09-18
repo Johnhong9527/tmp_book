@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005054989/150","book_name":"南国江山","book_author":"四国军棋","book_intro":"\n                        一个现代人的灵魂穿越到唐朝末年，成为淮南节度使杨行密的长子杨渥。在这波云诡谲的乱世，他将要如何改变自己的命运；如何选贤任能，治理一方；如何统帅千军，北伐中原，结束乱世……一切尽在南国江山。ps：qq群\n                    "}

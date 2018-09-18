@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3510413/150","book_name":"电影世界冒险王","book_author":"补丁1号.CS","book_intro":"\n                        .穿越电影的世界，去找寻最强的自己。已完本。#^_^#新书《制霸娱乐圈的神厨》已经上传，喜欢平淡搞笑的朋友捧下场啊。\n                    "}

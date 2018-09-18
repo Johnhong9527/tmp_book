@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010071627/150","book_name":"仙道我为首","book_author":"紫气仙帝","book_intro":"\n                        融合地球凡人与仙道大能的灵魂，徐枫重生归来，发誓一扫前身因果，再追仙道长生！（一言不合就扮猪吃虎，装逼打脸的修仙爽文）书友群：666763307\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009362534/150","book_name":"玄帝归来","book_author":"微笑大师","book_intro":"\n                        高考之后，林玄突然失踪，生不见人，死不见尸，没人知道他其实是被人沉入龙湖，从而意外穿越到了一个妖魔横行、仙魔林立、万族共存的玄幻世界，然而三十天后，他又从湖里爬了出来！\n                    "}

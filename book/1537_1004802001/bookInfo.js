@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004802001/150","book_name":"洪荒之时空魔君","book_author":"守护宝宝","book_intro":"\n                        穿越时空，重生混沌，并且成为三千魔神之中的时间魔神，吞噬空间魔神，走出一条无敌的时空大道！超脱永恒！\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2335572/150","book_name":"重任","book_author":"曲封","book_intro":"\n                        看一个小小的列车员是如何登上权力颠峰的\n                    "}

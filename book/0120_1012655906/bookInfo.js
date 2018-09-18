@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1012655906/150","book_name":"神话超进化","book_author":"无量摩诃","book_intro":"\n                        20XX年，天现异象，起点资深读者，高级VIP雷海激动的以为是灵气即将复苏。但他没能等到灵气复苏，却等到了轮回空间降临现实。位于时空交汇处的轮回空间降临现实，将地球人类纳入契约者挑选范围，地球至此进入\n                    "}

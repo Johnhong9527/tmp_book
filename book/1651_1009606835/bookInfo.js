@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009606835/150","book_name":"幻界武装","book_author":"绯红烈火","book_intro":"\n                        【设定党：热衷于设定一个庞大的世界观，从力量体系到风土人情，从经济生态到政治制度，从人文到知识，一切迥异于现实世界的设定都应该有】【合理党：所有剧情和体系的推演都是从“当XX有了XX特性或者能力后会取\n                    "}

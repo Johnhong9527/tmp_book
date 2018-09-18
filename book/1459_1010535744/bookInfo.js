@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010535744/150","book_name":"游戏降临异世界","book_author":"青涩苍穹","book_intro":"\n                        这是一个疯狂混乱的世界，这是一个在末日中徘徊的世界。大地正在死去，规则早已紊乱，诸神已然堕落，众生们苟延残喘不愿灭亡。张立带着一整个游戏世界，来到了这一个令人绝望的地方。\n                    "}

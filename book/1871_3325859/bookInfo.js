@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3325859/150","book_name":"韩娱之梦","book_author":"静候轮回","book_intro":"\n                        新书已经发表《韩娱之我的会长大人》，该书讲述了一个会长和众多韩国美腿们的故事，请多多支持！！！\n                    "}

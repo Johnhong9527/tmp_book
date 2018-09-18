@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3230825/150","book_name":"他从末世来","book_author":"竹茶","book_intro":"\n                        他来自末日世界，死后来到地球华国，附身一个叫云落的青年。他活了二百三十七年……云落二十三岁。他不想当英雄，只想娶妻生子，平淡的过完这一生。他或许就在我们身边，安静的路过。\n                    "}

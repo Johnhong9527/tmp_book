@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010987671/150","book_name":"明星教练","book_author":"大蓝袍","book_intro":"\n                        五大联赛冠军，我全都要。欧冠欧联，我更不会错过。新书《我叫莫里森》已经上传！！！\n                    "}

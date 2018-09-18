@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004848699/150","book_name":"黑夜将至","book_author":"温言对酒","book_intro":"\n                        黑夜将至，守望黎明。在这个不一样的末世，我们书写一曲史诗。书友群（温言/杨平安书友群）：485368686全订群（远救会）：587128644\n                    "}

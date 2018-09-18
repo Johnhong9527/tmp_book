@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011039646/150","book_name":"洪荒葫芦传","book_author":"黑水鹤","book_intro":"\n                        【看过不少洪荒文，也想写一本自己的】这是万千洪荒中的一个洪荒故事。\n                    "}

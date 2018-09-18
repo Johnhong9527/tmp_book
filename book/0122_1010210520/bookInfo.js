@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010210520/150","book_name":"读书成圣","book_author":"苏牧武","book_intro":"\n                        读书是一件很残暴的事儿，做学霸不容易。能把圣贤书读成这样的，天下唯此一人。【信息量巨大，请善用本章说】【书友交流群：575508976】【VIP群：397776642】\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1323606/150","book_name":"小地主","book_author":"如莲如玉","book_intro":"\n                        2017，胖子新书《猴哥儿》在起点中文网发布，大伙多多支持！回忆过去那点事，其实就是这个味。\n                    "}

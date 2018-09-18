@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3680420/150","book_name":"丛林战神","book_author":"丛林狼","book_intro":"\n                        边境丛林，自家花园，都市丛林，不过尔尔，一代凶境，亚马逊河，不过略费周折，论丛林之战，谁与争锋？唯我丛林战神。\n                    "}

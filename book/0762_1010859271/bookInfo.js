@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010859271/150","book_name":"诸天世界大穿梭","book_author":"狂奔的海马","book_intro":"\n                        一道凭空出现的大门，开启了通往无数世界的道路。影视、小说、动漫、神话……从此胡野在无尽的世界穿梭，也拥有了无限的希望。\n                    "}

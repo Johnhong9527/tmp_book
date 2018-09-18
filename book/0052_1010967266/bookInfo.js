@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010967266/150","book_name":"最终浩劫","book_author":"剪水II","book_intro":"\n                        终极魔王的演帝之路...之刀神篇。ps:自推新书《无敌小皇叔》ps：不适黑暗书友可从第二卷-武当掌门，看起。ps:第六卷龙篇纯属番外，与正文无关。ps：尽量支持正版书友群：702868743\n                    "}

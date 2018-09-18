@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3626806/150","book_name":"超级指环王","book_author":"兔来割草","book_intro":"\n                        刚进入NBA时，人们称他为“抱腿王”、“毒瘤王”、“单打王”、“出手王”、“打铁王”、“真C王”等等……在他退役时，外号只剩一个——超级指环王！书友群号：13774889新书《篮坛教皇》已发布！体育网\n                    "}

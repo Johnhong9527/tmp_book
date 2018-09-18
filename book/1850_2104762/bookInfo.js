@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2104762/150","book_name":"战神变","book_author":"小刀锋利","book_intro":"\n                        好强的少年滕飞，在河边捡到了一个不食人间烟火，像仙女一样的白衣女子，这个女子给他带来了强大的源泉，开启了强者之路的大门。师父可以跟徒弟结婚吗？滕飞在努力，为了师父，为了自己！\n                    "}

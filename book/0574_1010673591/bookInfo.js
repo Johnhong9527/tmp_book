@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010673591/150","book_name":"网游之问剑蜀山","book_author":"轻安红豆","book_intro":"\n                        一点浩然气，快哉千里风。相同的蜀山不同的世界，相同的剑侠不同的故事。\n                    "}

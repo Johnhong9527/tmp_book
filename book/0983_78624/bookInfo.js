@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/78624/150","book_name":"弹痕","book_author":"纷舞妖姬","book_intro":"\n                        当过兵，站过岗，上过处女入过党。打过枪，玩过炮，还和拉登拍过照。走过南，闯过北，拉着死神跳过舞。挨过刀，中过弹，枕着鳄鱼睡过觉。翻过山，游过海，搂着死人嗥过歌。\n                    "}

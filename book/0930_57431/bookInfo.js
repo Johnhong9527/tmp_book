@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/57431/150","book_name":"蜀山","book_author":"流浪的蛤蟆","book_intro":"\n                        嗯！简单说，这是一本网游，玩家驾驭了法宝，飞剑……互相pk人品贱格度的故事\n                    "}

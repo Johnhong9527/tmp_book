@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010795768/150","book_name":"德猎","book_author":"小伈","book_intro":"\n                        知乎：拥有德鲁伊和猎人的能力，是一种什么感觉？回答：真的可以为所欲为。————这是一个倒霉孩子，无意中拥有德鲁伊和猎人异能后，欢乐逗比的爆笑故事。\n                    "}

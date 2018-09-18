@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1001779763/150","book_name":"天才主播","book_author":"月下菜花贼","book_intro":"\n                        “我是一名网络小主播，千万千万千万不要瞧不起我。”“不信你看，变……”小主播却有大作为……【故事从，平行世界的罗开得到“中国系统”之后，BT之路。】本书交流群：544748507\n                    "}

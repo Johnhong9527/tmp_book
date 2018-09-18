@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1456216/150","book_name":"修士记","book_author":"田十","book_intro":"\n                        无善恶之心，何以为人无是非之心，何以为人修真者纵逆天而行，亦为人也，须持善秉义，方能印证大道修士记！\n                    "}

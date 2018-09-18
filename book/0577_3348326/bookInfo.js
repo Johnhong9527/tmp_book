@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3348326/150","book_name":"最强兵王","book_author":"丛林狼","book_intro":"\n                        【特种兵第一神书】最强兵王，虎视群雄，为国而战，为民出鞘，只有站死，绝不跪生，无怨无悔！这是一本男人的书！这是一部热血的故事！\n                    "}

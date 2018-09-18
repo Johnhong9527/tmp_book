@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3347275/150","book_name":"位面商人","book_author":"末日战神","book_intro":"\n                        新书《回到古代做主神》，幼苗求呵护，求票求收藏，当然有打赏就更好了Y(^o^)Y。\n                    "}

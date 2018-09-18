@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2233999/150","book_name":"半仙文明","book_author":"试剑天涯","book_intro":"\n                        （同类新书《修真大工业时代》已经上传，打滚求关注）人类的未来，是璀璨的星空！强大的文明，不仅仅是科技的文明，更是超能力的文明。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003459786/150","book_name":"魔神乐园","book_author":"熊狼狗","book_intro":"\n                        剑扫神州七日夜，纵横星空九万里。上斩圣佛，下斩妖魔，扫尽心中不平事。\n                    "}

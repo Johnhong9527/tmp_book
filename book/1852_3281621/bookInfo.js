@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3281621/150","book_name":"得分之王","book_author":"华晓鸥","book_intro":"\n                        “和詹姆斯一对一？他会被我弄死的，我们将会看到的是一场屠杀。”“上届MVP，凯文－杜兰特？哈哈哈哈，笑尿了。来吧，让他和拉塞尔－威斯布鲁克，再加上布雷克－格里芬、克里斯－保罗和德怀特－霍华德一起上吧，\n                    "}

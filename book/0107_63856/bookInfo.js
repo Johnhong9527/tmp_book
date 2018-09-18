@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/63856/150","book_name":"神墓","book_author":"辰东","book_intro":"\n                        一个死去万载岁月的平凡青年从远古神墓中复活而出……\n                    "}

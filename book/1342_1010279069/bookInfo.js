@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010279069/150","book_name":"炼器真仙","book_author":"暗黑茄子","book_intro":"\n                        器仙之道，炼乾坤、融日月、修阴阳、脱生死，乃造化大道也，万仙难及，是为真仙。徐游，咒术封体，不可修炼，却偶得器仙之道，以凡人之躯，碾压万界，震慑诸天。\n                    "}

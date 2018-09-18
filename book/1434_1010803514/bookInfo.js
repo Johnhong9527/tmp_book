@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010803514/150","book_name":"大航海之王者明哥","book_author":"本王会飞","book_intro":"\n                        唐吉诃德多弗朗明哥，得到了一个穿越者的记忆，得到了未来海贼世界的变迁信息。这是一个黑暗王者，多弗朗明哥的故事！（《海贼王》同人，不要太在意书名）\n                    "}

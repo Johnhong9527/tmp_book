@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3116420/150","book_name":"大鉴定师","book_author":"冰火阑珊","book_intro":"\n                        一位古玩店的学徒，意外之中获得了鉴定系统，有了鉴定大千世界万物的能力。古玩捡漏，无所不能，最终由学徒成为一代大收藏家。\n                    "}

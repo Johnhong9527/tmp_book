@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3006581/150","book_name":"末世刺客系统","book_author":"糖醋于","book_intro":"\n                        天灾突降，席卷全球。末世之中，人不如狗！一套神秘系统，一个苦逼青年，一抹森冷刀锋，杀血尸，败强敌，于失陷之地，成就传奇！\n                    "}

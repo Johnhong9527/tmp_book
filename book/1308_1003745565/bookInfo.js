@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003745565/150","book_name":"我的妹妹洛天依","book_author":"纯洁小天使","book_intro":"\n                        【新书已发布！书名《万界商城系统》，请大家多多支持！】B站三流UP主洛辰感觉自己穿越到了一个奇怪的世界。什么？这个世界没有A、B站，没有鬼畜全明星？什么？这个世界没有伊丽莎白鼠、纯黑、老番茄、LexB\n                    "}

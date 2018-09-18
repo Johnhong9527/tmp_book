@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3339535/150","book_name":"位面穿越之帝王之路","book_author":"王不过霸","book_intro":"\n                        籍籍无名的大学生李轩在惨遭毒打之后，意外获得一款神秘的系统，能够自由穿梭于无垠位面之中，原本平凡的命运悄然改变。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2389275/150","book_name":"死人经","book_author":"冰临神下","book_intro":"\n                        一本死人经，半部无道书。斩尽千人头，啖吞百身骨。\n                    "}

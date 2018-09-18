@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005766849/150","book_name":"抗日之烽火战神","book_author":"阳伯父点蚊香","book_intro":"\n                        乱世中的贫困少年一步步成长为鬼子的噩梦，一柄断刀誓将饱饮侵略者的鲜血。新书《抗战之断刀》，欢迎新老书友前往支持。\n                    "}

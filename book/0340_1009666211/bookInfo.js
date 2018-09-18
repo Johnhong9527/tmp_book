@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009666211/150","book_name":"美利坚资本贵族","book_author":"疯二神","book_intro":"\n                        贵族，本不应沾惹铜臭。然而，在美利坚，不铜臭不成活。所以，在美利坚，他只好做一个资本贵族。ps:新书《重生不重来》更新中。特别提醒：千万不要因为封面和简介而错过一本好书。切记！\n                    "}

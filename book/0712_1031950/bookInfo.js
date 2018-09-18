@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1031950/150","book_name":"卡徒","book_author":"方想","book_intro":"\n                        方想所构建的一个全新幻想世界，请入！\n                    "}

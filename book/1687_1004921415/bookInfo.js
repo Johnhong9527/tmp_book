@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004921415/150","book_name":"我是科技教父","book_author":"麒麟眼","book_intro":"\n                        这是一个主角玩转黑科技的故事，一个“科技教父系统”，造就一段传奇人生。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2608073/150","book_name":"恋战星梦","book_author":"韩错","book_intro":"\n                        我.是韩百更，我喂自己袋盐。想.要一本纯粹YY韩国娱乐圈的小说吗？我想你希望看到的，这里全.部都有。因为这就是一部.纯粹YY韩娱娱乐圈的小说。可以涉及到综艺、影视剧以及歌曲的情节，这里都.应有尽有。最\n                    "}

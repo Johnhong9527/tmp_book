@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3571131/150","book_name":"超警美利坚","book_author":"不如安静","book_intro":"\n                        推本书《敌后潜伏》，作者无德良家，至于究竟是怎么回事，大概是讲兽医穿越回民国潜伏在东三省的故事，呃，刚开书。\n                    "}

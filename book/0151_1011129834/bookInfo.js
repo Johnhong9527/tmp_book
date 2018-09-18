@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011129834/150","book_name":"重生仙女派NPC","book_author":"我来脏波兵线","book_intro":"\n                        一觉醒来成了武道网游世界的NPC，学了《兰花宝典》。郑景仁：你好大妹子，我有一技之长，可让你飘飘欲仙，可要试一试？大妹子脸色臊红：呸！淫贼！郑景仁无辜的摇摇头：大妹子别骂人啊，我是正经人来的，而且我只\n                    "}

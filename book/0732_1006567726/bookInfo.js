@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1006567726/150","book_name":"宝贝葫芦","book_author":"老豆根","book_intro":"\n                        洪荒无限流，大家一听应该就有想法了吧，嘿嘿。\n                    "}

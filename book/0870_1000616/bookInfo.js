@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1000616/150","book_name":"重生西游","book_author":"宅猪","book_intro":"\n                        新书水浒仙途已经上传，请喜欢重生西游的书友多多收藏和投票！下面是传送门，高科技，一点就到……\n                    "}

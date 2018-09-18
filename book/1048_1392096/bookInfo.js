@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1392096/150","book_name":"左道旁门","book_author":"velver","book_intro":"\n                        左道旁门，左表示邪，道表示派别，旁表示不正，门表示体系。可是在沈浪的字典里面，左表示了自己特殊的左手异能，道表示了自己的根本，而旁则意味着自己周围的人，至于门那个仅仅就是命运的一种安排罢了。\n                    "}

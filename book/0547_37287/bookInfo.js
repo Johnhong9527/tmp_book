@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/37287/150","book_name":"朱雀记","book_author":"猫腻","book_intro":"\n                        一个非著名少年妖怪神仙成长史这是一个小红鸟成长过程中减肥的故事，后面简介从略……这当然是YY小说，这只是YY小说，别的啥都不是。\n                    "}

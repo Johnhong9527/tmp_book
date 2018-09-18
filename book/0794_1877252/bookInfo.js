@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1877252/150","book_name":"马踏天下","book_author":"枪手1号","book_intro":"\n                        拿起了战刀，跨上了战马，纵横驰骋，马踏天下。\n                    "}

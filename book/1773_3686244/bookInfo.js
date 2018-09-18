@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3686244/150","book_name":"逆命","book_author":"虾写","book_intro":"\n                        较量，博弈；勇猛，智取？如何才能分清善于恶？怎样才算真正的王者？永恒星球上的永恒，永远掌握在最强王者手中！诈骗大师给你好看！！PS：不熟悉或者没接触过LOL、dota的读者不用担心，这是个复仇者联盟和\n                    "}

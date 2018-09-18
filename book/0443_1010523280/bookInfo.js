@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010523280/150","book_name":"文三代被嫌弃的前半生","book_author":"文三代","book_intro":"\n                        生活没有预想的那么好，也没有想象那么糟，苟且混着是大部分人的日常，并习以为常，科技的日新月异让苟且的人群看得到诗和远方，也只是看得到。\n                    "}

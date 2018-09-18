@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004834551/150","book_name":"万能修理铺","book_author":"飞向太阳","book_intro":"\n                        天泽偶然获得了一个PS系统，从此变为了修理大师，世间的一切都在他的修理范围之内，小到一根针，大到航空母舰，统统都不是问题。除了修理物品外，活物同样也可以修理（注：只修理美女）。ps系统不仅仅可以修理，\n                    "}

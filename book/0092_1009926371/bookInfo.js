@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009926371/150","book_name":"梦想为王","book_author":"中秋月明","book_intro":"\n                        一个男人的诗史成长史从逃犯到创造时代，抱元守一，方得始终。不得不得我不会写哈哈哈哈泰迪男的成长史蛮好的哈哈哈失足少年假球栽，化身泰迪群芳嗨，铁血柔情心不改，浪迹天涯梦尤在！\n                    "}

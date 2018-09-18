@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1122310/150","book_name":"异界九死神功","book_author":"乌山云雨","book_intro":"\n                        九阴真经在手，九阳真经我有。九阴九阳合一，九死神功纵横！大学生杨天意外穿越到一个魔法与斗气的世界，凭借武林绝学，开始了充满旖旎和惊心动魄的强者之路……\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009843444/150","book_name":"神级茶人","book_author":"闲檀","book_intro":"\n                        陆雨进入的这个平行世界中茶人有巨大的影响力，但华夏的传统名茶和茶文化却神秘消失了！书友闲聊群：584838418新书《跳墙和尚》已发\n                    "}

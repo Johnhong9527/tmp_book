@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005787842/150","book_name":"黑科技UP主","book_author":"这是某的小号","book_intro":"\n                        从天而降的黑科技文明结晶——智瞳，让林城奇的人生，出现了巨大的转折。自此之后，B站多了一位问鼎技术宅巅峰的神秘UP主。【镜界】系列、【穿越者】系列、【第一视角】系列、【未来实验室】系列、【超自然研究部\n                    "}

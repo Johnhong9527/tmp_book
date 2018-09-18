@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2241246/150","book_name":"修真老师生活录","book_author":"断桥残雪","book_intro":"\n                        他是一位年轻的大学老师，他还是一位无意中得传上古五帝真经，修炼了大混沌五行心法的修真者。他隐居大学教书育人，他行事作风低调，但不经意间却锋芒夺目……\n                    "}

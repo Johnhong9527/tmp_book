@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003719686/150","book_name":"娱乐点金手","book_author":"俗人小黑","book_intro":"\n                        穿越平行世界，从那些雷人的叫卖广告开始！新书《卡牌大明星》已发布，请多支持！\n                    "}

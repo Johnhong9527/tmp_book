@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010566865/150","book_name":"火影中的学习大师","book_author":"沁水的鸟","book_intro":"\n                        这是火影世界里的成长日常。这是获得属性面板的主角，一步步走向忍界巅峰的艰辛历程。我们追求的不是无敌天下的寂寞如雪，而是成长路上的繁花似锦。\n                    "}

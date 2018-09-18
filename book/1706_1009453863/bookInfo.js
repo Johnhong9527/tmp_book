@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009453863/150","book_name":"万界邪魔行","book_author":"永不落伍","book_intro":"\n                        这是一个囚徒穿越高武世界后，通过万界空间在各个世界掠夺的故事。道不尽，诸天万界何人信；说不出，万界邪魔白天行。新书魔邪之主已发，求收藏，求支持！\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010772176/150","book_name":"系统之文娱天才","book_author":"寻欢寻欢","book_intro":"\n                        新书《深夜抓鬼铺》已经发表，请求各位支援，新书求票求收藏。写写书，拍拍电影，谈谈恋爱，一不留神，就走上了人生巅峰！\n                    "}

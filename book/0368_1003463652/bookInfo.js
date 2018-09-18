@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003463652/150","book_name":"超能大明星","book_author":"祥光","book_intro":"\n                        当苏山的脑子的里多了一本技能大全的时候，他在平行世界的生活彻底的不同了。本来就是艺人的他，在娱乐圈这条路上大放光彩……（读者群：473860456）\n                    "}

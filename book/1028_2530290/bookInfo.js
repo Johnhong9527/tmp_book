@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2530290/150","book_name":"狂神进化","book_author":"逆天而翔","book_intro":"\n                        一个平凡的高三学生布施瘟疫、操控病毒凶虫而成长的一代传奇。新书《神医磁皇》正在起点上架，求订阅、打赏、月票、推荐票支持！！！！\n                    "}

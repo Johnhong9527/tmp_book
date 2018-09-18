@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011589832/150","book_name":"开局一扇门","book_author":"狂笑自淘情","book_intro":"\n                        一扇门，让周朔经历了阳神、天行九歌、秦时明月、一人之下……形形色色的人物，恩恩怨怨的是非，你来我往的权谋，痴痴缠缠的男女，到底什么是性命，什么又是逍遥，而怎样才算是仙真。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1975621/150","book_name":"易鼎","book_author":"荆柯守","book_intro":"\n                        龙气者，人道总纲也一次的意外，让他携带着一个破碎灵魂，回到了这个世界十八年前，那时，江山如画，群雄逐鹿，苍茫大地，谁主沉浮？凭借着龙气秘术，突破命格，要行那“易鼎”之事\n                    "}

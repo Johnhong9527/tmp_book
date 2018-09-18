@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011556938/150","book_name":"骨傲天不需要妹妹","book_author":"给您添蘑菇啦","book_intro":"\n                        因为带上了他妹，骷髅兵的奇幻大剧变成了情景喜剧。\n                    "}

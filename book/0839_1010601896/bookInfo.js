@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010601896/150","book_name":"生于1984","book_author":"老徐牧羊","book_intro":"\n                        依旧华娱系列…从小鲜肉到大导演本故事纯熟虚构，娱人娱己，切勿对号入座。群号：VIP群：155327545普通群：608668087\n                    "}

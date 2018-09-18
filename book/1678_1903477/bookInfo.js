@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1903477/150","book_name":"三国之蜀汉我做主","book_author":"三七开","book_intro":"\n                        这是一本刘封踢开刘备，单干蜀汉，逆袭成就霸业的故事。………………….三七新书，三国之窃国之贼已经上传，求关注！\n                    "}

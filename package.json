@@ -18,6 +18,7 @@
     "images": "^3.0.1",
     "progress": "^2.0.0",
     "request": "^2.87.0",
+    "shelljs": "^0.8.2",
     "svg2png": "^4.1.1",
     "text-to-svg": "^3.1.3"
   }

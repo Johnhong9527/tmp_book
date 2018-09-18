@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010643567/150","book_name":"北纬49度东经121度","book_author":"天河双鱼","book_intro":"\n                        一个小地方，一群小人物，一些不狗血的故事。\n                    "}

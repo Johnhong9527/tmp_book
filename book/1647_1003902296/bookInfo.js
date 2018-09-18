@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003902296/150","book_name":"立地蛮太岁","book_author":"闷骚去病","book_intro":"\n                        本书原名《终极低位大杀器》，说的够具体了吧。本书书友群：118-493-983，欢迎加入。\n                    "}

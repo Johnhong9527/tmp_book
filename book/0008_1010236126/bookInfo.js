@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010236126/150","book_name":"国际制造商","book_author":"二将","book_intro":"\n                        韩义在路上扫了个二维码，然后桌面上多了个应用。这个应用很奇怪，它可以捕捉到现实里的一切物品，通过解析来重组物品。【滴滴！！电路模块板-Dome-屏幕-前后盖-重组手机！】【滴滴！！75%纯棉-25%亚\n                    "}

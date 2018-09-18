@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009537208/150","book_name":"神豪无极限","book_author":"偷名","book_intro":"\n                        如何利用怂逼系统走上人生巅峰？在线等，挺急的！还有，我的系统好像要上我……新书《宿主脑阔疼》已上传，欢迎光临。\n                    "}

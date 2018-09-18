@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3630874/150","book_name":"醉迷红楼","book_author":"屋外风吹凉","book_intro":"\n                        一醉入红楼，庶子可成龙。十二金陵梦，扶摇霸业中。作者群：三七九，三零三，零七六\n                    "}

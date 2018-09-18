@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010916822/150","book_name":"西游之武道崛起","book_author":"天狐岛主","book_intro":"\n                        梦回大唐，却发现原来是西游的世界，成了六扇门为唐僧选的随从之一！\n                    "}

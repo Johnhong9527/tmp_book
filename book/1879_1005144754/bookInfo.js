@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005144754/150","book_name":"地仙正道","book_author":"新叶道君","book_intro":"\n                        地仙之道，造化大千。在无限的世界里，见证属于地仙的光辉。\n                    "}

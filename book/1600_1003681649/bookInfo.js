@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003681649/150","book_name":"我真不算明星","book_author":"紫云奔","book_intro":"\n                        这是一个从足球解说开始，逐渐成为巨星的故事……新书《神秘巨星》发布，还请大家多多支持！新书传送门https://book.qidian.com/info/1010595001\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004593754/150","book_name":"铁骨铸钢魂","book_author":"深蓝的国度","book_intro":"\n                        雇佣兵，一个不被承认的职业，雇佣兵，一潭无源之水，一个经历未来的特种兵灵魂，与二十多年前的雇佣兵相结合，虽然挡不住历史的车轮，但暗世界却迎来了一缕阳光！\n                    "}

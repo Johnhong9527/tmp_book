@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007312564/150","book_name":"在热血番里过日常似乎搞错了什么","book_author":"懒杨","book_intro":"\n                        那一天，忍界的人们又想起了，被福利神社的本子支配时的兴奋和……总而言之，在热血番里过日常，似乎，搞错了什么……\n                    "}

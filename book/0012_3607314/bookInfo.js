@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3607314/150","book_name":"神道丹尊","book_author":"孤单地飞","book_intro":"\n                        绝世强者、一代丹帝凌寒为追求成神之路而殒落，万年后携《不灭天经》重生于同名少年，从此风云涌动，与当世无数天才争锋，重启传奇之路，万古诸天我最强！普通群：273857096。VIP群（只限付费读者）：5\n                    "}

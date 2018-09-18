@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011005170/150","book_name":"大唐粮草王","book_author":"尊天不畏天","book_intro":"\n                        一代学神李玄霸魂穿大唐，成为完整体的李玄霸。我李玄霸一生行事，拳头就是我的律法！不要和我说礼法，我李玄霸天生就是无礼法之人！PS：第二本书《最穷有钱人》已发。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/20/150","book_name":"紫川","book_author":"老猪","book_intro":"\n                        两百年前的蓝河战场，光明帝国最后的军团在魔族的喧嚣声中崩溃，帝国最后的元帅和皇帝战死。混乱的西川大陆上没有了共同的君主，群雄并起而混战，武力是生存下去的唯一本钱，制霸天下，是一代代强者的梦想。大陆东南\n                    "}

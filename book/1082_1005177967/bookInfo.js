@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005177967/150","book_name":"享受治愈在二次元","book_author":"黄天大法","book_intro":"\n                        嗯，就是在二次元画漫画的故事。主体是《食梦者》，中间会有很多漫画人物乱入，比如夏目、还有《漫画家与助手》。\n                    "}

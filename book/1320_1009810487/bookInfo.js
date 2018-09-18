@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009810487/150","book_name":"混元武宗","book_author":"古韵星河","book_intro":"\n                        融合破空而来的神秘芯片，林天从微末间毅然崛起，推演天地，横推世间一切，镇压所有对手，无敌于天下，最终屹立于武道巅峰。\n                    "}

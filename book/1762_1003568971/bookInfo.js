@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003568971/150","book_name":"控球先生","book_author":"华晓鸥","book_intro":"\n                        这是后乔丹时代以来NBA最鼎盛的时期。鲨鱼石佛，轮流坐庄。科艾麦卡，各领风骚。03一代，横空出世。小球风暴，业已降临……【VIP群：72249170】这也是华语娱乐圈势力重新洗牌之前的暗涌期。港人北上\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011069322/150","book_name":"红楼之贾政","book_author":"脂砚主人","book_intro":"\n                        当一位现代都市的汉语言文学本科生一觉醒来发现到了红楼，成了成婚不久的贾政……欲哭无泪啊！算了还是养好身体等着收拾贾宝玉吧，最起码也要把几个小包子抚养成人吧⊙∀⊙！\n                    "}

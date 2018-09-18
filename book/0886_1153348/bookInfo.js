@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1153348/150","book_name":"篡唐","book_author":"庚新","book_intro":"\n                        生于乱世之中，身世扑朔迷离。我本无心向富贵，奈何富贵逼人来……且看一个现代人的隋唐故事！有恩怨情仇，有金戈铁马，还有那数不尽的风流……庚新10年新作《篡唐》隆重登场，希望大家能够喜欢。\n                    "}

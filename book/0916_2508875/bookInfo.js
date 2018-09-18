@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2508875/150","book_name":"末世魔神游戏","book_author":"石闻","book_intro":"\n                        整个地球成为了一个游戏竞技场，想要在这残酷的末日生存下去，只有拿起手中的武器，不断的战斗，打怪升级，不断强化自己。唐天经过不懈的努力，最终推倒地球上百级最终BOOS，发现这只是打通了第一张地图而已。看\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009681601/150","book_name":"大武侠辅助系统","book_author":"小楊刚","book_intro":"\n                        新书《末日之武道守护》魂穿异界，为一介少主，拥有金手指，开启一生争霸生涯。江湖武林，家族天下，又有多少不为人知的秘密，待人去探寻……\n                    "}

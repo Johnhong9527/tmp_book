@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009683043/150","book_name":"超神学院之大日横空","book_author":"失落的七弦琴","book_intro":"\n                        身为金乌一族的传人，烈阳星的小王子，号称史上最强太阳神的炎赫殿下表示，神什么的都是浮云啦。书友群:237740813新书《带着世界树去穿越》已经上传\n                    "}

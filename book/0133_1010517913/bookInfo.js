@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010517913/150","book_name":"暗枪","book_author":"沉默似铁","book_intro":"\n                        【新书《秘战》已发！】风云际会的上海滩，各方势力龙蛇混杂，这是没有硝烟的战场，同样有着惊心动魄的生死较量，尔虞我诈之中更显英雄本色！……\n                    "}

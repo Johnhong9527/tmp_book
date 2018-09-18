@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/20691/150","book_name":"历史的尘埃","book_author":"知秋","book_intro":"\n                        在历史的天空下，不管你爱与不爱都只是其中的尘埃。无论是谁，所能把握的不过也只是自己而已。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005983189/150","book_name":"肆虐火影","book_author":"奔跑的小蜡笔","book_intro":"\n                        新书：《二次元之搞事系统》已经发布，请大家移步一观！一个关于“爱”的故事！（ps1：标题简介和内容之间没有半毛钱关系，大家请看正文！）（ps2：群号132218969。）\n                    "}

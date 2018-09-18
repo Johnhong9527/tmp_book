@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003314262/150","book_name":"体坛多面手","book_author":"术小城","book_intro":"\n                        ESPN记者：“杜柯先生，最近几年内你获得了游泳、田径、射击、铁人三项、击剑、跆拳道、环法自行车赛、达喀尔拉力赛、斯诺克等多个体育项目的世界冠军、奥运冠军，打破了十二个大项的世界纪录，堪称体育史上最全\n                    "}

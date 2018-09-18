@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005398314/150","book_name":"我的群星帝国","book_author":"李氏子弟","book_intro":"\n                        一觉醒来，发现自己在游戏中创造的帝国成为了现实！而自己成为了帝国的独裁者！是带领帝国征服星空？还是奴役其它种族？还是降临地球？新书《我的分身帝国》已经发布！ps：圣母请绕道。\n                    "}

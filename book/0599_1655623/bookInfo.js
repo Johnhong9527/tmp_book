@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1655623/150","book_name":"叱咤风云","book_author":"高楼大厦","book_intro":"\n                        这是一个属于各种强大血脉战士的时代，有魔法，也有斗气的热血时代！热血无尽，一路前进不止！草根样的小人物，一样可以活出牛逼的光彩！\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/140280/150","book_name":"海魂","book_author":"闪烁","book_intro":"\n                        重塑太平洋大海战的恢宏场面再现热血男儿勇往直前的情怀不屈不朽的灵魂一波三折的情节日更新42次的纪录尽在《海魂》！！！QQ交流群：3423769230147223新书砺刃，书号1013328，投票，收藏\n                    "}

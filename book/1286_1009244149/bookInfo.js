@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009244149/150","book_name":"加点仙尊","book_author":"周天子出行","book_intro":"\n                        金无止穿越修仙界，身怀超级加点系统，修为太低？加点！遇到瓶颈？加点！功法太烂？加点！我加加加，无意间就加成了霸主。\n                    "}

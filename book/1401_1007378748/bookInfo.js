@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007378748/150","book_name":"汉末高顺","book_author":"小小千佛山","book_intro":"\n                        穿越汉末，成为高顺；获得系统，强势崛起；改变历史，结束乱世；内惩豪族，外屠蛮夷；振兴经济，发展科技；泽被苍生，流芳百世。华夏荣光，世代相继。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010371270/150","book_name":"跑出我人生","book_author":"丧尸舞","book_intro":"\n                        重回少年时代的苏祖，得到了一个系统，走上了曾经梦想追逐的体育竞技之路。新书友群：666-502-656\n                    "}

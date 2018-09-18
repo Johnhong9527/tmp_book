@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007391022/150","book_name":"次元神厨","book_author":"止明先生","book_intro":"\n                        争霸？后宫？抱歉，我只希望安安静静的做菜……\n                    "}

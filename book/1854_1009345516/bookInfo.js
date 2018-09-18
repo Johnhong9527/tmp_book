@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009345516/150","book_name":"神级阅读系统","book_author":"小污猫","book_intro":"\n                        读书成神，.....一切尽在读书中。新书《写书证道》\n                    "}

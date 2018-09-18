@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005761681/150","book_name":"时代巨子","book_author":"狂花非叶","book_intro":"\n                        这是一个璀璨辉煌的时代。林风则是这个时代中最为耀眼，无法被任何人忽视的时代巨子。他的传奇，从2001年的夏天开始。\n                    "}

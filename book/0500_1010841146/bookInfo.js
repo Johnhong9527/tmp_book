@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010841146/150","book_name":"史上最牛村长","book_author":"杨门狂少","book_intro":"\n                        “村长，今年全村收入突破了万亿大关”——“哦，距离我心里的目标还差一点！”“村长，村公所外面怎么围了好多美女啊？好像在电视见过呢？”——“哦！”\n                    "}

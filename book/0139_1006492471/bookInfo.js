@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1006492471/150","book_name":"完美机甲剑神","book_author":"墨乡","book_intro":"\n                        进入大宇宙时期的人类，在星空遭遇黑暗魔族，双方血战星空。少年张远重生十年前，借游戏《英雄》加入星空战场，一代机甲剑神横空出世。新书《最后一个炼金师》已发。\n                    "}

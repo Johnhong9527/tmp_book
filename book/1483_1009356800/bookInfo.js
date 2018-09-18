@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009356800/150","book_name":"僵尸爱打劫","book_author":"拼命的牛","book_intro":"\n                        楚寻睡梦中被吵醒，却忽然发现自己穿越到了修仙界成了一具白毛僵尸，从此开始了他的僵尸生涯。《僵尸爱打劫》QQ群585627464欢迎大家来支持！！\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010057161/150","book_name":"重回OMG战队","book_author":"维利斯","book_intro":"\n                        重回s5，OMG战队的故事。本书前面有些小bug，后面还算精彩，无耐心右上角。瞎聊群：622761917\n                    "}

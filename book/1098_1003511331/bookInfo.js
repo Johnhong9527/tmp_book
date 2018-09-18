@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003511331/150","book_name":"最强新手剑","book_author":"祈言誓约","book_intro":"\n                        没错，穿越到游戏异界的我，一不小心变得太强了！……新书：《大王快逃》异界入侵地球，我入侵♂异界。手持百科全书，吊打异界王者。依然是轻松幽默向的爽文。\n                    "}

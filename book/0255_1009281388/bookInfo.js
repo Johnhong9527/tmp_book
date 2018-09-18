@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009281388/150","book_name":"悠闲修道人生","book_author":"钓鱼1哥","book_intro":"\n                        罗天旺在河里游泳的时候，意外获得古龟甲，获得仙缘。懵懂少年开始一段神奇的修仙之旅。老鱼的第三本修道类小说，敬请关注！\n                    "}

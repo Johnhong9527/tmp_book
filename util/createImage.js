@@ -1,32 +1,34 @@
+const shell = require('shelljs');
 const gm = require('gm').subClass({ imageMagick: true });
 module.exports = function(info) {
-  gm('./books_img/book_2.png')
+  // shell.exec('rm -rf data/tmp/*');
+  gm(`../kindle/${Math.floor(Math.random() * 30) + 1}.png`)
     .fill('black')
-    .font('./fonts/jsxk.ttf')
-    .fontSize(250)
+    .font('../data/fonts/jsxk.ttf')
+    .fontSize(130)
     .resize(2560, 1600)
     .drawText(0, -400, info.book_name, 'center')
-    .write('./tmp/bt.png', function(err) {
+    .write('./data/tmp/bt.png', function(err) {
       if (err) throw err;
     });
-  gm('./books_img/book.png')
+  gm('./data/books_img/book.png')
     .fill('black')
-    .font('./fonts/msyh.ttf')
+    .font('../data/fonts/msyh.ttf')
     .fontSize(70)
     .resize(2560, 1600)
-    .drawText(150, 400, info.author, 'center')
-    .write('./tmp/author.png', function(err) {
+    .drawText(150, 400, `作者: ${info.author}`, 'center')
+    .write('./data/tmp/author.png', function(err) {
       if (err) throw err;
     });
   setTimeout(() => {
-    gm('./tmp/bt.png')
-      .draw('image Over 0, 0, 0, 0 "./tmp/author.png"')
-      .write(`./tmp/image.png`, function(err) {
+    gm('./data/tmp/bt.png')
+      .draw('image Over 0, 0, 0, 0 "./data/tmp/author.png"')
+      .write(`${info.path}/images/image.png`, function(err) {
         if (!err) {
-          console.log('done');
+          // console.log('done');
         } else {
           console.log(err.message || '出错了！');
         }
       });
-  }, 1000);
+  }, 2000);
 };

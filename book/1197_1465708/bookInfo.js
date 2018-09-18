@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1465708/150","book_name":"重林巨蜥","book_author":"人勿玩人","book_intro":"\n                        这是一个蜥蜴成长为巨龙的冒险故事，也是一部玄幻和科技文明的战争史。让我们以一头巨龙的视角，来体验这种宇宙星空的恢弘的战争。\n                    "}

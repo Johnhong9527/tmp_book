@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010613262/150","book_name":"从红尘客栈开始的武侠之旅","book_author":"无限梦之林","book_intro":"\n                        天涯的尽头是风沙，红尘的故事叫牵挂……欢迎加入红尘书友群，群聊号码：702435988\n                    "}

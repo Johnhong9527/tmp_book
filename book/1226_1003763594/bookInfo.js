@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003763594/150","book_name":"超凡兵王","book_author":"8难","book_intro":"\n                        他出身不凡，却甘为一名普通军人,为国流血，宁死不悔。他纵横边陲，亮剑隐龙，枪林弹雨中成就超凡，名震世界。\n                    "}

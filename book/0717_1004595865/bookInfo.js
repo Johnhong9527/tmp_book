@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004595865/150","book_name":"主神崛起","book_author":"文抄公","book_intro":"\n                        一觉醒来穿越成反派？这剧本不对！还抢了人家的妹子？又有一个强势的姐姐？剧本更不对了！居然还有主神空间，诸天万界？我一定是在做梦！吴明淡定地木着脸，继续着征程。\n                    "}

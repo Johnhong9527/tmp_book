@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011200310/150","book_name":"恐慌黑暗","book_author":"学不可以己","book_intro":"\n                        追求着未知，探索着神秘。“终有一天我会高举神座，永生不朽。”得到了古老的伟大存在陨落的黑暗位格，陈益如是说道。崛起微末，吞噬诸天。黑暗终将笼罩世界。\n                    "}

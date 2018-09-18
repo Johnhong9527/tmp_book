@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011513702/150","book_name":"绝地小陪玩","book_author":"爱人火枪手","book_intro":"\n                        林天秀睁开眼，成为了一个普普通通的绝地代练。为了多挣一份钱，YY的陪玩信息上多了以下一份简介……陪玩：林天秀性别：男陪玩等级：普通V，10元/小时陪玩游戏：绝地求生。水平：最强黄铜五。……TMD最强黄\n                    "}

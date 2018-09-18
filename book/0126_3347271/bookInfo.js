@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3347271/150","book_name":"大官人","book_author":"三戒大师","book_intro":"\n                        永乐九年，盛世天下，国大民骄，四海来朝！值此时，问一声，谁不想当大官人！\n                    "}

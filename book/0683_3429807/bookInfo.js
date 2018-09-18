@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3429807/150","book_name":"全方位幻想","book_author":"如倾如诉","book_intro":"\n                        新书出炉！书名：《直死无限》！直通车：http://book.qidian.com/info/1004837400希望友友们支持！\n                    "}

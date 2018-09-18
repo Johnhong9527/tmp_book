@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3321300/150","book_name":"肆虐韩娱","book_author":"姬叉","book_intro":"\n                        屌炸天的主角在韩国娱乐圈肆虐的故事……故事很现实，故事也很童话。一台推土机在现实与童话中穿梭，车轮所过的轨迹，便是一卷韩娱百花谱。\n                    "}

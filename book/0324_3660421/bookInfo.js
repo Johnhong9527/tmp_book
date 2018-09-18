@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3660421/150","book_name":"科技衍生","book_author":"前朝的孤","book_intro":"\n                        酒没了，人也醉了。沉沉入睡，古怪的声音在他脑海跳跃……从此，平民出身的王凡，开始了一场永垂不朽的征程。打破欧美技术封锁，反向暴利输出高端产品，建立辉煌的科技帝国，做人生大赢家！VIP群：1682317\n                    "}

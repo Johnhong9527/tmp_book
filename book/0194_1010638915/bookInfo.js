@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010638915/150","book_name":"逆流2002","book_author":"小陆探花","book_intro":"\n                        一觉醒来，刚刚加入到南下东筦打工大军的重生者张楚，面对即将的生活，该如何抉择..........新书《他从地狱来》，欢迎收藏阅读，新书需要支持。\n                    "}

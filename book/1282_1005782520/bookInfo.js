@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005782520/150","book_name":"超级淘宝店","book_author":"每日两万五","book_intro":"\n                        这里的航空母舰打半价，上古神兽只要八千八百八。，熊猫人,皮皮虾，象拔蚌，御姐萝莉，什么都能卖！请认准方泽家的淘宝店。注意，主角有收集癖。读者群号：575580366\n                    "}

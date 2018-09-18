@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1670344/150","book_name":"神魔养殖场","book_author":"黑瞳王","book_intro":"\n                        正在三流大学里混日子的苏羽，因为“天坑”事件，一座学校塌陷掉进“天坑”，出现在了一个恐怖的未知大森林中，在这大森林里，布满了各种恐怖~~~可怕的变异，从他的手，开始了……\n                    "}

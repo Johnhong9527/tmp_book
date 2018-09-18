@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004175637/150","book_name":"精灵世纪：GO","book_author":"苏庸","book_intro":"\n                        新书《精灵养成系统》已发布，欢迎读者阅读。……只身漓江畔，收服极品喷火龙。深入水晶坑，收服幻兽蒂安希。飞上大气层，收服超神裂空座。欢迎来到精灵联盟，欢迎试玩《精灵世纪：GO》。请选择初始精灵：“你，就\n                    "}

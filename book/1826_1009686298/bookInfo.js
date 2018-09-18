@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009686298/150","book_name":"重生印度做大亨","book_author":"炉中火暖你我","book_intro":"\n                        一个机械厂的采购，重生到了一个印度高种姓刹帝利的身上，会发生什么事情呢？大家拭目以待。\n                    "}

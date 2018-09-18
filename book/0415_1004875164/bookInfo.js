@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004875164/150","book_name":"信仰神国","book_author":"两只陈洁南","book_intro":"\n                        一个濒临破灭的世界，来自深渊的生灵在哭嚎厮杀。异世的灵魂，意外携带着一枚神格降临此世。沉睡万年，再次醒来，却发现自己已变成了一棵被原始人祭拜的古树。本书QQ群:243373977\n                    "}

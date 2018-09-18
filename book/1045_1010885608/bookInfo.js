@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010885608/150","book_name":"海贼之英雄系统","book_author":"Souza","book_intro":"\n                        这是主角在无数世界中，寻找何为正确的故事，可能有过迷茫、有过过错、有过成就，但迷茫的少年终将醒来，那一天，他必以王的身姿降临！第一个世界，海贼王第二个世界，女装骷髅与骨傲天第三个世界，屠龙者的狂宴第四\n                    "}

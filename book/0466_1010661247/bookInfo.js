@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010661247/150","book_name":"飞升失败","book_author":"诗酒会春风","book_intro":"\n                        飞升失败的魔族高手林再，嫁给了同样飞升失败的陆野。陆野最大的梦想，就是干掉残忍的妻子林再！\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005005767/150","book_name":"重生之暗夜崛起","book_author":"家里第三胖","book_intro":"\n                        我用我的生命诠释守护，介于虚实之间，寻找获胜的每一丝可能性。而这一切的幕后---诸位古神的旨意，居然化作了----游戏？？新书《大妖之世》已签约，希望大家支持\n                    "}

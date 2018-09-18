@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3523490/150","book_name":"超级仙气","book_author":"格子里的阳光","book_intro":"\n                        一缕仙气，偏僻山村。厌倦繁华城市，回归恬静庄园，种田养殖，救死扶伤。我是顾仁，在红尘尽头等你休憩。咱们喝杯酒，品杯茶，天南地北。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009538765/150","book_name":"火影之凌天剑道","book_author":"墅宅","book_intro":"\n                        熔炼英雄传承，铸就最强剑道。这是一个得到英雄联盟系统，在火影忍者的世界横行的故事。PS：本书交流群，657368359\n                    "}

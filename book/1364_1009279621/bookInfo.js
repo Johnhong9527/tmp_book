@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009279621/150","book_name":"匈奴皇帝","book_author":"芈黍离","book_intro":"\n                        再回汉末，从头开始。但是作为一个匈奴人，想要实现并吞天下的狼子野心，何其难也!据大漠南北之众，南向与皇汉群雄相争，走上一条别样的汉末帝王之路。书友群:542133148\n                    "}

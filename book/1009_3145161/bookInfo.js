@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3145161/150","book_name":"阳光大秦","book_author":"光暗之心","book_intro":"\n                        他穿越来时，商鞅还未变法，大秦还是个屌丝帝国。为了过上好日子，为了吃上好东西，于是，他脑中的知识开始大爆炸了！\n                    "}

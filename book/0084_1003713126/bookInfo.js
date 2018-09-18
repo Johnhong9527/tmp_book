@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003713126/150","book_name":"两界搬运工","book_author":"石闻","book_intro":"\n                        自由穿行在现实世界和玄幻世界之间，安静的做一个两界搬运工。PS：新书《末世武器库》已上传，求支持！！\n                    "}

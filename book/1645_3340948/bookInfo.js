@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3340948/150","book_name":"回到三国去种菜","book_author":"夜色天王","book_intro":"\n                        一个一心想要隐居的宅男穿越成了刘备，野心勃勃的大耳贼韬光养晦起来，战无不胜的曹老大顿时成了屡战屡败的典范。与师兄公孙瓒争夺幽州，与天下楷模袁绍夺河北霸主之位，与群雄逐鹿于天下。\n                    "}

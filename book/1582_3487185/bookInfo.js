@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3487185/150","book_name":"绝世大明星","book_author":"俗人小黑","book_intro":"\n                        重生平行世界，从小小的视频主播开始！书友交流群：253451205欢迎入群交流！新书《卡牌大明星》正式发布！求支持！\n                    "}

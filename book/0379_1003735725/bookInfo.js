@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003735725/150","book_name":"华娱宗师","book_author":"秋刀斩鱼","book_intro":"\n                        这是一个穿越在平行世界的精彩故事！看完你只会感慨一句：真特么好看！PS：同类型新书《就问你气不气》，欢迎新老读者移步围观。\n                    "}

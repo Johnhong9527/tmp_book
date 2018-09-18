@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010771154/150","book_name":"回到过去做歌手","book_author":"想陪你过冬天","book_intro":"\n                        一觉醒来之后，长安回到了过去，却发现身边的音乐作品和音乐人从千禧年发生了转变……欢迎加入回到过去做歌手，群号码：664766681\n                    "}

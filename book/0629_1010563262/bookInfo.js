@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010563262/150","book_name":"崛起漫画世界","book_author":"暴走大气球","book_intro":"\n                        一次次穿越进入国漫世界，快速崛起，以求得世界真相……岁月如歌，那笼罩整个世界的乌云即将降临，这一次，能否改变这既定的结局？ps:新书《一切从长生开始》\n                    "}

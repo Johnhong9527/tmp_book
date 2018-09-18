@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2005637/150","book_name":"重生之网络娱乐","book_author":"天下第一白","book_intro":"\n                        重生回到2000年。QQ有了一个山寨版本，他的名字叫TT。韩国再也不是网络游戏出口大国，而是进口大国。当然，现在的网络YY小说当中，将出现一位名叫\\\\\"陈佳一\\\\\"的大神。\n                    "}

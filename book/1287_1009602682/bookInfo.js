@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009602682/150","book_name":"刘大师的悠闲人生","book_author":"大山黑水","book_intro":"\n                        新书《玩坏神豪系统》，请大家支持一下！谢谢！！！\n                    "}

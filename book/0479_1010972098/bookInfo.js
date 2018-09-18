@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010972098/150","book_name":"木叶之口袋妖怪","book_author":"雾迪","book_intro":"\n                        当山中埋通灵出皮卡丘的那一刻，就知道火影的故事要换主角啦~书友群：605132275\n                    "}

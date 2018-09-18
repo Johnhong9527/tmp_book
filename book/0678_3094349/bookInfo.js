@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3094349/150","book_name":"三界血歌","book_author":"血红","book_intro":"\n                        万界源泉，万法根源。人性本恶，故以酷法约束之。恶法如枷锁，阻我归家途，阻我飞天路。当以诸生之血，化血为刀，斩碎枷锁，得大逍遥。\n                    "}

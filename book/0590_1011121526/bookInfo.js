@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011121526/150","book_name":"地狱归来","book_author":"沙中灰","book_intro":"\n                        【火爆爽文】百年冥王重生到十八岁，却发现时空错乱，地狱之中的鬼差还认识自己是什么鬼？难不成是两个界面乱穿？江秋有些凌乱……\n                    "}

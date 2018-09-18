@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007377318/150","book_name":"范进的平凡生活","book_author":"普祥真人","book_intro":"\n                        穿入儒林外史世界，成为年轻时代的范进噫，我中了！\n                    "}

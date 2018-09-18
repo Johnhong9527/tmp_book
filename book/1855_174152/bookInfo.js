@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/174152/150","book_name":"重生成妖","book_author":"蛇吞鲸","book_intro":"\n                        一个倒霉的物理学博士，穿越到了西游的世界，重生在灵台方寸山上的一只普通的乌鸦身上，正赶上孙悟空初来灵台方寸山学艺，然后，跟着猴子偷师……这是一个妖怪的故事，这是一段妖族的传奇！\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1524659/150","book_name":"异世邪君","book_author":"风凌天下","book_intro":"\n                        世间毁誉，世人冷眼，与我何干？我自淡然一笑；以吾本性，快意恩仇，以吾本心，遨游世间，我命由我不由天！一代牛人穿越异界，看其如何踏上异世巅峰，成为一代邪君！\n                    "}

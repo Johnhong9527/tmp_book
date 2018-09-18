@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009661398/150","book_name":"女神召唤系统","book_author":"青空似璃","book_intro":"\n                        苏叶：我问你，你是我的Master吗？这是一个宇宙最强者响应各个位面女神召唤的故事。喜欢本书的可以加群：647637631\n                    "}

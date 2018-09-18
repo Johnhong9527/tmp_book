@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004056866/150","book_name":"美漫之大冬兵","book_author":"育","book_intro":"\n                        天赋是被给予的，而伟大，是自己争取的。我叫夏天，冬兵中的一员。欢迎来到我的世界。本书群184119551***新书《吞噬进化》，欢迎品读。\n                    "}

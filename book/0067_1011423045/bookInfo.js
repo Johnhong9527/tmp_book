@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011423045/150","book_name":"吞噬进化","book_author":"育","book_intro":"\n                        一个可以夺取他人异能的青年，在末日里步步成神的故事。***本书群722260831（无需验证）个人群184119551（需粉丝值）\n                    "}

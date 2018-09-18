@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009997161/150","book_name":"武念神帝","book_author":"风靡网络","book_intro":"\n                        武破苍穹，定乾坤；念沉长生，醉永恒。古荒武念同修之道，证得神帝与天比肩。\n                    "}

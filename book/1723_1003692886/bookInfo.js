@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003692886/150","book_name":"从一开始就无敌","book_author":"笑也随风","book_intro":"\n                        当创世之神让我许愿的时候，我做了一个决定，然后我就无敌了......新小说名字叫做《黑光病毒掠夺者》。感谢（书友群1：5—7—7—6—9—9—7—2—1）\n                    "}

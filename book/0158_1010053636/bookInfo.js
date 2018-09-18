@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010053636/150","book_name":"天庭招办处","book_author":"胜为王","book_intro":"\n                        李振成了天庭的一员，李振知道自己发达了。脚踏仙凡两界，权掌三界乾坤。头顶封神榜，手握打神鞭，神位晋升大权尽在掌中握，敢问三界谁敢不服？试问世间，谁能万界封神！\n                    "}

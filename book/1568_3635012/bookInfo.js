@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3635012/150","book_name":"歌王","book_author":"葱爆洋葱","book_intro":"\n                        在我心中，曾经有一个梦，要用歌声让你忘了所有的痛。灿烂星空，谁是真的英雄，平凡的人们给我最多感动。……重生平行世界，缔造歌王传奇！\n                    "}

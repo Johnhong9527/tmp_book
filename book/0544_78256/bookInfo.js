@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/78256/150","book_name":"寸芒","book_author":"我吃西红柿","book_intro":"\n                        一位身怀飞刀绝技的青年。他因为经脉定型，所以内功上不可能有大的成就。可是后来青年却得到一颗丹药，一颗来自修真界的可以脱胎换骨洗经伐髓的‘洗髓丹’……\n                    "}

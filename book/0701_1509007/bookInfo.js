@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1509007/150","book_name":"曹贼","book_author":"庚新","book_intro":"\n                        新书宋时行已上传，欢迎大家收藏————————————————————————2011年，庚新倾力打造，一个小曹贼的故事。\n                    "}

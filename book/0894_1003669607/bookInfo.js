@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003669607/150","book_name":"大宋的最强纨绔子弟","book_author":"灰头小宝2","book_intro":"\n                        睁开眼睛身在北宋，成为了大奸臣高太尉的儿子，幸福生活就此展开……~~~新书《北宋最强大少爷》上传了，请大家移步新书支持群号：180324695\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3645401/150","book_name":"我的庄园","book_author":"终级BOSS飞","book_intro":"\n                        蓝天，白云，庸懒的躺在沙摊上，感受着海风轻轻的吹过。身边猎犬，海兽，相互追逐嬉戏。随手端起一杯自己酒庄出产的绝世美酒，扎一块切好的特优A级牛肉。对于别人来说，人生的追求是金钱，权利，名望，但对于蒋海来\n                    "}

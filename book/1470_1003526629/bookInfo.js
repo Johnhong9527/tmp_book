@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003526629/150","book_name":"铁血宏图","book_author":"无语的命运","book_intro":"\n                        历史可以改变，可以创造！以铁血挽回国运，扬国威于万里之外，复兴中华，一切从1852开始！铁血宏图群：150536833，欢迎各位书友加入，一起讨论剧情！\n                    "}

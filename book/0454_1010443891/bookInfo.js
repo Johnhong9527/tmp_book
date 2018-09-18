@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010443891/150","book_name":"我要当球王","book_author":"不想说话咋办","book_intro":"\n                        前面的简介闹笑话了，想来想去，还是改一下吧对，前面这些包括这句和下面一句就是简介！我实在想不出来了qwq\n                    "}

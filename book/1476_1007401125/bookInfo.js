@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007401125/150","book_name":"妙手神相","book_author":"千钟不醉","book_intro":"\n                        妙手回春，救苦救难救世；一语成谶，相天相地相人张凡得祖师爷张道陵传承，一身医术，救死扶伤。一身相术，玄妙无常。一身道法，如鬼如神。一身武法，天下无双。\n                    "}

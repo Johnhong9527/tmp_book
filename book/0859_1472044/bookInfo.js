@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1472044/150","book_name":"升迁之路","book_author":"夏言冰","book_intro":"\n                        是农家子弟，抑或是元老后裔？且看在扑朔迷离的身世中，林远方如何自如地操控着升迁密码，成为共和国一颗冉冉升起的政治新星\n                    "}

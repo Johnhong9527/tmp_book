@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004081229/150","book_name":"刻之痕","book_author":"十里桃花","book_intro":"\n                        友情、努力、胜利！熟练掌握《jump》三要素的林秋穿越了，成为了一名立志成为最强骑士的少年，且看他如何一步步走上……等一下，谁来告诉他那边那个光着身子的女骑士是怎么回事？风格轻松的骑士文，讲述的是一位\n                    "}

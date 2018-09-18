@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3074191/150","book_name":"狂狮少帅","book_author":"天天不休","book_intro":"\n                        94年的夏天，米尔沃尔青年军在少帅奥德里奇率领下势要改写百年无冠的历史。那一抹狂狮的深蓝，立志席卷欧洲......\n                    "}

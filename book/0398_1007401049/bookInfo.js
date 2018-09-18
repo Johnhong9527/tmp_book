@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007401049/150","book_name":"宝尊","book_author":"朝昔","book_intro":"\n                        百族并起，人族羸弱！少年莫凡，崛起微末，凭一分机缘，万分努力，终聚天下万宝之气于己身，成混元万宝金身。世间百族以之为首，天地万宝以之为尊。是为宝尊！\n                    "}

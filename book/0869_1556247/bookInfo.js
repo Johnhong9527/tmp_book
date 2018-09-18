@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1556247/150","book_name":"君临","book_author":"开荒","book_intro":"\n                        此刀当碎虚空界，此剑当开造化权！血戮尘寰世无双，傲视三界笑红尘！\n                    "}

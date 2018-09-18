@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005260129/150","book_name":"大杀戮系统","book_author":"一梦已成神","book_intro":"\n                        一首江湖曲，引发了一段江湖传说。天尊人生格言：“我的剑，就是真理。”沈浪人生格言：“以德服人，不服的都是死人。”新书《最强大武道系统》\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003698462/150","book_name":"元气少年","book_author":"张君宝","book_intro":"\n                        平庸弱懦的学生宋保军，意外开启三十二重人格，成为全能少年，走向人生巅峰！\n                    "}

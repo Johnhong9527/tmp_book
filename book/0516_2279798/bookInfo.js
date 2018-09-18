@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2279798/150","book_name":"天才相师","book_author":"打眼","book_intro":"\n                        铁口直断，一卦千金少年叶天偶得相师传承，究天人之际，通古今之变，为往圣继绝学\n                    "}

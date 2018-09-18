@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010652335/150","book_name":"宿主请留步","book_author":"雪落君","book_intro":"\n                        宿主请留步！系统还有三十秒抵达战场。故事，从苏洛玩炸了系统后，翻身兼职干系统开始。\n                    "}

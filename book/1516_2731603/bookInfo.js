@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2731603/150","book_name":"房产大亨","book_author":"跑盘","book_intro":"\n                        房产中介公司的经纪人张伟，在一次意外受伤中拥有了“读心术”的异能。“读心术”让他可以看清房产行业中的尔虞我诈，判断出客户的真实想法，在房产行业混的风生水起……\n                    "}

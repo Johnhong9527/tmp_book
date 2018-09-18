@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1838463/150","book_name":"战天","book_author":"苍天白鹤","book_intro":"\n                        一颗天地圣果穿越所造就的奇迹。\n                    "}

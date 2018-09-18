@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3353387/150","book_name":"英雄联盟之巅峰王座","book_author":"Iced子夜","book_intro":"\n                        这是一个名叫李相赫的华夏巅峰职业选手，阴差阳错之下穿越到平行世界的韩国，然后重返LPL的故事！他惊讶的发现，这个世界的韩国，电竞早已和娱乐相结合，电竞圈即是娱乐圈，电竞明星即是娱乐明星。每个顶尖职业选\n                    "}

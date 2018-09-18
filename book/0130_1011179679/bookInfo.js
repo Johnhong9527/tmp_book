@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011179679/150","book_name":"一拳之最强英雄","book_author":"梦舍离二号","book_intro":"\n                        夏树穿越到一拳超人世界，获得进食强化的能力，只要不断进食，他的身体就可以变得越来越强悍。靠着这个能力，夏树能否成为最强英雄？不能！\n                    "}

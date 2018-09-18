@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/181671/150","book_name":"刑名师爷","book_author":"沐轶","book_intro":"\n                        穿越明朝的法医当了县衙刑名师爷，遇到各种离奇迷案。他运用自己的法医侦破推理知识，仔细勘察、精心检验、缜密推理，抽丝剥茧，揭开层层迷雾，终于将这些离奇案件幕后真相一件件大白于天下。\n                    "}

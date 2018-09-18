@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010957495/150","book_name":"重生之攻略大师","book_author":"纪九一","book_intro":"\n                        魔兽+暗黑+流放之路，融合的大背景跟玩法，主角为重生者，最后利用脑海记忆，装备and称霸游戏的小故事。企鹅群：705531309\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2255806/150","book_name":"极品仙府","book_author":"面红耳赤","book_intro":"\n                        穿越了，带着游戏中的仙府穿越到了真正的修仙世界。好吧，当时玩的是私服。……\n                    "}

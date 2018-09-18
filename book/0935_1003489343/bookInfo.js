@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003489343/150","book_name":"法神降临","book_author":"墨乡","book_intro":"\n                        游戏第一法神的林克率领他的团队干掉了版本最终BOSS深渊领主诺萨玛斯，出现了一个游戏CG。CG非常简陋，无穷无尽的虚空，虚空中一个自称是光辉之主的黯淡光球。“林克，你愿意拯救黑暗笼罩的费罗曼大陆吗？”\n                    "}

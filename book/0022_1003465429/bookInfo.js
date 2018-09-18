@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003465429/150","book_name":"仙域科技霸主","book_author":"试剑天涯","book_intro":"\n                        （同类新书《修真大工业时代》已经上传，打滚求关注）以天下为身躯，以城池为穴位，以综合国力为真元，以发展为修行。集团交锋，诸天争霸。且看一个不一样的修行新纪元。\n                    "}

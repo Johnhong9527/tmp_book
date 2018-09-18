@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009406892/150","book_name":"电影世界的魔法学院","book_author":"1大智1","book_intro":"\n                        这是一个主角跑到各个世界开魔法学校的故事。553914792本书读者群。\n                    "}

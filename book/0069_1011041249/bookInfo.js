@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011041249/150","book_name":"体坛之篮球教父","book_author":"肉末大茄子","book_intro":"\n                        重生2006，喜获神级教练系统！能治病，能兑换球员能力，还能抽女仆？！还是姚麦火箭队开局？简直飞起！等等，可为什么这是史上存在感最弱的系统啊喂！NBA教练文！养成！同时也是一本教练装逼文！ps：已有完\n                    "}

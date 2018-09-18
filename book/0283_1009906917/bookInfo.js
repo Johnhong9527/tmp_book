@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009906917/150","book_name":"两界大高手","book_author":"唐大宋","book_intro":"\n                        意外获得在现实世界和原始世界，自由穿梭能力的苏放，决定立一个伟大的目标——辗压全世界！嗯，等等，先压哪个比较好？\n                    "}

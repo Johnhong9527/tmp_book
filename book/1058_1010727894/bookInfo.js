@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010727894/150","book_name":"三国之新汉崛起","book_author":"爱喝奶的牛仔","book_intro":"\n                        汉室宗亲，听起来感觉挺高大尚的。跟着汉家皇室走，一辈子吃穿不愁。至于董卓，抱歉，你安稳的呆在西凉吧。刘汾的想法很好，但是天命不可为。汉室不保，他又该何去何从？\n                    "}

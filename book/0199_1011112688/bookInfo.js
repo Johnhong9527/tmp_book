@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011112688/150","book_name":"防化尖兵","book_author":"步兵没有枪","book_intro":"\n                        退役十八年的杨越，突然回到了新兵时期……还原最真实的军营，防化尖兵，热血上线！书群号：704030405\n                    "}

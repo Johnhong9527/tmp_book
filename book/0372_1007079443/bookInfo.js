@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007079443/150","book_name":"理科学霸的三国","book_author":"味道懵懵的","book_intro":"\n                        理科学霸穿越三国，不小心就成了益州牧刘璋？这个曹操口中的守门犬？且看我问候曹公，你全家好吗？且看我，看遍天下豪杰！\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009726302/150","book_name":"荒岛病毒","book_author":"八九燕来","book_intro":"\n                        新书【荒野巅峰】已上传，大家记得来光顾！♣♣♣♣♣科学老司机群：299782797♣♣♣♣♣\n                    "}

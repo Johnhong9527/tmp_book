@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3017651/150","book_name":"法师奥义","book_author":"月中阴","book_intro":"\n                        只要能够构建一个稳定的法术模型，任何人都可以成为法师！这就是法师的终极奥义！穿越成为贵族之子，带着前世的超级量子计算机，法术模型信手拈来……\n                    "}

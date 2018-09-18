@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3515983/150","book_name":"恐怖网文","book_author":"纯洁滴小龙","book_intro":"\n                        当您在网上看着这篇网络小说时，恭喜你，您已经被抽取成为“恐怖网文”世界的体验者，进入恐怖的小说世界，衷心希望……您……能活着回来！《恐怖网文》正版VIP读者群：439，583，382进群后请私密群主查\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1007082826/150","book_name":"无限位面交易平台","book_author":"长大的呼噜","book_intro":"\n                        没有卓越逆天的智商，没有坚韧不拔的意志，没有八面逢源的情商，更没有雄厚背景的靠山。一个普通人，在拥有可以和万界位面做交易的平台后，会做出什么成果呢。\n                    "}

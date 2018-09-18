@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005043188/150","book_name":"锋行天下","book_author":"静物JW","book_intro":"\n                        从前，有个叫乔丹的家伙，开启了后卫盛世。现在，有个污法污天的张茣，他要让联盟进入新的前锋时代。华山论贱，污绝前锋——他，才是真正的张两万！QQ群：208080578。新书已发——重生之全面复兴。\n                    "}

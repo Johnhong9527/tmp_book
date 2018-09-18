@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005115417/150","book_name":"火影之最强卡卡西","book_author":"墨渊九砚","book_intro":"\n                        火影卡卡西结束，番外篇夏目友人帐新书《往生门扉》正版书友群：555050388\n                    "}

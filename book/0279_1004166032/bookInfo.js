@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004166032/150","book_name":"奇妙重生","book_author":"木子心","book_intro":"\n                        一个混迹在娱乐圈的修行界高手，不走寻常路的故事。\n                    "}

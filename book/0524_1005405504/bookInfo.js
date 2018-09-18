@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005405504/150","book_name":"历史粉碎机","book_author":"木允锋","book_intro":"\n                        粉碎吧，历史！第一站，1644年，魂穿已经挂进上吊绳的崇祯\n                    "}

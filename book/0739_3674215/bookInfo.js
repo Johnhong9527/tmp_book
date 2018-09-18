@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3674215/150","book_name":"大牧场主","book_author":"陶良辰","book_intro":"\n                        重生八十年代美国华人富豪家族，天生就有亲和动植物的能力。科迪亚克棕熊悠然坐在屋檐下，龙猫被异国短尾猫追着跑。雪山映在湛蓝天空中，微风吹过草原，罗塔湖面荡起波澜，一望无际的薰衣草田随风摇摆。sos集团、\n                    "}

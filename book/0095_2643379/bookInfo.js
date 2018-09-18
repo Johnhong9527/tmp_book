@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2643379/150","book_name":"奥术神座","book_author":"爱潜水的乌贼","book_intro":"\n                        “知识就等于力量。”“所谓神，不过是强大一点的奥术师。”带着一大堆知识的夏风穿越而来了。\n                    "}

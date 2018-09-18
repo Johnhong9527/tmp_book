@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3269739/150","book_name":"胖子的韩娱","book_author":"胖子爱吃炖豆角","book_intro":"\n                        推荐一本书《十周年之最后的问候》。韩错写的，你懂的，O(∩_∩)O\n                    "}

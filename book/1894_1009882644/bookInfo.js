@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009882644/150","book_name":"海贼同盟","book_author":"红叶知玄","book_intro":"\n                        这是一个某不法分子在某代理人那里合法获得了一项C级技能、被迫置换了一件A级道具、主动盗取了一张B级皮肤，并且强制偷渡到了海贼世界的愉快故事。假定一个中将级平均战力为100，霸气水平为B，速度级别为A，\n                    "}

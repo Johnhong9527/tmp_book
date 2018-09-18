@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010442460/150","book_name":"山沟书画家","book_author":"忘三川","book_intro":"\n                        历代书画大师教课授业，身负国术振兴重任。笔法千古不易，失传至今，神人九势重现。山沟无名小辈化身书画大师的传奇人生，将由我来亲自书写！书友群：458448029\n                    "}

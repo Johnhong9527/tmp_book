@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/134535/150","book_name":"一个天才的平凡人生","book_author":"可大可小","book_intro":"\n                        一个少年得遇高人传授,进入社会后却并不想呼风唤雨,只是慢慢的使自己成长,成熟.虽取得亿万财富,但并没有美女如云,没有YY,没有修真,只想过着平凡普通的生活.\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011566548/150","book_name":"海贼之极乐净土","book_author":"希谷","book_intro":"\n                        死亡不是生命的尽头。死亡只是一个开始。新书《不科学游戏少女》\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009665511/150","book_name":"遨游仙武","book_author":"天真的竖瞳","book_intro":"\n                        一步步的在武侠仙侠世界穿梭，追寻着超脱之道。（新书仙门道途已经签约，求收藏，求推荐）\n                    "}

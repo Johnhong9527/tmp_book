@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2465470/150","book_name":"王朝教父","book_author":"临河羡鱼翁","book_intro":"\n                        “和庄飞相比，我做的还远远不够”－马刺主教练波波维奇“我是nba最成功的主教练？不，还有庄飞”－－－湖人主教练菲尔杰克逊“如果能在庄的麾下打球，我愿意一直打到50岁”－－奇才老将乔丹“我希望跟庄先生在\n                    "}

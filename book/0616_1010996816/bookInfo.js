@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010996816/150","book_name":"哥哥是女装大佬","book_author":"9月初二","book_intro":"\n                        哥哥，你能女装陪我上街买衣服吗？好啊！哥哥，你能女装给我做好吃的吗？可以！哥哥，你能女装教导我画画吗？好的！哥哥，你对我真好！！！\n                    "}

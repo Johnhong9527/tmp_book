@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3556393/150","book_name":"漫威哈里奥斯本","book_author":"星期日是开头","book_intro":"\n                        哈里·奥斯本就是我。新书：《从荒野开始的万界遨游》天高地远不如位面无限，刚出校园踏足社会的高峰绑定万界穿梭系统，从此开始了无限精彩的位面遨游。不过首先，他要成为荒野之王！\n                    "}

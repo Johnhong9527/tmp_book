@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010001185/150","book_name":"NBA之人型坦克","book_author":"坦克01","book_intro":"\n                        “TheOne,TheOne,又是他，大幅变向晃开对位，一记暴扣如约而至，就像重磅炸弹一样！”“TheOne,TheOne,三分，他的三分就像安装了导航系统，精准又飘逸！”谁能阻止他？这是一个胖子携带\n                    "}

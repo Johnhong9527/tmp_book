@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003374935/150","book_name":"君临诸天","book_author":"隔壁老王01","book_intro":"\n                        这是一个修真者，为求长生久视，不断穿梭武侠、玄幻、修真等等位面的故事。\n                    "}

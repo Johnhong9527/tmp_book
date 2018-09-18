@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2371777/150","book_name":"剑逆苍穹","book_author":"EK巧克力","book_intro":"\n                        剑道天才，强势崛起，终成一代剑神！一指诛神皆寂灭，我以我剑逆苍穹！－－－－－－－－－－－－－－－－－\n                    "}

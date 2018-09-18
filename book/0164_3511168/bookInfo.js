@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3511168/150","book_name":"狂武战帝","book_author":"被罚站的豆豆","book_intro":"\n                        若这山河不在，要我残躯何用？《神魔之上》新书已经发布，日更一万+\n                    "}

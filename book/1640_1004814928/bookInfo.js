@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004814928/150","book_name":"美漫之多塔杂货铺","book_author":"五铢钱","book_intro":"\n                        武器、铠甲、魔法装备！这里应有尽有！！只要你有足够的黄金……新书《美漫之机器侠》上线，力求支持！！\n                    "}

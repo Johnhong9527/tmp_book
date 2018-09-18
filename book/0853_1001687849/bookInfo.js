@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1001687849/150","book_name":"韩娱之光影交错","book_author":"姬叉","book_intro":"\n                        这是一个劝人好好学习天天向上的故事……做坏事是不对的……\n                    "}

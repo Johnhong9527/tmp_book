@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3582025/150","book_name":"明星天王","book_author":"念笯娇","book_intro":"\n                        重生为圣，横行娱乐圈。这是一个哥哥带着俩妹妹征服娱乐世界的故事。\n                    "}

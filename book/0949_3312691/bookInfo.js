@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3312691/150","book_name":"枪械主宰","book_author":"突然光和热","book_intro":"\n                        未来世界异兽横行，人类不再是世界的主宰。这一天，一名来自过去身怀《地下城与勇士》神枪手技能的年轻人来到了这个世界。\n                    "}

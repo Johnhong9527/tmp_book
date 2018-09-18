@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/31709/150","book_name":"网游之天地","book_author":"隐为者","book_intro":"\n                        惨淡的人生，必须从彪悍开始！新书《万古第一强者》希望大家多多支持\n                    "}

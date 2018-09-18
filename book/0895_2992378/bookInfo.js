@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2992378/150","book_name":"都市圣骑录","book_author":"萧舒","book_intro":"\n                        一个大学生因为做一个怪梦，在现代都市苦苦探寻圣骑士之路的故事\n                    "}

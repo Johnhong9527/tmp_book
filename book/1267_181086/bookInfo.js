@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/181086/150","book_name":"莲花宝鉴","book_author":"油炸包子","book_intro":"\n                        若未成功，帮你自宫——《莲花宝鉴》，这是一个关于童子功的故事，一个可怜的男人，被人强迫学了一套阴毒的功法，神功大成之前不得近女色，不然《莲花宝鉴》便会‘咔嚓’一声帮他自宫！！\n                    "}

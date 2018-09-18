@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010804210/150","book_name":"无限制穿越季","book_author":"不啃菠萝皮","book_intro":"\n                        在现实中变成了微型人，却意外得到了自由穿越幻想世界的机会，为寻找现实变大的方式，无限制地穿越想要去的世界，科技，魔法，法术，什么方式才能完美实现愿望。\n                    "}

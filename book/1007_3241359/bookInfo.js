@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3241359/150","book_name":"超神猎人","book_author":"不是浮云","book_intro":"\n                        某玩家：“你在这里挖坑干什么？破坏环境！”某猎人：“坑BOSS！”某玩家怒：“别当我小白啊，我可是高高手，这里的BOSS会飞！”某猎人：“我的陷阱也会飞！”……这是一个脑洞猎人在游戏里愉快坑杀玩家BO\n                    "}

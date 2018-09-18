@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010705930/150","book_name":"次元马甲系统","book_author":"哆啦i梦","book_intro":"\n                        林动是个coser，并不普通的那种。cosplay英灵卫宫的时候，真的能够发出来无限剑制。cosplay吉尔伽美什的时候，也真的能够用出来乖离剑。cosplay漩涡鸣人的时候，也能够搓出来螺旋丸。就是\n                    "}

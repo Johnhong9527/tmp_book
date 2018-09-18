@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2162710/150","book_name":"剑道真解","book_author":"滚开","book_intro":"\n                        一个因为妹妹异能者身份，而导致牵连被杀的普通青年，重生到平行空间的自己身上开始的新的人生。一个真正的反派boss成长之路。前世平凡而无力反抗，今世却是等待重现那一刻的扭转。另剑道真解231786531\n                    "}

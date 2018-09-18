@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2572738/150","book_name":"升邪","book_author":"豆子惹的祸","book_intro":"\n                        九天之前，太阳落下后再没有升起。第十天，苏景名动四方。\n                    "}

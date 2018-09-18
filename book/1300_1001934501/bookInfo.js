@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1001934501/150","book_name":"重走枭雄路","book_author":"摇摇-欲坠","book_intro":"\n                        重走的人生，就是要比任何人嚣张新书《重生欧美当大师》已经上传，希望各位书友能把推荐票都给那本书，对于一本位于新书期的书来说，这是最重要的支持。谢谢大家\n                    "}

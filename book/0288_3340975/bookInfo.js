@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3340975/150","book_name":"天才名医","book_author":"钓鱼1哥","book_intro":"\n                        急诊医生秦川得到一个神奇的天才神医系统，系统的跨时代医学科技让一个平凡的医生变成了医学天才。一个小医生慢慢成长为名医。\n                    "}

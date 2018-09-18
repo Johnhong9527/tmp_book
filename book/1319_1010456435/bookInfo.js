@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010456435/150","book_name":"贪唐","book_author":"华佗能医否","book_intro":"\n                        李二很愤怒，指着刘旭的鼻子，你还真是贪啊，贪钱，贪权，现在，你连朕的女儿也要贪！有时候啊，朕真想砍了你啊.....\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004824730/150","book_name":"万能电脑包","book_author":"愚任","book_intro":"\n                        这是一个开头凭借着一个电脑包闯荡平行世界，取得巨大成功，最后又突然回到地球，继续闯荡的故事。\n                    "}

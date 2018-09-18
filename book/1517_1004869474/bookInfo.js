@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004869474/150","book_name":"火影之大红莲冰轮丸","book_author":"紫映九霄","book_intro":"\n                        上天赋予了月华一柄最强的冰雪系斩魄刀，所谓大红莲地狱，严寒逼切，身变折裂，如红莲华！新书已发，木叶之最强人类！\n                    "}

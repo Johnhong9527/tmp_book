@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003586655/150","book_name":"大清之祸害","book_author":"木允锋","book_intro":"\n                        “妖星现，大清乱。一七零零的春天，一颗妖星落我大清。康熙爷的盛世，没了……”某潮湿的地下室里，一个瘦骨嶙峋的年轻人，用颤抖的手在纸上写下满腔悲愤。\n                    "}

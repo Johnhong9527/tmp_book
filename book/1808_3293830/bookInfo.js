@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3293830/150","book_name":"史上最强内线","book_author":"静物JW","book_intro":"\n                        一个失败的篮球运动员，重生在2007年两名身体素质一流的双胞胎身上，从此——NBA历史上最强的内线组合诞生了！一个灵魂两个身体，好处数不胜数，例如可以不限距离的使用心灵交流，又比如相隔万里也可以互相看\n                    "}

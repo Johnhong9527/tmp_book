@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003503674/150","book_name":"最强特种兵王","book_author":"云中羊","book_intro":"\n                        【热血爽文】军刀榜，东象、西虎、南狂、北妖，我就是兵王叶凡，绰号【南狂】。一双铁拳，一把军刀，傲视群雄，舍-我-其-谁！新书《兵王为尊》已经发布，恭候大家欣赏！\n                    "}

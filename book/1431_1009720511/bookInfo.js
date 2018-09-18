@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009720511/150","book_name":"沙漠种地王","book_author":"火爆虾","book_intro":"\n                        拥有超级种子，开启大沙漠大绿洲时代，找哈沙王城，寻黄金古城，重建楼兰王国，种果树，搞旅游，建立高楼大厦，又一片沙漠的传奇故事从超级种子系统开始。新书《极品奶爸在异界》已上传，大家可以点击阅读：http\n                    "}

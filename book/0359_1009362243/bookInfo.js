@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009362243/150","book_name":"铸梦2005","book_author":"耶义","book_intro":"\n                        程序员林凡重回2005年，这一年，他十八岁，即将面对高考，未来还有很多可能。这一世，他想走更远的路，看更多的风景。所以他告诉自己，如果这是一个梦，他愿永远沉沦。\n                    "}

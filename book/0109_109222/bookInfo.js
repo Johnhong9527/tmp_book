@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/109222/150","book_name":"无限恐怖","book_author":"zhttty","book_intro":"\n                        主人无限恐怖公郑吒自从失去了自己最亲密的青梅竹马后，对这种反复而又无聊的现代生活已经感到十分的厌倦。正在这时，他发现电脑屏幕上弹出了一段信息：“想明白生命的意义吗？想真正的……活着吗？”在按下YES后\n                    "}

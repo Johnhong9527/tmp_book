@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3379442/150","book_name":"大唐超级奶爸","book_author":"洛山山","book_intro":"\n                        奶爸是一个高尚的职业，一个纯粹的职业，一个有道德的职业，一个脱离了低级趣味的职业，一个有益于百姓的职业！而李元霸的大唐生活，就是从奶爸开始的！\n                    "}

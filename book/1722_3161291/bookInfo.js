@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3161291/150","book_name":"无限动漫录","book_author":"晕血的羔羊","book_intro":"\n                        二次元的追梦，存在于我们心中的那份真挚的幻想，世界之门向所有御宅族开放，或许你会触摸到那道门——打开它，心的呼吸，此刻永不停。\n                    "}

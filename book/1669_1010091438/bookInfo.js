@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010091438/150","book_name":"殖民异位面","book_author":"闪耀星尘","book_intro":"\n                        一次超大型可控核聚变装置的试运行实验事故意外打通了前往魔法异位面的大门，于是，一场科技和魔法的战争开始了。有兴趣的可加群646713733。\n                    "}

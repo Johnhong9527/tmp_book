@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3505756/150","book_name":"我就是太平洋","book_author":"敢为","book_intro":"\n                        拖过网，分过鱼，也曾拉响过汽笛。不会做菜的渔夫不是好驯兽师。我是唐海，我喂自己袋盐。\n                    "}

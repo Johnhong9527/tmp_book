@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3101507/150","book_name":"重生之大天王","book_author":"钟离江河","book_intro":"\n                        他的诗词、小说、文章红遍大江南北。他的歌曲脍炙人口，传唱八方。他的电影轰动整个世界。他叫李晨灿，来自地球，努力成为异时空的大天王。\n                    "}

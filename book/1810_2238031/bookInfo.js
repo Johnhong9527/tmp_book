@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2238031/150","book_name":"仙府道途","book_author":"云鹤真人","book_intro":"\n                        破剑烂宝，原石废料，有多少要多少！在仙府里，这些都可以转化成昂贵的炼器材料。\n                    "}

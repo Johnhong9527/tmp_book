@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003818949/150","book_name":"香江豪门","book_author":"左逸之风","book_intro":"\n                        2018年，一位颓废的四十多岁大叔在野外旅行当中，误入未知空间，再回1975年，同时回到18岁，从此一步步成为香江豪门的故事。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2173910/150","book_name":"贩罪","book_author":"三天两觉","book_intro":"\n                        天才。自闭、孤独、偏执、疯狂。每当时代变迁，逆十字的旗帜由他祭起。成则王侯将相，败则蛆蝇粪秽。平乱世，麾下四方辐辏，钟灵毓秀。隐市井，此生睥睨天下，唯有一人。\n                    "}

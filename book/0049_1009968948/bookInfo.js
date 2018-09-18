@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009968948/150","book_name":"绝对交易","book_author":"隐语者","book_intro":"\n                        世界上没有什么事情是一次交易不能解决的，如果有，那就进行纯（ang）洁（zang）的交易。说出来你可能不信，跟我交易过的人遍布诸天万界。交易，是一项有利于身心健康，让人无法拒绝的伟大事业！\n                    "}

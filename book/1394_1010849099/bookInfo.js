@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010849099/150","book_name":"奶爸的快乐时光","book_author":"歌莉","book_intro":"\n                        这是一个重生的故事这是一个明星的故事这是一个奶爸的故事这是一个大手牵小手溺爱女儿的故事PS：，请支持作者另外一本奶爸文《冥界归来当奶爸》\n                    "}

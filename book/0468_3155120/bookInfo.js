@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3155120/150","book_name":"移动藏经阁","book_author":"汉宝","book_intro":"\n                        白晨的脑袋里藏着一个藏经阁，藏经阁里收尽天下武学……\n                    "}

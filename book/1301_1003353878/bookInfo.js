@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003353878/150","book_name":"御道宗师","book_author":"韦小宝","book_intro":"\n                        新书《我到异界放卫星》已经上传，求点击、收藏、推荐万里之外，丑鱼吞天器；懵懂少年，插翅入云霄。\n                    "}

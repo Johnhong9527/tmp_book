@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1001794116/150","book_name":"全职BOSS","book_author":"宝月流光","book_intro":"\n                        新书《异界之书》火热上传中。本书为本人脑洞之全新力作，万望广大读者朋友能够继续支持\n                    "}

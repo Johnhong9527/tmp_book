@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004178401/150","book_name":"NBA大反派","book_author":"江奉先","book_intro":"\n                        怀有篮球梦想的大厨子天赋平平，漂洋过海来到米国却被人骗光财产，好不容易凭借一手厨艺站稳脚跟，却又遇到缠人的混混，正当走投无路之时，他意外得到了一个神奇的系统……\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009843749/150","book_name":"超级传奇巨星","book_author":"一江寒月","book_intro":"\n                        命运，不配做我的对手！当我回到2003年的时候，我知道，我已经踏上了成为传奇巨星的道路……已有350万字完本小说《超级全能控卫》，欢迎阅读。书友群：432764617\n                    "}

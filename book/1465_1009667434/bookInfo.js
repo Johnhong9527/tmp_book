@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009667434/150","book_name":"无限之量子永生","book_author":"本人云天","book_intro":"\n                        死，于我而言，早已成了奢望，不想陷入死亡轮回，只有一个办法……于量子永生，于无限超脱，追寻未来之路，答案，究竟为何？欢迎加入交流群：585328404\n                    "}

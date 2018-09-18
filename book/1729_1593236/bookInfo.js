@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1593236/150","book_name":"烈空","book_author":"庭雨","book_intro":"\n                        “星际时代，并不是唯有机甲称豪！征战的武器，还有战机！！”\n                    "}

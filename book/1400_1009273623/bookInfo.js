@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009273623/150","book_name":"洪荒之杀戮魔君","book_author":"守护宝宝","book_intro":"\n                        穿越时空，重生在洪荒之中，并且成为幽冥血海之主冥河，且看他如何逆改自身命运，成就无上至尊，超脱永恒！\n                    "}

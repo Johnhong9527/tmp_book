@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1037447/150","book_name":"流氓高手II","book_author":"无罪","book_intro":"\n                        2008年夏，无罪新书！***中大的BBS上流传着这样的一个传说，据说当年的猥琐宗师方少云在离开中大时，曾经在中大的某一个角落留下了一本猥琐秘笈。而得到这本秘笈的人，非但能够成为高手高手高高手，而且还\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3675625/150","book_name":"棺门鬼事","book_author":"冷七棺材铺","book_intro":"\n                        在前些年的时候，在河南某地界有些年纪的人或者懂行的人都听说过一句话“冷七棺材铺，葬鬼亦葬人”踏踏实实讲故事！\n                    "}

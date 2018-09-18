@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3355749/150","book_name":"三国之特工皇帝","book_author":"讳岩","book_intro":"\n                        【巅峰聚焦——品牌佳作，强力推荐】特工穿越汉末成为少年废帝，死里逃生，出洛阳、收豪杰。剑指江山、睥睨天下！任你拥兵百万、一方霸主！吃进去的，全给老子吐出来！\n                    "}

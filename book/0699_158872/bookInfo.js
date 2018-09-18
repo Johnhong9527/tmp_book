@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/158872/150","book_name":"隐杀","book_author":"愤怒的香蕉","book_intro":"\n                        谢谢馒头同学提供的书友群（邪恶者同好会）：32632289（已满）由kIsS铭同学提供的隐杀二群（ｃJ的香蕉）：20137707隐杀高V群：43237511（香蕉船）（高V会员加入，进去后请改成起点的\n                    "}

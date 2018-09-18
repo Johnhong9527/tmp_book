@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1496095/150","book_name":"唐骑","book_author":"阿菩","book_intro":"\n                        大风狂飙，席卷万里，马蹄踏处，即为大唐！————————————————————————————\n                    "}

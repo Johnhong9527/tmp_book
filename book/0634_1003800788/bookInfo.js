@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003800788/150","book_name":"SEED之逆袭的紫菜头","book_author":"愚直","book_intro":"\n                        意外过劳死的工程师陆逸穿越成为了SEED里的卡嘉莉的婚约者—尤拉.罗马.塞兰，一股坑爹的气息扑面而来。QQ群号：272488069\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005042490/150","book_name":"抗日之铁血智将","book_author":"574981","book_intro":"\n                        新书《抗日之铁血战将》已经上传，有兴趣朋友可以收藏养肥！临危受命反围剿！孤军深入建根据地！孤身一人下江南，看主角如何从一个作战参谋在抗日战场杀成一代战神！\n                    "}

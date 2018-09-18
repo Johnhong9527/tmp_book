@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3576403/150","book_name":"明末称雄","book_author":"木子蓝色","book_intro":"\n                        公元一六三九，大明崇祯十二年。待我重整山河，再建汉家帝国。\n                    "}

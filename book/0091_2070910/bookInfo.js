@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2070910/150","book_name":"求魔","book_author":"耳根","book_intro":"\n                        魔前一叩三千年，回首凡尘不做仙，只为她……掌缘生灭请看耳根作品《求魔》\n                    "}

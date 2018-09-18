@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/180029/150","book_name":"召唤千军","book_author":"高森","book_intro":"\n                        当别人为召唤出第二个契约生物而沾沾自喜到时候，王维正在为他第一万只契约生物打造合适的装备。\n                    "}

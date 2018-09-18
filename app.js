@@ -150,31 +150,71 @@ function removeBookInfo() {
 }
 
 // 创建对应书籍的目录
+const bookNotImageInfo = require('./data/bookNotImage');
 createBookFile();
 function createBookFile() {
-  console.log();
-  // 书籍ID
-  const bookId = `${fileName(i, book1.length)}_${
-    book1[i].book_img.split('/')[5]
-  }`;
-  // 根路径
-  const bookPath = `./book/${bookId}`;
-  // 书籍信息
-  const bookInfo = book1[i];
-  // 创建书籍目录
-  if (!fs.existsSync(bookPath)) {
+  let i = 0;
+  let len = bookNotImageInfo.length;
+  // 没有封面的书籍
+  let bookNotImage = [];
+  time();
+  function time() {
+    let timer = setTimeout(() => {
+      if (i === len) {
+        if (bookNotImage.length > 0) {
+          fs.writeFileSync(
+            './data/bookNotImage.js',
+            `module.exports =${JSON.stringify(bookNotImage)}`,
+          );
+          // createBookFile();
+        }
+        clearInterval(timer);
+        return;
+      }
+
+      // 书籍ID
+      const bookId = `${fileName(bookNotImageInfo[i] + 1, book1.length)}_${
+        book1[bookNotImageInfo[i]].book_img.split('/')[5]
+      }`;
+      // 根路径
+      const bookPath = `./book/${bookId}`;
+      // 书籍信息
+      const bookInfo = book1[bookNotImageInfo[i]];
+      // 创建书籍目录
+      /*  if (!fs.existsSync(bookPath)) {
     fs.mkdirSync(bookPath);
-  }
-  // 创建书籍简介数据
-  if (!fs.existsSync(`${bookPath}/bookInfo.js`)) {
+  } */
+      // 创建书籍简介数据
+      /*  if (!fs.existsSync(`${bookPath}/bookInfo.js`)) {
     fs.writeFileSync(
       `${bookPath}/bookInfo.js`,
       `module.exports =${JSON.stringify(bookInfo)}`,
     );
+  } */
+      /* if (!fs.existsSync(`${bookPath}/images`)) {
+    fs.mkdirSync(`${bookPath}/images`);
+  } */
+      // 创建书籍封面
+      if (!fs.existsSync(`${bookPath}/images/image.png`)) {
+        console.log(bookNotImageInfo[i]);
+        createImage({
+          book_name: bookInfo.book_name,
+          author: bookInfo.book_author,
+          path: bookPath,
+        });
+        bookNotImage.push(bookNotImageInfo[i]);
+      }
+      /* if (fs.existsSync(`${bookPath}/images/image.png`)) {
+      } */
+      i++;
+      time();
+    }, 4000);
   }
-  // 创建书籍封面
+
+  /* for (let i = 0; i < 3; i++) {
+   
+  } */
 }
-console.log(book1.length);
 // 批量删除数组中数据
 // http://www.blogjava.net/Hafeyang/archive/2010/12/29/how_to_batch_remove_items_in_javascript_array.html
 function getInfo() {

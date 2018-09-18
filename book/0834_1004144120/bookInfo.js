@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004144120/150","book_name":"神级大矿主","book_author":"五彩贝壳","book_intro":"\n                        全球最大的矿业公司，毫无疑问是旭东矿业集团，没有之一，这是一只超级巨鳄，作为这只超级巨鳄的所有人，在业界被称之为“神级大矿主”。\n                    "}

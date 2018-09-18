@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1192037/150","book_name":"异界全职业大师","book_author":"庄毕凡","book_intro":"\n                        网络游戏中的仓库小号，却意外的进入了异界。他不但带来了无数极品材料，还精通几乎所有的生活技能，最可怕的是，这家伙同时还是一个空前绝后的魔法天才！\n                    "}

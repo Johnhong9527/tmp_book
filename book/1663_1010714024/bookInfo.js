@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010714024/150","book_name":"妖尾里面的炼金术士","book_author":"止明先生","book_intro":"\n                        顶着著名科学家的名字来到了一个魔法的世界，他会在这个世界掀起什么样的风浪？魔法？科学？亦或是两者之间的叠加会产生什么样的结果？（书群已建：679884194）\n                    "}

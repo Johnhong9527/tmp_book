@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3667804/150","book_name":"硅谷大帝","book_author":"百刹","book_intro":"\n                        他并非凡夫肉眼，他的眼光震惊世人！1984年，他便投资创建了思科，而在随后的岁月里，他又先后创建了网景，亚马逊，雅虎……甚至是Google，ICQ。他是幕后的掌控者，他拥有着千亿财富，他是不为人知的互\n                    "}

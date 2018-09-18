@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/20117/150","book_name":"不死不灭","book_author":"辰东","book_intro":"\n                        一个被称为魔的人，为了生存而苦苦挣扎，最后走上了一条抗天之路……\n                    "}

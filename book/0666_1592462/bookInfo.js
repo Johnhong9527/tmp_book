@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1592462/150","book_name":"锦衣当国","book_author":"特别白","book_intro":"\n                        现代职场人王通，在病死后来到明万历初年，这是大明最好的时代，也是大明最后的辉煌，作为锦衣卫子弟的王通，能做些什么，能改变些什么呢？在他出现的这一刻，时间长河已经变了流向......\n                    "}

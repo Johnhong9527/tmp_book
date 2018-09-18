@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009756140/150","book_name":"传奇大老板","book_author":"牧三河","book_intro":"\n                        新书《系统让我去算命》已发布，请大家多多支持！系统给他一双天机眼，他却用来看美女，系统给他一根天机棒，他却用来捅娄子。\n                    "}

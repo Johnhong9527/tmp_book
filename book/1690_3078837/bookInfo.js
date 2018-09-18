@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3078837/150","book_name":"皇牌龙骑","book_author":"高森","book_intro":"\n                        当别人还在为拥有第二条巨龙而沾沾自喜的时候，龙一却已经开始为他的第一百条龙的口粮发愁了！【这简介怎么这么耳熟……】\n                    "}

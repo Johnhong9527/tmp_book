@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3366482/150","book_name":"三界独尊","book_author":"犁天","book_intro":"\n                        天帝之子江尘，转生在一个被人欺凌的诸侯少年身上，从此踏上一段轰杀各种天才的逆袭之路。在江尘面前，谁也没资格自称天才，因为，没有哪一个天才，能比天帝之子更懂天。天才？顺我者天，逆我者渣！\n                    "}

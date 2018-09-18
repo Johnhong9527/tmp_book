@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010987151/150","book_name":"这个BOSS有点牛","book_author":"是单也是单","book_intro":"\n                        家里蹲少年杨笑的人生突然闭幕，转眼变成异世界中的一个BOSS，还是爆率超级高的BOSS，黑暗骑士，莱杰罗。这个异世界就像是游戏一样，不管是职业者还是怪物死了都会复活，甚至还会爆出装备，不过从某一天开始\n                    "}

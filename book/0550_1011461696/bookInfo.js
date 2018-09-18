@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011461696/150","book_name":"混在漫威当法爷","book_author":"驾雾","book_intro":"\n                        【主角boss流，不套路】低调是不可能的，这辈子都不可能低调，超级英雄又不会当，就是装装逼、瞎玩这种，才能维持得了生活。来漫威的感觉啊……就跟回家一样！在家比这无聊多了！这里的老哥个个都是人才，说话又\n                    "}

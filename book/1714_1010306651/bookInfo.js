@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010306651/150","book_name":"属性天神","book_author":"清凉蓝夏","book_intro":"\n                        游戏之中最重要的是什么？技能？职业？级别？还是装备？一个穿越到游戏异界之中的人，拥有超高的全属性，只有属性，才是最重要的！一个小小的火球术，可以打出炸裂的效果！一记轻飘飘的普A，直接打到BOSS怀疑人\n                    "}

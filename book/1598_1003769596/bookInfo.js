@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003769596/150","book_name":"活在霍格沃茨","book_author":"精密计算","book_intro":"\n                        进入哈利波特的世界，却发现这里不仅仅是一个魔法的世界，更是一个巫师的世界，一个纯血巫师的世界。作为一个麻瓜孤儿出身的小巫师，该怎么活呢？\n                    "}

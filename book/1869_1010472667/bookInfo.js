@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010472667/150","book_name":"漫威世界里的图书管理员","book_author":"要你命四千","book_intro":"\n                        建议直接从227章看起，否则会辣瞎双眼。如果不愿意，不如复制张贴搜索《无限曙晖》吧！\n                    "}

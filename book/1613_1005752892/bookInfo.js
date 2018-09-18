@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1005752892/150","book_name":"我杀了法爷","book_author":"三月一","book_intro":"\n                        林雷看着空荡荡的盘子“我的饭呢！”“殿下，他们不让我给您做饭。”“瞎扯。”“真的，刚才那些法师又把我的菜刀抢去做飞剑了！”——精灵王子的修真日常，欢乐逗比向\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2741792/150","book_name":"东北灵异档案","book_author":"爱会永恒","book_intro":"\n                        永恒新书《东北灵异档案II》已经发布，继续讲述东灵的故事！\n                    "}

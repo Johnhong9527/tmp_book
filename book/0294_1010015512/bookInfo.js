@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010015512/150","book_name":"寇道","book_author":"虫梦","book_intro":"\n                        寇者，侵略也！寇道之人，心坚如铁石，操列于水火，天地不能挡，鬼神不能惑，行人之所不能行。生无根骨，立志武叩仙门，脑有逆骨，唯有寇道长生新书：道术达人，请多多支持\n                    "}

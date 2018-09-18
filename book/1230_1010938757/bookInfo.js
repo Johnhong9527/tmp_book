@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010938757/150","book_name":"初唐剑神","book_author":"川南剑君","book_intro":"\n                        带了一口剑，穿越大唐的故事。一个凌驾于皇权之上的穿越者的故事。\n                    "}

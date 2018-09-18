@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010304332/150","book_name":"我有系统好修真","book_author":"深海碧玺","book_intro":"\n                        得到修真系统，在末法时代，逆天而行重续修真之路——已有多本完本作品，请大家放心收藏阅读！！！\n                    "}

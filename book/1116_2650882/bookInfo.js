@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2650882/150","book_name":"上位","book_author":"一三五七九","book_intro":"\n                        .一个草根青年，野心勃勃踏入官场，一路打拼，青云直上。且看他，积累人脉、编织关系网、事业有成、佳人入怀。且看他，披荆斩棘、畅行官场路、功成名就、成功上位。.\n                    "}

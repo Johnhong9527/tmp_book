@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/2848912/150","book_name":"我叫布里茨","book_author":"机器人布里茨","book_intro":"\n                        这是一个来自真实的瓦罗兰大陆的蒸汽机器人穿越到《英雄联盟》游戏中笨拙地奋斗努力的故事。当然这也是一个不止布里茨一个人的故事。\n                    "}

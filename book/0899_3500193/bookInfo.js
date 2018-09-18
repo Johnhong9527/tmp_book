@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3500193/150","book_name":"唐朝小官人","book_author":"上山打老虎额","book_intro":"\n                        武则天初登大宝。千年前的洛阳城里，鲜红的牡丹怒放，朝阳升起，洒落无数晨曦。繁华之下，掩盖的，又是一次次鲜血淋漓的杀伐。秦少游来了，然后他笑了：“给我一把菜刀，我能征服世界。”\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009329134/150","book_name":"全能数学家","book_author":"大米小麦0","book_intro":"\n                        我是数学家，我有超能力。拥有超能力的学霸，问你怕不怕。打篮球时，你们别牛逼，乔丹来了。画画时，你们别牛逼，唐伯虎在此。奥运会，你们别牛逼，我每项都能吊打你们。\n                    "}

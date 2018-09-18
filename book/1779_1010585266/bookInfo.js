@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010585266/150","book_name":"魔鬼证道诸天","book_author":"w风雪","book_intro":"\n                        莫槐得魔鬼证道系统，穿越诸天，只为不断变强，证得无上大道！系统只是个穿越所用的工具，请看内容，不喜勿喷请绕道。\n                    "}

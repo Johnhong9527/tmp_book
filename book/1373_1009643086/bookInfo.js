@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1009643086/150","book_name":"重生之工业大亨","book_author":"长胜之虎","book_intro":"\n                        没有金手指,也不是科技大拿。且看仅仅只有初中文化的主角。凭着重生的先知，一步一个脚印，创立自己的工业王国。引领国家的工业科技屹立在世界的巅峰。\n                    "}

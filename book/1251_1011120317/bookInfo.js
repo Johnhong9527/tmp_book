@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1011120317/150","book_name":"一拳之兴趣使然的怪人","book_author":"S1爆破","book_intro":"\n                        “我只关心我这一拳下去，究竟会掉几根毛！”——一个兴趣使然的怪人：阿克塞尔。书友建了一个群，用来讨论剧情和漫画：701470292。\n                    "}

@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1010816089/150","book_name":"非典型性中锋","book_author":"清澈高远","book_intro":"\n                        在最正确的时间出现在最合适的地点，用最不合理的方式把球射进球门里。\n                    "}

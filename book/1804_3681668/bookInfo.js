@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3681668/150","book_name":"漫威驰骋者","book_author":"水瓶琴山","book_intro":"\n                        方冷因为一次偶然获得一张MARVEL宇宙通行证，穿越到了另一个世界。这竟然是漫威的世界，这里有着钢铁侠，有着蜘蛛侠，有着美国队长、雷神、金刚狼他们，更有着一个个野心勃勃的反派！ 壮观的神盾局空天母舰，\n                    "}

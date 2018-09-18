@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3678088/150","book_name":"学霸终结者","book_author":"浙东匹夫","book_intro":"\n                        国内第一深度的互联网商战文，不服就干。（VIP群号：86733212，新书《重回80当大佬》已开，欢迎捧场）\n                    "}

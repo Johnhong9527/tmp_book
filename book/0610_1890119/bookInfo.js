@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1890119/150","book_name":"大魔头","book_author":"傲无常","book_intro":"\n                        玩召唤，炼阴魂，血祭万鬼幡。且看雷动从一个无名小辈，加入邪宗后，一步一步从一个普通少年成长为惊天大魔头，纵横于天下。顺我者昌，逆我者亡。\n                    "}

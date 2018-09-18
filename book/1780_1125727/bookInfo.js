@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1125727/150","book_name":"刑徒","book_author":"庚新","book_intro":"\n                        楚汉之争。王侯将相，宁有种乎？\n                    "}

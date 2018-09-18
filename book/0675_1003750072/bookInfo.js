@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1003750072/150","book_name":"汽车黑科技","book_author":"蠢蠢凡愚QD","book_intro":"\n                        李凡愚在课堂上睡了一觉，醒来便发现熟悉的汽车品牌都不见了。没有宝马奥迪，没有路虎宾利，没有保时捷法拉利...民族汽车更是倒退了十年，国内市场被外资霸占。更离谱的是手机里多了个Xapp，牛掰的技术，自带\n                    "}

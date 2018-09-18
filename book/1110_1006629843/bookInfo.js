@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1006629843/150","book_name":"绿茵狂龙","book_author":"真狼魂","book_intro":"\n                        这是足坛龙日天、龙傲天、龙霸天的故事。-书友群：65194543，聊天的进。\n                    "}

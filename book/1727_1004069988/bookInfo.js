@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/1004069988/150","book_name":"全球第一村","book_author":"520农民","book_intro":"\n                        沙滩、温泉、滑雪、瀑布、海底世界、高山草原、原始森林？费劲，用跑那么远嘛？！小吃街、奢侈品、什么玩乐城？太LOW，咱这让你爽到爆！平均收入？NO！咱只谈村民最低收入，兰博基尼、法拉利都是LOW，什么车\n                    "}

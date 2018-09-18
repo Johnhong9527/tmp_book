@@ -1,0 +1,1 @@
+module.exports ={"book_img":"//bookcover.yuewen.com/qdbimg/349573/3090181/150","book_name":"汉魏文魁","book_author":"赤军","book_intro":"\n                        新书《勒胡马》已经开始上传，欢迎移驾前往一观。\n                    "}
