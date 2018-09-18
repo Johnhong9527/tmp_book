@@ -265,7 +265,7 @@ getBookList();
 // PC_url to M_url
 function linkF(url) {
   let urlA = url.split('/');
-  return `/wapbook/${urlA[2]}_${urlA[3]}.html`;
+  return `/wapbook/${urlA[2]}_${urlA[3]}`;
 }
 function getBookList() {
   let i = 0;
