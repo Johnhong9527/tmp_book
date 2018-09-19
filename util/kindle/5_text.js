@@ -12,9 +12,7 @@ module.exports = function(params) {
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <body>
     <h3 id="id${params.index + 1}">${params.title}</h3>
-    <p>
-      ${params.txtContent}
-    </p>
+${params.txtContent}
   </body>
   
   </html>`;

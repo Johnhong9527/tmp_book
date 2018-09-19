@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae205b2a-8167-42aa-94e7-e49ee0265f47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/kindle/3_ncx.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/kindle/3_ncx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/kindle/5_text.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/kindle/5_text.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,24 +29,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="530" />
+          <entry key="js" value="800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="530" />
+          <entry key="JavaScript" value="800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="4" />
-          <entry key="js" value="11" />
+          <entry key="js" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="4" />
-          <entry key="JavaScript" value="11" />
+          <entry key="JavaScript" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -52,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="894" column="31" lean-forward="true" selection-start-line="894" selection-start-column="31" selection-end-line="894" selection-end-column="31" />
+            <state relative-caret-position="235">
+              <caret line="648" column="23" selection-start-line="648" selection-start-column="23" selection-end-line="648" selection-end-column="23" />
               <folding>
                 <element signature="e#850#916#0" />
                 <element signature="e#1030#1183#0" />
@@ -135,15 +139,11 @@
                 <element signature="e#12518#12597#0" />
                 <element signature="e#12554#12591#0" />
                 <element signature="e#12750#14565#0" />
-                <element signature="e#12820#12835#0" />
+                <element signature="e#12668#12688#0" />
                 <element signature="e#12904#13488#0" />
                 <element signature="e#13208#13442#0" />
+                <element signature="e#13096#13200#0" />
                 <element signature="e#13448#13484#0" />
-                <element signature="e#13491#13796#0" />
-                <element signature="e#14250#14563#0" />
-                <element signature="e#14287#14557#0" />
-                <element signature="e#14315#14371#0" />
-                <element signature="e#14417#14549#0" />
                 <element signature="e#14586#15165#0" />
                 <element signature="e#14686#15163#0" />
                 <element signature="e#14964#15117#0" />
@@ -157,51 +157,70 @@
                 <element signature="e#16136#16173#0" />
                 <element signature="e#16179#16215#0" />
                 <element signature="e#16320#16529#0" />
-                <element signature="e#16391#16521#0" />
-                <element signature="e#16410#16451#0" />
-                <element signature="e#16457#16513#0" />
                 <element signature="e#16535#16571#0" />
+                <element signature="e#15245#15268#0" />
+                <element signature="e#16473#18869#0" />
+                <element signature="e#16763#16798#0" />
+                <element signature="e#16888#18663#0" />
+                <element signature="e#16952#18651#0" />
+                <element signature="e#17163#17219#0" />
+                <element signature="e#17130#18645#0" />
+                <element signature="e#17227#18629#0" />
+                <element signature="e#17413#17442#0" />
+                <element signature="e#17540#17660#0" />
+                <element signature="e#17588#17601#0" />
+                <element signature="e#17553#18617#0" />
+                <element signature="e#17671#17681#0" />
+                <element signature="e#17901#17980#0" />
+                <element signature="e#18158#18624#0" />
+                <element signature="e#18171#18484#0" />
+                <element signature="n#EXTERNAL_FRAGMENT#0;n#!!top" />
+                <element signature="e#18961#19123#0" />
+                <element signature="e#18905#18953#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/request.js">
+        <entry file="file://$PROJECT_DIR$/util/kindle/5_text.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="294">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/0001_1009398284/bookInfo.js">
+        <entry file="file://$PROJECT_DIR$/util/kindle/4_intro.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/0003_1005064061/list.js">
+        <entry file="file://$PROJECT_DIR$/util/kindle/3_ncx.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="16" />
+            <state relative-caret-position="231">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/0003_1005064061/bookInfo.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/data/book_1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret column="116" selection-start-column="105" selection-end-column="116" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/0004_3662715/bookInfo.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/0004_3662715/list.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/util/kindle/1_opf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -223,6 +242,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/book/0001_1009398284/list.js" />
+        <option value="$PROJECT_DIR$/util/kindle/3_ncx.js" />
+        <option value="$PROJECT_DIR$/util/kindle/5_text.js" />
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
@@ -244,10 +265,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1964" />
-    <option name="y" value="169" />
-    <option name="width" value="1557" />
-    <option name="height" value="912" />
+    <option name="x" value="1965" />
+    <option name="y" value="176" />
+    <option name="width" value="1555" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -265,18 +286,13 @@
             <path>
               <item name="tmp_qidian" type="b2602c69:ProjectViewProjectNode" />
               <item name="tmp_qidian" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmp_qidian" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmp_qidian" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="0001_1009398284" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tmp_qidian" type="b2602c69:ProjectViewProjectNode" />
               <item name="tmp_qidian" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="kindle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,7 +305,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Code/node/merge_mp3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -315,15 +331,15 @@
       <updated>1537319768053</updated>
       <workItem from="1537319769180" duration="986000" />
       <workItem from="1537320776195" duration="95000" />
-      <workItem from="1537320889777" duration="2957000" />
+      <workItem from="1537320889777" duration="5470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4038000" />
+    <option name="totallyTimeSpent" value="6551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1964" y="169" width="1557" height="912" extended-state="6" />
+    <frame x="1965" y="176" width="1555" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.16732283" />
@@ -428,10 +444,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/util/kindle/1_opf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/book_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret column="116" selection-start-column="105" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/kindle/3_ncx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/kindle/4_intro.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/kindle/5_text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="894" column="31" lean-forward="true" selection-start-line="894" selection-start-column="31" selection-end-line="894" selection-end-column="31" />
+        <state relative-caret-position="235">
+          <caret line="648" column="23" selection-start-line="648" selection-start-column="23" selection-end-line="648" selection-end-column="23" />
           <folding>
             <element signature="e#850#916#0" />
             <element signature="e#1030#1183#0" />
@@ -513,15 +560,11 @@
             <element signature="e#12518#12597#0" />
             <element signature="e#12554#12591#0" />
             <element signature="e#12750#14565#0" />
-            <element signature="e#12820#12835#0" />
+            <element signature="e#12668#12688#0" />
             <element signature="e#12904#13488#0" />
             <element signature="e#13208#13442#0" />
+            <element signature="e#13096#13200#0" />
             <element signature="e#13448#13484#0" />
-            <element signature="e#13491#13796#0" />
-            <element signature="e#14250#14563#0" />
-            <element signature="e#14287#14557#0" />
-            <element signature="e#14315#14371#0" />
-            <element signature="e#14417#14549#0" />
             <element signature="e#14586#15165#0" />
             <element signature="e#14686#15163#0" />
             <element signature="e#14964#15117#0" />
@@ -535,13 +578,44 @@
             <element signature="e#16136#16173#0" />
             <element signature="e#16179#16215#0" />
             <element signature="e#16320#16529#0" />
-            <element signature="e#16391#16521#0" />
-            <element signature="e#16410#16451#0" />
-            <element signature="e#16457#16513#0" />
             <element signature="e#16535#16571#0" />
+            <element signature="e#15245#15268#0" />
+            <element signature="e#16473#18869#0" />
+            <element signature="e#16763#16798#0" />
+            <element signature="e#16888#18663#0" />
+            <element signature="e#16952#18651#0" />
+            <element signature="e#17163#17219#0" />
+            <element signature="e#17130#18645#0" />
+            <element signature="e#17227#18629#0" />
+            <element signature="e#17413#17442#0" />
+            <element signature="e#17540#17660#0" />
+            <element signature="e#17588#17601#0" />
+            <element signature="e#17553#18617#0" />
+            <element signature="e#17671#17681#0" />
+            <element signature="e#17901#17980#0" />
+            <element signature="e#18158#18624#0" />
+            <element signature="e#18171#18484#0" />
+            <element signature="n#EXTERNAL_FRAGMENT#0;n#!!top" />
+            <element signature="e#18961#19123#0" />
+            <element signature="e#18905#18953#0" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

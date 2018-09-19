@@ -5,7 +5,7 @@
  * @param {String} params[0].link 章节所在链接
  * @return {String} 返回`toc.ncx`数据结构
  */
-module.exports = function(name, params) {
+module.exports = function (name, params) {
   function navPoint(params) {
     let navPoint = '';
     for (let i = 0; i < params.length; i++) {
@@ -18,6 +18,7 @@ module.exports = function(name, params) {
     }
     return navPoint;
   }
+
   return `<?xml version="1.0"?>
   <!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
       "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
