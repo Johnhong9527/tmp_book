@@ -668,13 +668,14 @@ function getListText() {
 
       function setIF() {
         console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
-        let setI = setImmediate(() => {
+        let setI = setTimeout(() => {
+        // let setI = setImmediate(() => {
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
           // 第一次,尝试不会循环`setTimeF`函数.
           if (y === x_list.length) {
-            clearImmediate(setI);
-            // clearTimeout(setI);
+            // clearImmediate(setI);
+            clearTimeout(setI);
             x++;
             y = 0;
             setTimeF();
@@ -706,9 +707,9 @@ function getListText() {
             y++;
             setIF();
           });
-        },);
+        },100);
       }
-    }, 2000);
+    }, 1000);
   }
 
   // 为每个书籍,创建章节存放目录
