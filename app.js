@@ -875,9 +875,10 @@ function getListText () {
             return;
           }
           // 开始执行爬虫
-          request(`https://bird.ioliu.cn/v1?url=${x_list[y].link}`).then(($) => {
+          request(x_list[y].link).then(($) => {
             let title = $('#content h1').html(); // 文章标题,目录
             let txtContent = $('#cContent').html(); // 文章内容,主体
+            return
             // `textHtmlPath`当前章节路径
             let textHtmlPath = `../book/${books[x]}/text/${y + 1 }.html`;
             // 检查书籍章节根目录是否存在,没有则创建
