@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae205b2a-8167-42aa-94e7-e49ee0265f47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/book_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/book_1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,7 +56,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="157">
@@ -187,11 +184,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/book_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1407">
-              <caret line="49" column="53" lean-forward="true" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+            <state relative-caret-position="189">
+              <caret column="735" lean-forward="true" selection-start-column="735" selection-end-column="735" />
             </state>
           </provider>
         </entry>
@@ -223,8 +220,8 @@
         <option value="$PROJECT_DIR$/util/kindle/1_opf.js" />
         <option value="$PROJECT_DIR$/util/request.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/data/book_1.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/data/book_1.js" />
       </list>
     </option>
   </component>
@@ -262,11 +259,6 @@
             <path>
               <item name="tmp_qidian" type="b2602c69:ProjectViewProjectNode" />
               <item name="tmp_qidian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmp_qidian" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmp_qidian" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tmp_qidian" type="b2602c69:ProjectViewProjectNode" />
@@ -315,12 +307,12 @@
       <updated>1537319768053</updated>
       <workItem from="1537319769180" duration="986000" />
       <workItem from="1537320776195" duration="95000" />
-      <workItem from="1537320889777" duration="19460000" />
+      <workItem from="1537320889777" duration="19563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20541000" />
+    <option name="totallyTimeSpent" value="20644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1965" y="176" width="1555" height="904" extended-state="6" />
@@ -483,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/book_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="49" column="53" lean-forward="true" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -601,6 +586,13 @@
             <element signature="e#18961#19123#0" />
             <element signature="e#18905#18953#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/book_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret column="735" lean-forward="true" selection-start-column="735" selection-end-column="735" />
         </state>
       </provider>
     </entry>
