@@ -843,7 +843,7 @@ function getListText () {
   let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
   let len = 100; // 需要爬取的书籍的总数
-  let x = 0; // book下的所有书籍的起始索引
+  let x = 1; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let x_list = JSON.parse(fs.readFileSync(`../book/${books[x]}/list.js`).toString()); //当前爬取的书籍的文章总数
   x_list = JSON.parse(x_list);
@@ -864,12 +864,13 @@ function getListText () {
 
       function setIF () {
         console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
-        let setI = setImmediate(() => {
+        let setI = setTimeout(() => {
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
           // 第一次,尝试不会循环`setTimeF`函数.
           if (y === x_list.length) {
-            clearImmediate(setI);
+            // clearImmediate(setI);
+            clearTimeout(setI);
             // x = y = 0;
             // setTimeF();
             return;
@@ -896,7 +897,7 @@ function getListText () {
                 }),
               );
             }
-            console.log(`<${bookList[x].book_name}>的<${title}>__章节制作完毕,开始下一步`);
+            console.log(`<${book1[x].book_name}>的<${title}>__章节制作完毕,开始下一步`);
             y++;
             setIF();
           });
