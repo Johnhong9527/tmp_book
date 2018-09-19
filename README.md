@@ -24,6 +24,10 @@ scp -r username@serveIP:{服务器详细文件夹路径} {本地存放路径}
 
 ```
 
+#### 查看文件夹大小
+```bash
+du -h --max-depth=0 {文件夹路径}
+```
 #### 电子书创建指令
 ```bash
 kindlegen c1 {opf文件} -locale zh

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae205b2a-8167-42aa-94e7-e49ee0265f47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/book_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/book_1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,20 +28,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1183" />
-          <entry key="md" value="231" />
+          <entry key="js" value="1184" />
+          <entry key="md" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1183" />
-          <entry key="Markdown" value="231" />
+          <entry key="JavaScript" value="1184" />
+          <entry key="Markdown" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="4" />
-          <entry key="js" value="18" />
+          <entry key="js" value="19" />
           <entry key="json" value="1" />
           <entry key="md" value="4" />
           <entry key="opf" value="1" />
@@ -48,7 +51,7 @@
         <counts>
           <entry key="HTML" value="5" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="18" />
+          <entry key="JavaScript" value="19" />
           <entry key="Markdown" value="4" />
         </counts>
       </usages-collector>
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="685" column="26" selection-start-line="685" selection-start-column="26" selection-end-line="685" selection-end-column="26" />
+            <state relative-caret-position="157">
+              <caret line="662" column="11" selection-start-line="662" selection-start-column="11" selection-end-line="662" selection-end-column="11" />
               <folding>
                 <element signature="e#850#916#0" />
                 <element signature="e#1030#1183#0" />
@@ -176,10 +179,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="151">
-                <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <first_editor relative-caret-position="297">
+                <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/book_1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1407">
+              <caret line="49" column="53" lean-forward="true" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -193,6 +205,7 @@
       <find>readdirSync</find>
       <find>shelljs</find>
       <find>./book/bs.py/list.js</find>
+      <find>国际</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/book</dir>
@@ -210,6 +223,7 @@
         <option value="$PROJECT_DIR$/util/kindle/1_opf.js" />
         <option value="$PROJECT_DIR$/util/request.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data/book_1.js" />
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
@@ -248,6 +262,11 @@
             <path>
               <item name="tmp_qidian" type="b2602c69:ProjectViewProjectNode" />
               <item name="tmp_qidian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tmp_qidian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tmp_qidian" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tmp_qidian" type="b2602c69:ProjectViewProjectNode" />
@@ -296,12 +315,12 @@
       <updated>1537319768053</updated>
       <workItem from="1537319769180" duration="986000" />
       <workItem from="1537320776195" duration="95000" />
-      <workItem from="1537320889777" duration="17454000" />
+      <workItem from="1537320889777" duration="19460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18535000" />
+    <option name="totallyTimeSpent" value="20541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1965" y="176" width="1555" height="904" extended-state="6" />
@@ -321,7 +340,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.43010753" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28360215" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24983256" />
@@ -402,13 +421,6 @@
     <entry file="file://$PROJECT_DIR$/book/0001_1009398284/bookInfo.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/book_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret column="116" selection-start-column="105" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/kindle/4_intro.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -464,17 +476,24 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="151">
-            <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <first_editor relative-caret-position="297">
+            <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/book_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="49" column="53" lean-forward="true" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="685" column="26" selection-start-line="685" selection-start-column="26" selection-end-line="685" selection-end-column="26" />
+        <state relative-caret-position="157">
+          <caret line="662" column="11" selection-start-line="662" selection-start-column="11" selection-end-line="662" selection-end-column="11" />
           <folding>
             <element signature="e#850#916#0" />
             <element signature="e#1030#1183#0" />
