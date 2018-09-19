@@ -557,11 +557,10 @@ function remove() {
 }
 
 // 设置 opf/toc/ncx
-
 function setOpf() {
   let books = fs.readdirSync('../book');
-  // let len = books.length;
-  let len = 1;
+  let len = books.length;
+  // let len = 1;
   // console.log(len);
   // return;
   for (let i = 0; i < len; i++) {
@@ -584,8 +583,8 @@ function setOpf() {
 
 function setToc() {
   let books = fs.readdirSync('../book');
-  // let len = books.length;
-  let len = 1;
+  let len = books.length;
+  // let len = 1;
   for (let i = 0; i < len; i++) {
     console.log(bookList[i].book_name);
     let bookC = fs.readFileSync(`./book/${books[i]}/list.js`).toString();
@@ -600,11 +599,10 @@ function setToc() {
   }
 }
 
-
 function setNcx() {
   let books = fs.readdirSync('../book');
-  // let len = books.length;
-  let len = 1;
+  let len = books.length;
+  // let len = 1;
   for (let i = 0; i < len; i++) {
     // console.log(bookList[i].book_name);
     let bookC = fs.readFileSync(`./book/${books[i]}/list.js`).toString();
@@ -621,8 +619,8 @@ function setNcx() {
 
 function setIntro() {
   let books = fs.readdirSync('../book');
-  // let len = book1.length;
-  let len = 1;
+  let len = book1.length;
+  // let len = 1;
   for (let i = 0; i < len; i++) {
     // 编号__用于该书籍存放路径以及编号
     const bookPath = `../book/${books[i]}`;
@@ -643,14 +641,13 @@ function setIntro() {
 }
 
 // 为每一本书,获取各自的章节.并存放到本地
-// getListText();
-getListText()
+getListText();
 
 function getListText() {
   let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
   let len = 100; // 需要爬取的书籍的总数
-  let x = 1; // book下的所有书籍的起始索引
+  let x = 2; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let x_list = JSON.parse(fs.readFileSync(`../book/${books[x]}/list.js`).toString()); //当前爬取的书籍的文章总数
   x_list = JSON.parse(x_list);
