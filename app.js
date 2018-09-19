@@ -840,12 +840,12 @@ $
 getListText();
 
 function getListText () {
-  let books = fs.readdirSync('./book');
+  let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
   let len = 100; // 需要爬取的书籍的总数
   let x = 0; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
-  let x_list = JSON.parse(fs.readFileSync(`./book/${books[x]}/list.js`).toString()); //当前爬取的书籍的文章总数
+  let x_list = JSON.parse(fs.readFileSync(`../book/${books[x]}/list.js`).toString()); //当前爬取的书籍的文章总数
   x_list = JSON.parse(x_list);
   // `setTimeF`函数,用于循环需要爬取的书籍索引,间隔10秒
   // 第一次,尝试不会循环`setTimeF`函数.
@@ -879,10 +879,10 @@ function getListText () {
             let title = $('#content h1').html(); // 文章标题,目录
             let txtContent = $('#cContent').html(); // 文章内容,主体
             // `textHtmlPath`当前章节路径
-            let textHtmlPath = `./book/${books[x]}/text/${y + 1 }.html`;
+            let textHtmlPath = `../book/${books[x]}/text/${y + 1 }.html`;
             // 检查书籍章节根目录是否存在,没有则创建
-            if (!fs.existsSync(`./book/${books[x]}/text/`)) {
-              fs.mkdirSync(`./book/${books[x]}/text/`, '0775');
+            if (!fs.existsSync(`../book/${books[x]}/text/`)) {
+              fs.mkdirSync(`../book/${books[x]}/text/`, '0775');
             }
             // 写入当前书籍的text目录中
             if (!fs.existsSync(textHtmlPath)) {
