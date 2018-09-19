@@ -655,6 +655,7 @@ function setIntro() {
 
 // 为每一本书,获取各自的章节.并存放到本地
 getListText()
+
 function getListText() {
   let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
@@ -681,6 +682,7 @@ function getListText() {
       function setIF() {
         console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
         let setI = setTimeout(() => {
+          let textHtmlPath = `../book/${books[x]}/text/${y + 1 }.html`;
           // let setI = setImmediate(() => {
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
@@ -694,31 +696,34 @@ function getListText() {
             return;
           }
           // 开始执行爬虫
-          request(x_list[y].link).then(($) => {
-            let title = $('#content h1').html(); // 文章标题,目录
-            let txtContent = $('#cContent').html(); // 文章内容,主体
-            // `textHtmlPath`当前章节路径
-            let textHtmlPath = `../book/${books[x]}/text/${y + 1 }.html`;
-            // 检查书籍章节根目录是否存在,没有则创建
-            if (!fs.existsSync(`../book/${books[x]}/text/`)) {
-              fs.mkdirSync(`../book/${books[x]}/text/`, '0775');
-            }
-            // 写入当前书籍的text目录中
-            if (!fs.existsSync(textHtmlPath)) {
-              fs.writeFileSync(
-                textHtmlPath,
-                kindle_text({
-                  index: y,
-                  len: x_list.length,
-                  title: title,
-                  txtContent: txtContent
-                }),
-              );
-            }
-            console.log(`<${book1[x].book_name}>的<${title}>__章节制作完毕,开始下一步`);
-            y++;
-            setIF();
-          });
+          if (!fs.existsSync(textHtmlPath)) {
+            request(x_list[y].link).then(($) => {
+              let title = $('#content h1').html(); // 文章标题,目录
+              let txtContent = $('#cContent').html(); // 文章内容,主体
+              // `textHtmlPath`当前章节路径
+
+              // 检查书籍章节根目录是否存在,没有则创建
+              if (!fs.existsSync(`../book/${books[x]}/text/`)) {
+                fs.mkdirSync(`../book/${books[x]}/text/`, '0775');
+              }
+              // 写入当前书籍的text目录中
+              if (!fs.existsSync(textHtmlPath)) {
+                fs.writeFileSync(
+                  textHtmlPath,
+                  kindle_text({
+                    index: y,
+                    len: x_list.length,
+                    title: title,
+                    txtContent: txtContent
+                  }),
+                );
+              }
+            });
+          }
+          console.log(`<${book1[x].book_name}>的<${title}>__章节制作完毕,开始下一步`);
+          y++;
+          setIF();
+
         }, 100);
       }
     }, 1000);
