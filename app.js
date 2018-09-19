@@ -678,7 +678,8 @@ function getListText() {
           if (y === x_list.length) {
             clearImmediate(setI);
             // clearTimeout(setI);
-            x = y = 0;
+            x++;
+            y = 0;
             setTimeF();
             return;
           }
@@ -708,7 +709,7 @@ function getListText() {
             y++;
             setIF();
           });
-        }, );
+        },);
       }
     }, 2000);
   }
