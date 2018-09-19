@@ -671,15 +671,15 @@ function getListText() {
 
       function setIF() {
         console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
-        let setI = setTimeout(() => {
+        let setI = setImmediate(() => {
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
           // 第一次,尝试不会循环`setTimeF`函数.
           if (y === x_list.length) {
-            // clearImmediate(setI);
-            clearTimeout(setI);
-            // x = y = 0;
-            // setTimeF();
+            clearImmediate(setI);
+            // clearTimeout(setI);
+            x = y = 0;
+            setTimeF();
             return;
           }
           // 开始执行爬虫
@@ -708,7 +708,7 @@ function getListText() {
             y++;
             setIF();
           });
-        }, 2000);
+        }, );
       }
     }, 2000);
   }

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae205b2a-8167-42aa-94e7-e49ee0265f47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/kindle/3_ncx.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/kindle/3_ncx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/kindle/5_text.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/kindle/5_text.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,12 +25,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="800" />
+          <entry key="js" value="804" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="800" />
+          <entry key="JavaScript" value="804" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="648" column="23" selection-start-line="648" selection-start-column="23" selection-end-line="648" selection-end-column="23" />
+            <state relative-caret-position="277">
+              <caret line="680" column="22" lean-forward="true" selection-start-line="680" selection-start-column="22" selection-end-line="680" selection-end-column="22" />
               <folding>
                 <element signature="e#850#916#0" />
                 <element signature="e#1030#1183#0" />
@@ -159,17 +155,8 @@
                 <element signature="e#16320#16529#0" />
                 <element signature="e#16535#16571#0" />
                 <element signature="e#15245#15268#0" />
-                <element signature="e#16473#18869#0" />
                 <element signature="e#16763#16798#0" />
-                <element signature="e#16888#18663#0" />
-                <element signature="e#16952#18651#0" />
-                <element signature="e#17163#17219#0" />
-                <element signature="e#17130#18645#0" />
-                <element signature="e#17227#18629#0" />
                 <element signature="e#17413#17442#0" />
-                <element signature="e#17540#17660#0" />
-                <element signature="e#17588#17601#0" />
-                <element signature="e#17553#18617#0" />
                 <element signature="e#17671#17681#0" />
                 <element signature="e#17901#17980#0" />
                 <element signature="e#18158#18624#0" />
@@ -331,12 +318,12 @@
       <updated>1537319768053</updated>
       <workItem from="1537319769180" duration="986000" />
       <workItem from="1537320776195" duration="95000" />
-      <workItem from="1537320889777" duration="5470000" />
+      <workItem from="1537320889777" duration="5623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6551000" />
+    <option name="totallyTimeSpent" value="6704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1965" y="176" width="1555" height="904" extended-state="6" />
@@ -477,8 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="648" column="23" selection-start-line="648" selection-start-column="23" selection-end-line="648" selection-end-column="23" />
+        <state relative-caret-position="277">
+          <caret line="680" column="22" lean-forward="true" selection-start-line="680" selection-start-column="22" selection-end-line="680" selection-end-column="22" />
           <folding>
             <element signature="e#850#916#0" />
             <element signature="e#1030#1183#0" />
@@ -580,17 +567,8 @@
             <element signature="e#16320#16529#0" />
             <element signature="e#16535#16571#0" />
             <element signature="e#15245#15268#0" />
-            <element signature="e#16473#18869#0" />
             <element signature="e#16763#16798#0" />
-            <element signature="e#16888#18663#0" />
-            <element signature="e#16952#18651#0" />
-            <element signature="e#17163#17219#0" />
-            <element signature="e#17130#18645#0" />
-            <element signature="e#17227#18629#0" />
             <element signature="e#17413#17442#0" />
-            <element signature="e#17540#17660#0" />
-            <element signature="e#17588#17601#0" />
-            <element signature="e#17553#18617#0" />
             <element signature="e#17671#17681#0" />
             <element signature="e#17901#17980#0" />
             <element signature="e#18158#18624#0" />
