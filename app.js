@@ -3,6 +3,8 @@ const app = express();
 // const request = require('request');
 const fs = require('fs');
 const path = require('path');
+const shelljs = require('shelljs');
+
 
 const ProgressBar = require('progress');
 
@@ -100,14 +102,13 @@ function renqi() {
 
 // 清除`book`中各个目录下`list.js`文件中`module.exports =`
 function removeME() {
-  let books = fs.readdirSync('./book');
+  let books = fs.readdirSync('../book');
   let len = books.length;
   for (let i = 0; i < len; i++) {
-    let list = fs.readFileSync(`./book/${books[i]}/list.js`).toString().replace('module.exports =', '');
-    fs.writeFileSync(`./book/${books[i]}/list.js`, JSON.stringify(list))
+    let list = fs.readFileSync(`../book/${books[i]}/list.js`).toString().replace('module.exports =', '');
+    fs.writeFileSync(`../book/${books[i]}/list.js`, JSON.stringify(list))
   }
 }
-
 
 // 去除 第一章前的混乱数据
 function removeFirst(list) {
@@ -557,14 +558,23 @@ function remove() {
 }
 
 // 设置 opf/toc/ncx
+
 function setOpf() {
   let books = fs.readdirSync('../book');
   let len = books.length;
   // let len = 1;
   // console.log(len);
   // return;
+  /*for (let i = 0; i < books.length; i++) {
+    let bookPath = `../book/${books[i]}/`;
+    console.log(i + 1);
+    if (!fs.existsSync(`./book/${books[i]}/data.opf`)) {
+      shelljs.exec(`cp ./data/data.opf ${bookPath}`).code
+    }
+  }
+  return*/
   for (let i = 0; i < len; i++) {
-    console.log(book1[i].book_name);
+    // console.log(book1[i].book_name);
     let bookC = fs.readFileSync(`./book/${books[i]}/list.js`).toString();
     bookC = JSON.parse(JSON.parse(bookC));
     console.log(`../book/${books[i]}/${books[i]}.opf`);
@@ -581,6 +591,7 @@ function setOpf() {
   }
 }
 
+// setToc()
 function setToc() {
   let books = fs.readdirSync('../book');
   let len = books.length;
@@ -599,6 +610,7 @@ function setToc() {
   }
 }
 
+// setNcx()
 function setNcx() {
   let books = fs.readdirSync('../book');
   let len = books.length;
@@ -617,6 +629,7 @@ function setNcx() {
   }
 }
 
+// setIntro()
 function setIntro() {
   let books = fs.readdirSync('../book');
   let len = book1.length;
@@ -641,8 +654,7 @@ function setIntro() {
 }
 
 // 为每一本书,获取各自的章节.并存放到本地
-getListText();
-
+getListText()
 function getListText() {
   let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
@@ -669,7 +681,7 @@ function getListText() {
       function setIF() {
         console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
         let setI = setTimeout(() => {
-        // let setI = setImmediate(() => {
+          // let setI = setImmediate(() => {
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
           // 第一次,尝试不会循环`setTimeF`函数.
@@ -707,7 +719,7 @@ function getListText() {
             y++;
             setIF();
           });
-        },100);
+        }, 100);
       }
     }, 1000);
   }

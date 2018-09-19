@@ -6,3 +6,25 @@ https://www.qidian.com/finish?size=-1&sign=-1&tag=-1&chanId=-1&subCateId=-1&orde
 
 https://www.qidian.com/finish?action=hidden&orderId=8&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=2&page=2
 
+
+#### 文件编码操作
+```bash
+# 将 UTF-8 with BOM 转为 非 UTF-8 with BOM 
+sed -i '1 s/^\xef\xbb\xbf//' fileName
+# 将非UTF-8 with BOM 转为 UTF-8 with BOM 
+sed -i '1 s/^/\xef\xbb\xbf&/' fileName
+```
+
+#### 下载服务器文件到本地
+```bash
+# 下载文件
+scp username@serveIP:{服务器详细文件路径} {本地存放路径} 
+# 下载目录
+scp -r username@serveIP:{服务器详细文件夹路径} {本地存放路径} 
+
+```
+
+#### 电子书创建指令
+```bash
+kindlegen c1 {opf文件} -locale zh
+```
