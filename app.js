@@ -657,6 +657,7 @@ function getListText() {
   let len = 100; // 需要爬取的书籍的总数
   let x = 9; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
+  let time = 100; // 章节内容爬取程序循环时间
   let x_list = JSON.parse(
     fs.readFileSync(`../book/${books[x]}/list.js`).toString(),
   ); //当前爬取的书籍的文章总数
@@ -716,13 +717,19 @@ function getListText() {
                 );
               }
             });
+            loop();
+          } else {
+            loop();
           }
-          console.log(
-            `<${book1[x].book_name}>_<第${y + 1}>章节__制作完毕,还有${x_list.length-y-1}`,
-          );
-          y++;
-          setIF();
-        }, 100);
+          function loop() {
+            console.log(
+              `<${book1[x].book_name}>_<第${y +
+                1}>章节__制作完毕,还有${x_list.length - y - 1}`,
+            );
+            y++;
+            setIF();
+          }
+        }, time);
       }
     }, 1000);
   }
