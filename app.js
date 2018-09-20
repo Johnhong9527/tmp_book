@@ -46,10 +46,20 @@ app.get('/', function(req, res, next) {
 
 app.get('/list', function(req, res, next) {
   let listInfo = [];
-  for (let i = 0; i < book1.length; i++) {
+  let books = fs.readdirSync('../book');
+  /*   ('scp -r honghaitao@35.189.174.148:/home/wwwroot/book/0001_1009398284/text /media/seam/7209c24a-77ce-4c9f-b505-ac351fcd2baf/tmp/book_back/0001_1009398284'); */
+  const SHELLCOMMAND = 'scp -r honghaitao@35.189.174.148:';
+  const SERVEPATH = `/home/wwwroot/book/`;
+  const LOCALPATH = `/media/seam/7209c24a-77ce-4c9f-b505-ac351fcd2baf/tmp/book_dow/`;
+  // for (let i = 0; i < books.length; i++) {
+  for (let i = 0; i < 100; i++) {
+    let bookC = fs.readFileSync(`./book/${books[i]}/list.js`).toString();
+    bookC = JSON.parse(JSON.parse(bookC));
     listInfo.push({
       name: book1[i].book_name,
       index: i + 1,
+      max: bookC.length - 1,
+      dow: `${SHELLCOMMAND}${SERVEPATH}${books[i]} ${LOCALPATH}`,
     });
   }
   res.send(JSON.stringify(listInfo));
@@ -659,12 +669,13 @@ function setIntro() {
 if (process.env.NODE_ENV === 'production') {
   getListText();
 }
+// getListText();
 // 为每一本书,获取各自的章节.并存放到本地
 function getListText() {
   let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
-  let len = 100; // 需要爬取的书籍的总数
-  let x = 25; // book下的所有书籍的起始索引
+  let len = 4; // 需要爬取的书籍的总数
+  let x = 3; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let time = 1000; // 章节内容爬取程序循环时间
 
@@ -689,12 +700,11 @@ function getListText() {
         return;
       }
       // `setIF`函数,循环当前爬取书籍的章节索引
-      console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
+      console.log(`${x}当前开始抓取<${book1[x].book_name}>的章节`);
       setIF();
       function setIF() {
         let setI = setTimeout(() => {
           let textHtmlPath = `../book/${books[x]}/text/${y + 1}.html`;
-
           // let setI = setImmediate(() => {
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
@@ -734,9 +744,7 @@ function getListText() {
             });
             time = 10;
             console.log(
-              `<${book1[x].book_name}>_<${
-                x_list[y].name
-              }>_制作完毕,还有${x_list.length - y}`,
+              `<${book1[x].book_name}>_<${title}>_制作完毕,还有${x_list.length - y}`,
             );
             loop();
           } else {
