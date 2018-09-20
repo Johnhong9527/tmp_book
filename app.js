@@ -664,8 +664,8 @@ function getListText() {
   setTimeF();
   function setTimeF() {
     console.log('开始数据抓取');
-    if (!fs.existsSync(`./book/${books[i]}/text`)) {
-      fs.mkdirSync(`./book/${books[i]}/text`, '0775');
+    if (!fs.existsSync(`../book/${books[x]}/text`)) {
+      fs.mkdirSync(`../book/${books[x]}/text`, '0775');
     }
     let x_list = JSON.parse(
       fs.readFileSync(`../book/${books[x]}/list.js`).toString(),
