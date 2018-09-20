@@ -689,13 +689,15 @@ function getListText() {
           // 第一次,尝试不会循环`setTimeF`函数.
           // 如果当前爬取的书籍的章节列表起始索引等于当前书籍的章节总数或者如果当前爬取书籍章节数完整,直接进入下一个循环
           console.log(y)
+          console.log(x)
           console.log(x_list.length)
           console.log(bookFiles.length)
           if (y === x_list.length || bookFiles.length === x_list.length) {
             // clearImmediate(setI);
-            clearTimeout(setI);
             x++;
             y = 0;
+            clearTimeout(setI);
+            
             setTimeF();
             return;
           }
