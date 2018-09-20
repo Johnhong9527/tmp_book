@@ -655,7 +655,7 @@ function getListText() {
   let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
   let len = 100; // 需要爬取的书籍的总数
-  let x = 19; // book下的所有书籍的起始索引
+  let x = 22; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let time = 100; // 章节内容爬取程序循环时间
 
@@ -724,17 +724,17 @@ function getListText() {
               }
             });
             // time = 100;
+            console.log(
+              `<${book1[x].book_name}>_<${
+                x_list[y].name
+              }>_制作完毕,还有${x_list.length - y - 1}`,
+            );
             loop();
           } else {
             // time = 100;
             loop();
           }
           function loop() {
-            console.log(
-              `<${book1[x].book_name}>_<${
-                x_list[y].name
-              }>_制作完毕,还有${x_list.length - y - 1}`,
-            );
             y++;
             setIF();
           }
