@@ -723,9 +723,10 @@ function getListText() {
                 );
               }
             });
-            time = 500;
+            time = 700;
             loop();
           } else {
+            time = 100;
             loop();
           }
           function loop() {
@@ -734,7 +735,6 @@ function getListText() {
                 x_list[y].name
               }>_制作完毕,还有${x_list.length - y - 1}`,
             );
-            time = 10;
             y++;
             setIF();
           }
