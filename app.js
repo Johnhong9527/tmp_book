@@ -723,12 +723,12 @@ function getListText() {
             request(x_list[y].link).then(($) => {
               let title = $('#content h1').html(); // 文章标题,目录
               let txtContent = $('#cContent').html(); // 文章内容,主体
-              console.log(title);
-              return;
+              // console.log(title);
+              // return;
               console.log(
-                `<${
-                  book1[x].book_name
-                }>_<${title}>_制作完毕,还有${x_list.length - y}`,
+                `<${book1[x].book_name}>_<${
+                  title ? title : '**'
+                }>_制作完毕,还有${x_list.length - y}`,
               );
               // `textHtmlPath`当前章节路径
 
