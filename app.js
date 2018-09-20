@@ -658,18 +658,18 @@ function getListText() {
   let x = 9; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let time = 500; // 章节内容爬取程序循环时间
-  let x_list = JSON.parse(
-    fs.readFileSync(`../book/${books[x]}/list.js`).toString(),
-  ); //当前爬取的书籍的文章总数
-  // 当前爬取小说已获取章节集合
-  let bookFiles = fs.readdirSync(`../book/${books[x]}/text/`);
-  x_list = JSON.parse(x_list);
+  
   // `setTimeF`函数,用于循环需要爬取的书籍索引,间隔10秒
   // 第一次,尝试不会循环`setTimeF`函数.
   setTimeF();
-
   function setTimeF() {
     console.log('开始数据抓取');
+    let x_list = JSON.parse(
+      fs.readFileSync(`../book/${books[x]}/list.js`).toString(),
+    ); //当前爬取的书籍的文章总数
+    // 当前爬取小说已获取章节集合
+    let bookFiles = fs.readdirSync(`../book/${books[x]}/text/`);
+    x_list = JSON.parse(x_list);
     let setTime = setTimeout(() => {
       // 所有书籍章节爬取完毕,终止程序
       if (x === len) {
@@ -682,22 +682,22 @@ function getListText() {
         console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
         let setI = setTimeout(() => {
           let textHtmlPath = `../book/${books[x]}/text/${y + 1}.html`;
-          
+
           // let setI = setImmediate(() => {
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
           // 第一次,尝试不会循环`setTimeF`函数.
           // 如果当前爬取的书籍的章节列表起始索引等于当前书籍的章节总数或者如果当前爬取书籍章节数完整,直接进入下一个循环
-          console.log(y)
-          console.log(x)
-          console.log(x_list.length)
-          console.log(bookFiles.length)
+          console.log(y);
+          console.log(x);
+          console.log(x_list.length);
+          console.log(bookFiles.length);
           if (y === x_list.length || bookFiles.length === x_list.length) {
             // clearImmediate(setI);
             x++;
             y = 0;
             clearTimeout(setI);
-            
+
             setTimeF();
             return;
           }
