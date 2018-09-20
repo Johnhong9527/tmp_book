@@ -723,7 +723,7 @@ function getListText() {
                 );
               }
             });
-            // time = 100;
+            time = 1000;
             console.log(
               `<${book1[x].book_name}>_<${
                 x_list[y].name
@@ -731,7 +731,7 @@ function getListText() {
             );
             loop();
           } else {
-            // time = 100;
+            time = 10;
             loop();
           }
           function loop() {
