@@ -5,7 +5,6 @@ const fs = require('fs');
 const path = require('path');
 const shelljs = require('shelljs');
 
-
 const ProgressBar = require('progress');
 
 const request = require('./util/request');
@@ -41,14 +40,14 @@ const QIDIAN = {
 };
 let BOOKLIST = [];
 
-app.get('/', function (req, res, next) {
+app.get('/', function(req, res, next) {
   res.send('<h4>hello world!</h4>');
 });
 
-app.get('/list', function (req, res, next) {
+app.get('/list', function(req, res, next) {
   res.send(list);
 });
-app.get('/renqi', function (req, res, next) {
+app.get('/renqi', function(req, res, next) {
   renqi();
   res.send('ok');
 });
@@ -61,7 +60,7 @@ function renqi() {
       fs.writeFile(
         './list.js',
         `module.exports =${JSON.stringify(BOOKLIST)}`,
-        function (err) {
+        function(err) {
           if (err) {
             console.error(err);
           } else {
@@ -77,19 +76,19 @@ function renqi() {
         let book_info = list.eq(i).children('.book-mid-info');
         BOOKLIST.push({
           book_img: list
-          .eq(i)
-          .children('.book-img-box')
-          .children('a')
-          .children('img')
-          .attr('src'),
+            .eq(i)
+            .children('.book-img-box')
+            .children('a')
+            .children('img')
+            .attr('src'),
           book_name: book_info
-          .children('h4')
-          .children('a')
-          .html(),
+            .children('h4')
+            .children('a')
+            .html(),
           book_author: book_info
-          .children('.author')
-          .children('a.name')
-          .html(),
+            .children('.author')
+            .children('a.name')
+            .html(),
           book_intro: book_info.children('p.intro').html(),
         });
       }
@@ -105,14 +104,16 @@ function removeME() {
   let books = fs.readdirSync('../book');
   let len = books.length;
   for (let i = 0; i < len; i++) {
-    let list = fs.readFileSync(`../book/${books[i]}/list.js`).toString().replace('module.exports =', '');
-    fs.writeFileSync(`../book/${books[i]}/list.js`, JSON.stringify(list))
+    let list = fs
+      .readFileSync(`../book/${books[i]}/list.js`)
+      .toString()
+      .replace('module.exports =', '');
+    fs.writeFileSync(`../book/${books[i]}/list.js`, JSON.stringify(list));
   }
 }
 
 // 去除 第一章前的混乱数据
 function removeFirst(list) {
-
   /**
    * Regular Expresion IndexOf for Arrays
    * This little addition to the Array prototype will iterate over array
@@ -123,7 +124,7 @@ function removeFirst(list) {
    * @return {Numeric} -1 means not found
    */
   if (typeof Array.prototype.reIndexOf === 'undefined') {
-    Array.prototype.reIndexOf = function (rx) {
+    Array.prototype.reIndexOf = function(rx) {
       for (var i in this) {
         if (this[i].toString().match(rx)) {
           return i;
@@ -157,9 +158,8 @@ function getNotBookInfo() {
   fs.writeFile(
     './noBookInfo.js',
 
-    `module.exports =${JSON.stringify(books)}`
-    ,
-    function (err) {
+    `module.exports =${JSON.stringify(books)}`,
+    function(err) {
       if (err) {
         console.error(err);
       } else {
@@ -175,18 +175,13 @@ function removeBookInfo() {
   for (let i = 0; i < list.length; i++) {
     let bookId = list[i].book_img.split('/')[5];
     let bookIndex = i + 1;
-    let bookPath =
-      `./book/${fileName(bookIndex, list.length)}_${bookId}`
-    ;
-    let isListJs = fs.existsSync(
-      `${bookPath}/list_now.js`
-    );
+    let bookPath = `./book/${fileName(bookIndex, list.length)}_${bookId}`;
+    let isListJs = fs.existsSync(`${bookPath}/list_now.js`);
     if (!isListJs) {
       fs.renameSync(
         bookPath,
 
-        `./noBook/${fileName(bookIndex, list.length)}_${bookId}`
-        ,
+        `./noBook/${fileName(bookIndex, list.length)}_${bookId}`,
       );
     }
   }
@@ -219,8 +214,7 @@ function getInfo() {
 
   function stopCount() {
     fs.writeFileSync(
-      `./util/book_1.js`
-      ,
+      `./util/book_1.js`,
       'module.exports =' + JSON.stringify(b),
     );
   }
@@ -241,8 +235,7 @@ function createBookFile() {
           fs.writeFileSync(
             './data/bookNotImage.js',
 
-            `module.exports =${JSON.stringify(bookNotImage)}`
-            ,
+            `module.exports =${JSON.stringify(bookNotImage)}`,
           );
           // createBookFile();
         }
@@ -251,15 +244,11 @@ function createBookFile() {
       }
 
       // 书籍ID
-      const bookId =
-        `${fileName(bookNotImageInfo[i] + 1, book1.length)}_${
-          book1[bookNotImageInfo[i]].book_img.split('/')[5]
-          }`
-      ;
+      const bookId = `${fileName(bookNotImageInfo[i] + 1, book1.length)}_${
+        book1[bookNotImageInfo[i]].book_img.split('/')[5]
+      }`;
       // 根路径
-      const bookPath =
-        `./book/${bookId}`
-      ;
+      const bookPath = `./book/${bookId}`;
       // 书籍信息
       const bookInfo = book1[bookNotImageInfo[i]];
       // 创建书籍目录
@@ -287,9 +276,7 @@ function createBookFile() {
 );
   } */
       // 创建书籍封面
-      if (!fs.existsSync(
-        `${bookPath}/images/image.png`
-      )) {
+      if (!fs.existsSync(`${bookPath}/images/image.png`)) {
         console.log(bookNotImageInfo[i]);
         createImage({
           book_name: bookInfo.book_name,
@@ -317,9 +304,8 @@ function createBookFile() {
 // PC_url to M_url
 function linkF(url) {
   let urlA = url.split('/');
-  return
-  `/wapbook/${urlA[2]}_${urlA[3]}`
-  ;
+  return;
+  `/wapbook/${urlA[2]}_${urlA[3]}`;
 }
 
 function getBookList() {
@@ -352,13 +338,9 @@ function getBookList() {
       // 编号__用于该书籍存放路径以及编号
       const bookId = book1[i].book_img.split('/')[5];
       const bookIndex = i + 1;
-      const bookPath =
-        `./book/${fileName(bookIndex, book1.length)}_${bookId}`
-      ;
+      const bookPath = `./book/${fileName(bookIndex, book1.length)}_${bookId}`;
       const bookName = book1[i].book_name;
-      if (fs.existsSync(
-        `${bookPath}/list.js`
-      )) {
+      if (fs.existsSync(`${bookPath}/list.js`)) {
         i++;
         get();
         return;
@@ -366,100 +348,100 @@ function getBookList() {
       request(
         `https://www.boquge.com/search.htm?keyword=${encodeURI(bookName)}`,
       )
-      .then(($) => {
-        if (!$) {
-          i++;
-          get();
-          return;
-        }
-        let bookListUrl = $('#novel-list ul li')
-        .eq(1)
-        .children('div.col-xs-3')
-        .children('a')
-        .attr('href');
-        if (bookListUrl === undefined) {
-          noBook.push(i);
-          i++;
-          get();
-          return;
-        }
-        return request(
-          `
+        .then(($) => {
+          if (!$) {
+            i++;
+            get();
+            return;
+          }
+          let bookListUrl = $('#novel-list ul li')
+            .eq(1)
+            .children('div.col-xs-3')
+            .children('a')
+            .attr('href');
+          if (bookListUrl === undefined) {
+            noBook.push(i);
+            i++;
+            get();
+            return;
+          }
+          return request(
+            `
 https://www.boquge.com/book/$
 {
   bookListUrl.split('/')[2]
 }
 `,
-        );
-      })
-      .then(($) => {
-        let ddList = $('#chapters-list li');
-        let ddArray = [];
-        for (let i = 0; i < ddList.length; i++) {
-          if (
-            ddList.eq(i) &&
-            ddList.eq(i).children('a') &&
-            ddList
-            .eq(i)
-            .children('a')
-            .html()
-          ) {
-            let link = ddList
-            .eq(i)
-            .children('a')
-            .attr('href');
-            ddArray.push({
-              name: ddList
-              .eq(i)
-              .children('a')
-              .html(),
-              link: `
+          );
+        })
+        .then(($) => {
+          let ddList = $('#chapters-list li');
+          let ddArray = [];
+          for (let i = 0; i < ddList.length; i++) {
+            if (
+              ddList.eq(i) &&
+              ddList.eq(i).children('a') &&
+              ddList
+                .eq(i)
+                .children('a')
+                .html()
+            ) {
+              let link = ddList
+                .eq(i)
+                .children('a')
+                .attr('href');
+              ddArray.push({
+                name: ddList
+                  .eq(i)
+                  .children('a')
+                  .html(),
+                link: `
 https://m.boquge.com$
 {
   linkF(link)
 }
 `,
-            });
+              });
+            }
           }
-        }
-        return Promise.resolve(ddArray);
-      })
-      .then((data) => {
-        fs.writeFile(
-          `
+          return Promise.resolve(ddArray);
+        })
+        .then((data) => {
+          fs.writeFile(
+            `
 $
 {
   bookPath
 }
 /list.js
 `,
-          `
+            `
 module.exports =$
 {
   JSON.stringify(data)
 }
 `,
-          function (err) {
-            if (err) {
-              console.error(err);
-            } else {
-              console.log(`
+            function(err) {
+              if (err) {
+                console.error(err);
+              } else {
+                console.log(`
 $
 {
   bookPath
 }
 /list.js写入成功
 `);
-              i++;
-              get();
-              // return Promise.resolve();
-            }
-          },
-        );
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+                i++;
+                get();
+                // return Promise.resolve();
+              }
+            },
+          );
+        })
+        .catch((err) => {
+          console.log(err);
+        });
 
       /* axios
         .get(
@@ -533,26 +515,33 @@ function remove() {
   for (let i = 0; i < len; i++) {
     // 获取单个书籍的list_now.js
     let bookC = JSON.parse(
-      fs.readFileSync(`
+      fs
+        .readFileSync(
+          `
 ./book/$
 {
   books[i]
 }
 /list_now.js
-`).toString(),
+`,
+        )
+        .toString(),
     );
     for (let i in bookC) {
       if (bookC[i].name === null) {
         bookC.splice(i, 1);
       }
     }
-    fs.writeFileSync(`
+    fs.writeFileSync(
+      `
 ./book/$
 {
   books[i]
 }
 /list_now.js
-`, JSON.stringify(bookC));
+`,
+      JSON.stringify(bookC),
+    );
   }
   console.log('完毕');
 }
@@ -579,11 +568,14 @@ function setOpf() {
     bookC = JSON.parse(JSON.parse(bookC));
     console.log(`../book/${books[i]}/${books[i]}.opf`);
     if (!fs.existsSync(`../book/${books[i]}/${books[i]}.opf`)) {
-      fs.writeFileSync(`../book/${books[i]}/${books[i]}.opf`, kindle_opf({
-        name: book1[i].book_name,
-        author: book1[i].book_author,
-        len: bookC.length
-      }));
+      fs.writeFileSync(
+        `../book/${books[i]}/${books[i]}.opf`,
+        kindle_opf({
+          name: book1[i].book_name,
+          author: book1[i].book_author,
+          len: bookC.length,
+        }),
+      );
       console.log(`../book/${books[i]}/${books[i]}.opf文件成功创建`);
     } else {
       console.log('该文件已创建');
@@ -621,7 +613,10 @@ function setNcx() {
     bookC = JSON.parse(JSON.parse(bookC));
     // console.log(`../book/${books[i]}/toc.ncx`);
     if (!fs.existsSync(`../book/${books[i]}/toc.ncx`)) {
-      fs.writeFileSync(`../book/${books[i]}/toc.ncx`, kindle_ncx(book1[i].book_name, bookC));
+      fs.writeFileSync(
+        `../book/${books[i]}/toc.ncx`,
+        kindle_ncx(book1[i].book_name, bookC),
+      );
       console.log(`../book/${books[i]}/toc.ncx文件成功创建`);
     } else {
       console.log('该文件已创建');
@@ -654,7 +649,7 @@ function setIntro() {
 }
 
 // 为每一本书,获取各自的章节.并存放到本地
-getListText()
+getListText();
 
 function getListText() {
   let books = fs.readdirSync('../book');
@@ -662,7 +657,9 @@ function getListText() {
   let len = 100; // 需要爬取的书籍的总数
   let x = 9; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
-  let x_list = JSON.parse(fs.readFileSync(`../book/${books[x]}/list.js`).toString()); //当前爬取的书籍的文章总数
+  let x_list = JSON.parse(
+    fs.readFileSync(`../book/${books[x]}/list.js`).toString(),
+  ); //当前爬取的书籍的文章总数
   x_list = JSON.parse(x_list);
   // `setTimeF`函数,用于循环需要爬取的书籍索引,间隔10秒
   // 第一次,尝试不会循环`setTimeF`函数.
@@ -682,7 +679,7 @@ function getListText() {
       function setIF() {
         console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
         let setI = setTimeout(() => {
-          let textHtmlPath = `../book/${books[x]}/text/${y + 1 }.html`;
+          let textHtmlPath = `../book/${books[x]}/text/${y + 1}.html`;
           // let setI = setImmediate(() => {
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
@@ -714,16 +711,17 @@ function getListText() {
                     index: y,
                     len: x_list.length,
                     title: title,
-                    txtContent: txtContent
+                    txtContent: txtContent,
                   }),
                 );
               }
             });
           }
-          console.log(`<${book1[x].book_name}>的<${title}>__章节制作完毕,开始下一步`);
+          console.log(
+            `<${book1[x].book_name}>_<第${y + 1}>章节__制作完毕,还有${x_list.length-y-1}`,
+          );
           y++;
           setIF();
-
         }, 100);
       }
     }, 1000);
@@ -739,6 +737,6 @@ function getListText() {
   // 开始获取书籍章节列表信息
 }
 
-app.listen(3000, function () {
+app.listen(3000, function() {
   console.log('http://192.168.10.159:3000');
 });
