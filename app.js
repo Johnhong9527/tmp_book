@@ -727,7 +727,7 @@ function getListText() {
             console.log(
               `<${book1[x].book_name}>_<${
                 x_list[y].name
-              }>_制作完毕,还有${x_list.length - y - 1}`,
+              }>_制作完毕,还有${x_list.length - y}`,
             );
             loop();
           } else {
