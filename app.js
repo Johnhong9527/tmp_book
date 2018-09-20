@@ -658,12 +658,15 @@ function getListText() {
   let x = 9; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let time = 500; // 章节内容爬取程序循环时间
-  
+
   // `setTimeF`函数,用于循环需要爬取的书籍索引,间隔10秒
   // 第一次,尝试不会循环`setTimeF`函数.
   setTimeF();
   function setTimeF() {
     console.log('开始数据抓取');
+    if (!fs.existsSync(`./book/${books[i]}/text`)) {
+      fs.mkdirSync(`./book/${books[i]}/text`, '0775');
+    }
     let x_list = JSON.parse(
       fs.readFileSync(`../book/${books[x]}/list.js`).toString(),
     ); //当前爬取的书籍的文章总数
@@ -720,16 +723,18 @@ function getListText() {
                 );
               }
             });
-            time = 500
+            time = 500;
             loop();
           } else {
             loop();
           }
           function loop() {
             console.log(
-              `<${book1[x].book_name}>_<${x_list[y].name}>_制作完毕,还有${x_list.length - y - 1}`,
+              `<${book1[x].book_name}>_<${
+                x_list[y].name
+              }>_制作完毕,还有${x_list.length - y - 1}`,
             );
-            time =10
+            time = 10;
             y++;
             setIF();
           }
