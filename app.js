@@ -677,9 +677,9 @@ function getListText() {
         return;
       }
       // `setIF`函数,循环当前爬取书籍的章节索引
+      console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
       setIF();
       function setIF() {
-        console.log(`当前开始抓取<${book1[x].book_name}>的章节`);
         let setI = setTimeout(() => {
           let textHtmlPath = `../book/${books[x]}/text/${y + 1}.html`;
 
@@ -688,16 +688,11 @@ function getListText() {
           // 并初始化`x`和`y`
           // 第一次,尝试不会循环`setTimeF`函数.
           // 如果当前爬取的书籍的章节列表起始索引等于当前书籍的章节总数或者如果当前爬取书籍章节数完整,直接进入下一个循环
-          console.log(y);
-          console.log(x);
-          console.log(x_list.length);
-          console.log(bookFiles.length);
           if (y === x_list.length || bookFiles.length === x_list.length) {
             // clearImmediate(setI);
             x++;
             y = 0;
             clearTimeout(setI);
-
             setTimeF();
             return;
           }
@@ -731,8 +726,7 @@ function getListText() {
           }
           function loop() {
             console.log(
-              `<${book1[x].book_name}>_<第${y +
-                1}>章节__制作完毕,还有${x_list.length - y - 1}`,
+              `<${book1[x].book_name}>_<${x_list[y].name}>_制作完毕,还有${x_list.length - y - 1}`,
             );
             y++;
             setIF();
