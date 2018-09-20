@@ -45,7 +45,14 @@ app.get('/', function(req, res, next) {
 });
 
 app.get('/list', function(req, res, next) {
-  res.send(list);
+  let listInfo = [];
+  for (let i = 0; i < book1.length; i++) {
+    listInfo.push({
+      name: book1[i].book_name,
+      index: i + 1,
+    });
+  }
+  res.send(JSON.stringify(listInfo));
 });
 app.get('/renqi', function(req, res, next) {
   renqi();
@@ -648,14 +655,16 @@ function setIntro() {
   }
 }
 
+// 生产环境 执行爬虫程序
+if (process.env.NODE_ENV === 'production') {
+  getListText();
+}
 // 为每一本书,获取各自的章节.并存放到本地
-getListText();
-
 function getListText() {
   let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
   let len = 100; // 需要爬取的书籍的总数
-  let x = 22; // book下的所有书籍的起始索引
+  let x = 25; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let time = 1000; // 章节内容爬取程序循环时间
 
@@ -723,7 +732,7 @@ function getListText() {
                 );
               }
             });
-            time = 1000;
+            time = 10;
             console.log(
               `<${book1[x].book_name}>_<${
                 x_list[y].name
@@ -752,7 +761,6 @@ function getListText() {
   } */
   // 开始获取书籍章节列表信息
 }
-
 app.listen(3000, function() {
   console.log('http://192.168.10.159:3000');
 });

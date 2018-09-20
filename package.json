@@ -4,6 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "dev": "NODE_ENV=development node app.js",
+    "dow": "NODE_ENV=production node app.js",
+    "pm2": "NODE_ENV=production pm2 start app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
