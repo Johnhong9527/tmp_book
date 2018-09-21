@@ -675,7 +675,7 @@ function getListText() {
   let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
   let len = 30; // 需要爬取的书籍的总数
-  let x = 20; // book下的所有书籍的起始索引
+  let x = 14; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let time = 100; // 章节内容爬取程序循环时间
 
