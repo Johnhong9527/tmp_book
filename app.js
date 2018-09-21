@@ -324,32 +324,15 @@ function linkF(url) {
   return;
   `/wapbook/${urlA[2]}_${urlA[3]}`;
 }
-
+// 获取各个书籍目录,并存放到各个书籍的目录中
 function getBookList() {
   let i = 0;
   let len = book1.length;
-  // let len = 3;
-  // let noBook = [];
   get();
-
   function get() {
     let timer = setImmediate(() => {
       if (i === len) {
-        // if (i === 36) {
         clearImmediate(timer);
-        /* fs.writeFile(
-          './noBook.js',
-
-`module.exports =${JSON.stringify(noBook)}`
-,
-          function(err) {
-            if (err) {
-              console.error(err);
-            } else {
-              console.log('./noBook.js写入成功');
-            }
-          },
-        ); */
         return;
       }
       // 编号__用于该书籍存放路径以及编号
@@ -371,24 +354,37 @@ function getBookList() {
             get();
             return;
           }
-          let bookListUrl = $('#novel-list ul li')
-            .eq(1)
-            .children('div.col-xs-3')
-            .children('a')
-            .attr('href');
+          // 创建搜索结果合集
+          let novelList = [];
+          let bookListUrl = undefined;
+          let bookList = $('#novel-list ul li');
+          bookListFor: for (let i = 0; i < bookList.length; i++) {
+            let searchName = bookList
+              .eq(i)
+              .children('div.col-xs-3')
+              .children('a')
+              .html();
+            if (searchName === bookName) {
+              bookListUrl = bookList
+                .eq(i)
+                .children('div.col-xs-3')
+                .children('a')
+                .attr('href');
+              break bookListFor;
+            }
+          }
+
           if (bookListUrl === undefined) {
+            bk();
+          }
+          function bk() {
             noBook.push(i);
             i++;
             get();
             return;
           }
           return request(
-            `
-https://www.boquge.com/book/$
-{
-  bookListUrl.split('/')[2]
-}
-`,
+            `https://www.boquge.com/book/${bookListUrl.split('/')[2]}`,
           );
         })
         .then(($) => {
@@ -412,12 +408,7 @@ https://www.boquge.com/book/$
                   .eq(i)
                   .children('a')
                   .html(),
-                link: `
-https://m.boquge.com$
-{
-  linkF(link)
-}
-`,
+                link: `https://m.boquge.com${linkF(link)}`,
               });
             }
           }
@@ -425,33 +416,15 @@ https://m.boquge.com$
         })
         .then((data) => {
           fs.writeFile(
-            `
-$
-{
-  bookPath
-}
-/list.js
-`,
-            `
-module.exports =$
-{
-  JSON.stringify(data)
-}
-`,
+            `${bookPath}/list.js`,
+            `module.exports =${JSON.stringify(data)}`,
             function(err) {
               if (err) {
                 console.error(err);
               } else {
-                console.log(`
-$
-{
-  bookPath
-}
-/list.js写入成功
-`);
+                console.log(`${bookPath}/list.js写入成功`);
                 i++;
                 get();
-                // return Promise.resolve();
               }
             },
           );
@@ -459,68 +432,6 @@ $
         .catch((err) => {
           console.log(err);
         });
-
-      /* axios
-        .get(
-          `https://sou.xanbhx.com/search?siteid=qula&q=${encodeURI(bookName)}`,
-        )
-        .then((data) => {
-          let $ = cheerio.load(data.data, {
-            decodeEntities: false,
-          });
-          return axios.get(
-            $('.search-list ul li')
-              .eq(1)
-              .children('span.s2')
-              .children('a')
-              .attr('href'),
-          );
-        })
-        .then((data) => {
-          let $ = cheerio.load(data.data, {
-            decodeEntities: false,
-          });
-          let ddList = $('#list dl dd');
-          let ddArray = [];
-          for (let i = 0; i < ddList.length; i++) {
-            ddArray.push({
-              name: ddList
-                .eq(i)
-                .children('a')
-                .html(),
-              link: `https://www.qu.la${ddList
-                .eq(i)
-                .children('a')
-                .attr('href')}`,
-            });
-          }
-          console.log(ddArray.length);
-          return Promise.resolve(ddArray);
-        })
-        .then((data) => {
-          let bookList = removeFirst(data);
-          console.log(bookList.length);
-          return;
-          fs.writeFile(
-            `${bookPath}/list_now.js`,
-            `module.exports =${JSON.stringify(bookList)}`,
-            function(err) {
-              if (err) {
-                console.error(err);
-              } else {
-                console.log(`${bookPath}/list_now.js写入成功`);
-                return Promise.resolve();
-              }
-            },
-          );
-        })
-        .then(() => {
-          i++;
-          get();
-        })
-        .catch((err) => {
-          console.log(err);
-        }); */
     });
   }
 }
@@ -711,7 +622,8 @@ function setIntro() {
 
 // 生产环境 执行爬虫程序
 if (process.env.NODE_ENV === 'production') {
-  getListText();
+  // getListText();
+  getBookList()
 } else {
   editID();
 }
