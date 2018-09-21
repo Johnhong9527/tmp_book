@@ -562,9 +562,53 @@ function remove() {
   }
   console.log('完毕');
 }
+// 各书籍目录章节ID错误修复
+function editID() {
+  const books = fs.readdirSync('../book');
+  const reg = new RegExp('<h3.*">', 'gim');
+  // const MAX = books.length;
+  const MAX = 30;
+  let i = 24;
+  let j = 0;
 
+  // const MAX = 4;
+  e();
+  function e() {
+    const bookPath = `../book/${books[i]}`;
+    const htmlPath = `${bookPath}/text`;
+
+    setTimeout(() => {
+      if (i === MAX) {
+        return;
+      }
+      const LIST = fs.readdirSync(htmlPath);
+      const len = LIST.length;
+      d();
+      function d() {
+        setTimeout(() => {
+          if (j === len) {
+            i++;
+            j = 0;
+            e();
+            return;
+          }
+          console.log(
+            `${i + 1}/${j + 1}/${len}/${Math.floor(((j + 1) / len) * 1000) /
+              10}%`,
+          );
+          let content = fs.readFileSync(`${htmlPath}/${j + 1}.html`).toString();
+          content = content.replace(reg, `<h3 id='id${j + 1}'>`);
+          fs.writeFileSync(`${htmlPath}/${j + 1}.html`, content);
+          j++;
+          d();
+        }, 10);
+      }
+    }, 1000);
+  }
+
+  console.log('修改结束');
+}
 // 设置 opf/toc/ncx
-
 function setOpf() {
   let books = fs.readdirSync('../book');
   let len = books.length;
@@ -668,14 +712,16 @@ function setIntro() {
 // 生产环境 执行爬虫程序
 if (process.env.NODE_ENV === 'production') {
   getListText();
+} else {
+  editID();
 }
 // getListText();
 // 为每一本书,获取各自的章节.并存放到本地
 function getListText() {
   let books = fs.readdirSync('../book');
   // let len = books.length; // 需要爬取的书籍的总数
-  let len = 30; // 需要爬取的书籍的总数
-  let x = 14; // book下的所有书籍的起始索引
+  let len = 100; // 需要爬取的书籍的总数
+  let x = 30; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let time = 100; // 章节内容爬取程序循环时间
 
