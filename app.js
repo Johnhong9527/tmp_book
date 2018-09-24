@@ -417,7 +417,8 @@ function getBookList() {
         .then((data) => {
           fs.writeFile(
             `${bookPath}/list.js`,
-            `module.exports =${JSON.stringify(data)}`,
+            // `module.exports =${JSON.stringify(data)}`,
+            `${JSON.stringify(data)}`,
             function(err) {
               if (err) {
                 console.error(err);
@@ -477,9 +478,9 @@ function remove() {
 function editID() {
   const books = fs.readdirSync('../book');
   const reg = new RegExp('<h3.*">', 'gim');
-  // const MAX = books.length;
-  const MAX = 30;
-  let i = 24;
+  const MAX = books.length;
+  // const MAX = 30;
+  let i = 0;
   let j = 0;
 
   // const MAX = 4;
@@ -623,17 +624,20 @@ function setIntro() {
 // 生产环境 执行爬虫程序
 if (process.env.NODE_ENV === 'production') {
   // getListText();
-  getBookList()
+  getBookList();
+  // getBookList
 } else {
-  editID();
+  getListText();
+  // editID();
+  // getBookList();
 }
 // getListText();
 // 为每一本书,获取各自的章节.并存放到本地
 function getListText() {
   let books = fs.readdirSync('../book');
-  // let len = books.length; // 需要爬取的书籍的总数
-  let len = 100; // 需要爬取的书籍的总数
-  let x = 30; // book下的所有书籍的起始索引
+  let len = books.length; // 需要爬取的书籍的总数
+  // let len = 100; // 需要爬取的书籍的总数
+  let x = 0; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let time = 100; // 章节内容爬取程序循环时间
 
@@ -645,12 +649,22 @@ function getListText() {
     if (!fs.existsSync(`../book/${books[x]}/text`)) {
       fs.mkdirSync(`../book/${books[x]}/text`, '0775');
     }
+    if (!fs.existsSync(`../book/${books[x]}/list.js`)) {
+      x++;
+      y = 0;
+      setTimeF();
+      return;
+    }
+    // console.log(typeof JSON.parse(fs.readFileSync(`../book/${books[x]}/list.js`).toString()));
+    // return;
     let x_list = JSON.parse(
       fs.readFileSync(`../book/${books[x]}/list.js`).toString(),
     ); //当前爬取的书籍的文章总数
     // 当前爬取小说已获取章节集合
     let bookFiles = fs.readdirSync(`../book/${books[x]}/text/`);
-    x_list = JSON.parse(x_list);
+    // x_list = JSON.parse(x_list);
+    // console.log(x_list.length);
+    // return;
     let setTime = setTimeout(() => {
       // 所有书籍章节爬取完毕,终止程序
       if (x === len) {
@@ -661,18 +675,18 @@ function getListText() {
       console.log(`${x}当前开始抓取<${book1[x].book_name}>的章节`);
       setIF();
       function setIF() {
-        let setI = setTimeout(() => {
-          let textHtmlPath = `../book/${books[x]}/text/${y + 1}.html`;
-          // let setI = setImmediate(() => {
+        // let setI = setTimeout(() => {
+        let setI = setImmediate(() => {
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
           // 第一次,尝试不会循环`setTimeF`函数.
           // 如果当前爬取的书籍的章节列表起始索引等于当前书籍的章节总数或者如果当前爬取书籍章节数完整,直接进入下一个循环
+          let textHtmlPath = `../book/${books[x]}/text/${y + 1}.html`;
           if (y === x_list.length || bookFiles.length === x_list.length) {
-            // clearImmediate(setI);
             x++;
             y = 0;
-            clearTimeout(setI);
+            // clearTimeout(setI);
+            clearImmediate(setI);
             setTimeF();
             return;
           }
