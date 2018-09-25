@@ -321,24 +321,47 @@ function createBookFile() {
 // PC_url to M_url
 function linkF(url) {
   let urlA = url.split('/');
-  return;
-  `/wapbook/${urlA[2]}_${urlA[3]}`;
+  return `/wapbook/${urlA[2]}_${urlA[3]}`;
 }
 // 获取各个书籍目录,并存放到各个书籍的目录中
 function getBookList() {
-  let i = 0;
-  let len = book1.length;
+  console.log('start');
+  let i = 125;
+  // let len = book1.length;
+  let len = 129;
+  let noList = [
+    55,
+    66,
+    126,
+    221,
+    259,
+    593,
+    823,
+    835,
+    928,
+    956,
+    1378,
+    1418,
+    1486,
+    1491,
+    1589,
+    1600,
+    1723,
+    1856,
+  ];
   get();
   function get() {
-    let timer = setImmediate(() => {
+    let timer = setTimeout(() => {
+      // let timer = setImmediate(() => {
       if (i === len) {
-        clearImmediate(timer);
+        clearTimeout(timer);
+        // clearImmediate(timer);
         return;
       }
       // 编号__用于该书籍存放路径以及编号
       const bookId = book1[i].book_img.split('/')[5];
       const bookIndex = i + 1;
-      const bookPath = `./book/${fileName(bookIndex, book1.length)}_${bookId}`;
+      const bookPath = `../book/${fileName(bookIndex, book1.length)}_${bookId}`;
       const bookName = book1[i].book_name;
       if (fs.existsSync(`${bookPath}/list.js`)) {
         i++;
@@ -354,11 +377,13 @@ function getBookList() {
             get();
             return;
           }
+
           // 创建搜索结果合集
           let novelList = [];
           let bookListUrl = undefined;
           let bookList = $('#novel-list ul li');
           bookListFor: for (let i = 0; i < bookList.length; i++) {
+            // bookListFor: for (let i = 0; i < 2; i++) {
             let searchName = bookList
               .eq(i)
               .children('div.col-xs-3')
@@ -373,21 +398,29 @@ function getBookList() {
               break bookListFor;
             }
           }
-
           if (bookListUrl === undefined) {
-            bk();
-          }
-          function bk() {
-            noBook.push(i);
+            // noList.push(i);
             i++;
             get();
             return;
           }
+          /* for (let j = 0; j < noList.length; j++) {
+            if (i === noList[j]) {
+              i++;
+              get();
+              return;
+            }
+          } */
           return request(
             `https://www.boquge.com/book/${bookListUrl.split('/')[2]}`,
           );
         })
         .then(($) => {
+          if (!$) {
+            i++;
+            get();
+            return;
+          }
           let ddList = $('#chapters-list li');
           let ddArray = [];
           for (let i = 0; i < ddList.length; i++) {
@@ -433,7 +466,7 @@ function getBookList() {
         .catch((err) => {
           console.log(err);
         });
-    });
+    }, 100);
   }
 }
 
@@ -480,7 +513,7 @@ function editID() {
   const reg = new RegExp('<h3.*">', 'gim');
   const MAX = books.length;
   // const MAX = 30;
-  let i = 0;
+  let i = 254;
   let j = 0;
 
   // const MAX = 4;
@@ -624,11 +657,14 @@ function setIntro() {
 // 生产环境 执行爬虫程序
 if (process.env.NODE_ENV === 'production') {
   // getListText();
-  getBookList();
+  // getBookList();
   // getBookList
 } else {
-  getListText();
+  // getListText();
   // editID();
+  getOnlyBookText('../book/0256_1009910214/');
+
+  // getOnlyList('https://www.boquge.com/book/68589/', '../book/0256_1009910214/');
   // getBookList();
 }
 // getListText();
@@ -636,7 +672,7 @@ if (process.env.NODE_ENV === 'production') {
 function getListText() {
   let books = fs.readdirSync('../book');
   let len = books.length; // 需要爬取的书籍的总数
-  // let len = 100; // 需要爬取的书籍的总数
+  // let len = 200; // 需要爬取的书籍的总数
   let x = 0; // book下的所有书籍的起始索引
   let y = 0; // 当前爬取的书籍的章节列表起始索引
   let time = 100; // 章节内容爬取程序循环时间
@@ -646,25 +682,24 @@ function getListText() {
   setTimeF();
   function setTimeF() {
     console.log('开始数据抓取');
+    // 为当前书籍创建章节根目录
     if (!fs.existsSync(`../book/${books[x]}/text`)) {
       fs.mkdirSync(`../book/${books[x]}/text`, '0775');
     }
+    // 当前书籍不可爬取,进入下一个循环
     if (!fs.existsSync(`../book/${books[x]}/list.js`)) {
       x++;
       y = 0;
       setTimeF();
       return;
     }
-    // console.log(typeof JSON.parse(fs.readFileSync(`../book/${books[x]}/list.js`).toString()));
-    // return;
+    console.log(`../book/${books[x]}/list.js`);
+    //当前爬取的书籍的文章总数
     let x_list = JSON.parse(
       fs.readFileSync(`../book/${books[x]}/list.js`).toString(),
-    ); //当前爬取的书籍的文章总数
+    );
     // 当前爬取小说已获取章节集合
     let bookFiles = fs.readdirSync(`../book/${books[x]}/text/`);
-    // x_list = JSON.parse(x_list);
-    // console.log(x_list.length);
-    // return;
     let setTime = setTimeout(() => {
       // 所有书籍章节爬取完毕,终止程序
       if (x === len) {
@@ -675,18 +710,17 @@ function getListText() {
       console.log(`${x}当前开始抓取<${book1[x].book_name}>的章节`);
       setIF();
       function setIF() {
-        // let setI = setTimeout(() => {
-        let setI = setImmediate(() => {
+        let setI = setTimeout(() => {
+          // let setI = setImmediate(() => {
+          let textHtmlPath = `../book/${books[x]}/text/${y + 1}.html`;
           // 当前书籍章节爬取完毕,触发`setTimeF`函数;
           // 并初始化`x`和`y`
-          // 第一次,尝试不会循环`setTimeF`函数.
           // 如果当前爬取的书籍的章节列表起始索引等于当前书籍的章节总数或者如果当前爬取书籍章节数完整,直接进入下一个循环
-          let textHtmlPath = `../book/${books[x]}/text/${y + 1}.html`;
           if (y === x_list.length || bookFiles.length === x_list.length) {
             x++;
             y = 0;
-            // clearTimeout(setI);
-            clearImmediate(setI);
+            clearTimeout(setI);
+            // clearImmediate(setI);
             setTimeF();
             return;
           }
@@ -734,7 +768,7 @@ function getListText() {
           }
         }, time);
       }
-    }, 1000);
+    }, time);
   }
 
   // 为每个书籍,创建章节存放目录
@@ -745,6 +779,83 @@ function getListText() {
     }
   } */
   // 开始获取书籍章节列表信息
+}
+//获取单个书籍的章节
+async function getOnlyList(link, path) {
+  try {
+    let $ = await request(link);
+    let bookPath = path;
+    let ddList = $('#chapters-list li');
+    let ddArray = [];
+    for (let i = 0; i < ddList.length; i++) {
+      if (
+        ddList.eq(i) &&
+        ddList.eq(i).children('a') &&
+        ddList
+          .eq(i)
+          .children('a')
+          .html()
+      ) {
+        let link = ddList
+          .eq(i)
+          .children('a')
+          .attr('href');
+        ddArray.push({
+          name: ddList
+            .eq(i)
+            .children('a')
+            .html(),
+          link: `https://m.boquge.com${linkF(link)}`,
+        });
+      }
+    }
+    fs.writeFileSync(`${bookPath}/list.js`, `${JSON.stringify(ddArray)}`);
+  } catch (error) {
+    console.error(error);
+  }
+}
+// 单独下载某个书籍的章节
+function getOnlyBookText(path) {
+  if (!fs.existsSync(`${path}/text`)) {
+    fs.mkdirSync(`${path}/text`);
+  }
+  let time = 100;
+  let index = 0;
+  let list = JSON.parse(fs.readFileSync(`${path}/list.js`).toString());
+  let textHtmlPath = `${path}/text/${index + 1}.html`;
+  let len = list.length;
+  timer();
+  function timer() {
+    setTimeout(async () => {
+      // 章节全部下载,终止程序
+      if (index === len) {
+        console.log('书籍下载完毕');
+        return;
+      }
+      // 对应章节已存在,进入下一个循环
+      if (fs.existsSync(textHtmlPath)) {
+        index++;
+        timer();
+        return;
+      }
+      let $ = await request(list[index].link);
+      let title = $('#content h1').html(); // 文章标题,目录
+      let txtContent = $('#cContent').html(); // 文章内容,主体
+      if (!fs.existsSync(textHtmlPath)) {
+        fs.writeFileSync(
+          textHtmlPath,
+          kindle_text({
+            index: index,
+            len: len,
+            title: title,
+            txtContent: txtContent,
+          }),
+        );
+      }
+      index++;
+      timer();
+    }, time);
+  }
 }
 app.listen(3000, function() {
   console.log('http://192.168.10.159:3000');
