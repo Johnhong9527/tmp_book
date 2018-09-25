@@ -663,9 +663,9 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   // getListText();
   // editID();
-  // getOnlyBookText('../book/0025_1001815789');
+  getOnlyBookText('../book/0025_1001815789');
 
-  getOnlyList('https://www.boquge.com/book/27758/', '../book/0025_1001815789/');
+  // getOnlyList('https://www.boquge.com/book/27758/', '../book/0025_1001815789/');
   // getBookList();
 }
 // getListText();
