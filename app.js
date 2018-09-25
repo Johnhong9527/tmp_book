@@ -827,7 +827,7 @@ function getOnlyBookText(path) {
   let len = list.length;
   timer();
   function timer() {
-    setTimeout(async () => {
+    setTimeout(() => {
       // 章节全部下载,终止程序
       if (index === len) {
         console.log('书籍下载完毕');
@@ -839,23 +839,25 @@ function getOnlyBookText(path) {
         timer();
         return;
       }
-      let $ = await request(list[index].link);
-      let title = $('#content h1').html(); // 文章标题,目录
-      console.log(title);
-      let txtContent = $('#cContent').html(); // 文章内容,主体
-      if (!fs.existsSync(textHtmlPath)) {
-        fs.writeFileSync(
-          textHtmlPath,
-          kindle_text({
-            index: index,
-            len: len,
-            title: title,
-            txtContent: txtContent,
-          }),
-        );
-      }
-      index++;
-      timer();
+      request(list[index].link).then(($) => {
+        let title = $('#content h1').html(); // 文章标题,目录
+        console.log(title);
+        let txtContent = $('#cContent').html(); // 文章内容,主体
+        if (!fs.existsSync(textHtmlPath)) {
+          fs.writeFileSync(
+            textHtmlPath,
+            kindle_text({
+              index: index,
+              len: len,
+              title: title,
+              txtContent: txtContent,
+            }),
+          );
+        }
+        index++;
+        timer();
+      });
+      // let $ = await request(list[index].link);
     }, time);
   }
 }
