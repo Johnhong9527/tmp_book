@@ -659,6 +659,7 @@ if (process.env.NODE_ENV === 'production') {
   // getListText();
   // getBookList();
   // getBookList
+  getOnlyBookText('../book/0256_1009910214/');
 } else {
   // getListText();
   // editID();
