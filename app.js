@@ -659,11 +659,11 @@ if (process.env.NODE_ENV === 'production') {
   // getListText();
   // getBookList();
   // getBookList
-  getOnlyBookText('../book/0256_1009910214/');
+  // getOnlyBookText('../book/0256_1009910214');
 } else {
   // getListText();
   // editID();
-  getOnlyBookText('../book/0256_1009910214/');
+  getOnlyBookText('../book/0256_1009910214');
 
   // getOnlyList('https://www.boquge.com/book/68589/', '../book/0256_1009910214/');
   // getBookList();
@@ -841,6 +841,7 @@ function getOnlyBookText(path) {
       }
       let $ = await request(list[index].link);
       let title = $('#content h1').html(); // 文章标题,目录
+      console.log(title);
       let txtContent = $('#cContent').html(); // 文章内容,主体
       if (!fs.existsSync(textHtmlPath)) {
         fs.writeFileSync(
