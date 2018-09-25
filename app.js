@@ -827,6 +827,7 @@ function getOnlyBookText(path) {
   let len = list.length;
   timer();
   function timer() {
+    console.log('开始下载');
     setTimeout(() => {
       // 章节全部下载,终止程序
       if (index === len) {
@@ -839,6 +840,7 @@ function getOnlyBookText(path) {
         timer();
         return;
       }
+      console.log(list[index].link);
       request(list[index].link).then(($) => {
         let title = $('#content h1').html(); // 文章标题,目录
         console.log(title);
