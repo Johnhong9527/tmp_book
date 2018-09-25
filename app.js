@@ -823,12 +823,13 @@ function getOnlyBookText(path) {
   let time = 100;
   let index = 0;
   let list = JSON.parse(fs.readFileSync(`${path}/list.js`).toString());
-  
+
   let len = list.length;
   timer();
   function timer() {
     console.log('开始下载');
     let textHtmlPath = `${path}/text/${index + 1}.html`;
+    console.log(textHtmlPath);
     setTimeout(() => {
       // 章节全部下载,终止程序
       if (index === len) {
